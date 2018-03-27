@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/main.cpp">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/class/lexer.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/lexer.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/main.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/CMakeLists.txt">

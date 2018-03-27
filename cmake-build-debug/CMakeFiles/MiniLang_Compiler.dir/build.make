@@ -57,41 +57,67 @@ include CMakeFiles/MiniLang_Compiler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MiniLang_Compiler.dir/flags.make
 
-CMakeFiles/MiniLang_Compiler.dir/main.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
-CMakeFiles/MiniLang_Compiler.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/main.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/main.cpp"
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/main.cpp"
 
-CMakeFiles/MiniLang_Compiler.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/main.cpp" > CMakeFiles/MiniLang_Compiler.dir/main.cpp.i
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/main.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.i
 
-CMakeFiles/MiniLang_Compiler.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/main.cpp" -o CMakeFiles/MiniLang_Compiler.dir/main.cpp.s
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/main.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.s
 
-CMakeFiles/MiniLang_Compiler.dir/main.cpp.o.requires:
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/MiniLang_Compiler.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o.requires
 
-CMakeFiles/MiniLang_Compiler.dir/main.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/MiniLang_Compiler.dir/main.cpp.o.provides
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o.provides
 
-CMakeFiles/MiniLang_Compiler.dir/main.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/main.cpp.o
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o: ../src/class/lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/class/lexer.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/class/lexer.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/class/lexer.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o
 
 
 # Object files for target MiniLang_Compiler
 MiniLang_Compiler_OBJECTS = \
-"CMakeFiles/MiniLang_Compiler.dir/main.cpp.o"
+"CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o"
 
 # External object files for target MiniLang_Compiler
 MiniLang_Compiler_EXTERNAL_OBJECTS =
 
-MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/main.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/build.make
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MiniLang_Compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MiniLang_Compiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MiniLang_Compiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/MiniLang_Compiler.dir/build: MiniLang_Compiler
 
 .PHONY : CMakeFiles/MiniLang_Compiler.dir/build
 
-CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/main.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o.requires
 
 .PHONY : CMakeFiles/MiniLang_Compiler.dir/requires
 

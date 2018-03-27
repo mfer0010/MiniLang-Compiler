@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/MiniLang_Compiler.dir/main.cpp.o  -o MiniLang_Compiler 
+/usr/bin/c++   -g   CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o  -o MiniLang_Compiler 

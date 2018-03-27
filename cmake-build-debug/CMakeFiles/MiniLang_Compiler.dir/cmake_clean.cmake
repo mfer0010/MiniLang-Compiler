@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MiniLang_Compiler.dir/main.cpp.o"
+  "CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o"
+  "CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o"
   "MiniLang_Compiler.pdb"
   "MiniLang_Compiler"
 )

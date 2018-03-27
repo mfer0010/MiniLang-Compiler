@@ -123,32 +123,59 @@ MiniLang_Compiler/fast:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/build
 .PHONY : MiniLang_Compiler/fast
 
-main.o: main.cpp.o
+src/class/lexer.o: src/class/lexer.cpp.o
 
-.PHONY : main.o
+.PHONY : src/class/lexer.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/class/lexer.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o
+.PHONY : src/class/lexer.cpp.o
 
-main.i: main.cpp.i
+src/class/lexer.i: src/class/lexer.cpp.i
 
-.PHONY : main.i
+.PHONY : src/class/lexer.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/class/lexer.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.i
+.PHONY : src/class/lexer.cpp.i
 
-main.s: main.cpp.s
+src/class/lexer.s: src/class/lexer.cpp.s
 
-.PHONY : main.s
+.PHONY : src/class/lexer.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/class/lexer.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.s
+.PHONY : src/class/lexer.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MiniLang_Compiler"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/class/lexer.o"
+	@echo "... src/class/lexer.i"
+	@echo "... src/class/lexer.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
