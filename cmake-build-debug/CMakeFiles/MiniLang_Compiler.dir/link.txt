@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/MiniLang_Compiler.dir/main.cpp.o  -o MiniLang_Compiler 

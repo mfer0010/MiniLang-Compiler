@@ -1,0 +1,3 @@
+/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir
