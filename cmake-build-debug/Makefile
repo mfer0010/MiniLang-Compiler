@@ -123,6 +123,33 @@ MiniLang_Compiler/fast:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/build
 .PHONY : MiniLang_Compiler/fast
 
+src/class/Exceptions/FileNotFound.o: src/class/Exceptions/FileNotFound.cpp.o
+
+.PHONY : src/class/Exceptions/FileNotFound.o
+
+# target to build an object file
+src/class/Exceptions/FileNotFound.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Exceptions/FileNotFound.cpp.o
+.PHONY : src/class/Exceptions/FileNotFound.cpp.o
+
+src/class/Exceptions/FileNotFound.i: src/class/Exceptions/FileNotFound.cpp.i
+
+.PHONY : src/class/Exceptions/FileNotFound.i
+
+# target to preprocess a source file
+src/class/Exceptions/FileNotFound.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Exceptions/FileNotFound.cpp.i
+.PHONY : src/class/Exceptions/FileNotFound.cpp.i
+
+src/class/Exceptions/FileNotFound.s: src/class/Exceptions/FileNotFound.cpp.s
+
+.PHONY : src/class/Exceptions/FileNotFound.s
+
+# target to generate assembly for a file
+src/class/Exceptions/FileNotFound.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Exceptions/FileNotFound.cpp.s
+.PHONY : src/class/Exceptions/FileNotFound.cpp.s
+
 src/class/Lexer.o: src/class/Lexer.cpp.o
 
 .PHONY : src/class/Lexer.o
@@ -213,6 +240,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MiniLang_Compiler"
+	@echo "... src/class/Exceptions/FileNotFound.o"
+	@echo "... src/class/Exceptions/FileNotFound.i"
+	@echo "... src/class/Exceptions/FileNotFound.s"
 	@echo "... src/class/Lexer.o"
 	@echo "... src/class/Lexer.i"
 	@echo "... src/class/Lexer.s"

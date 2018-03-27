@@ -1,11 +1,10 @@
 //
 // Created by marc on 27/03/2018.
 //
-
-#include <iostream>
-
 #ifndef MINILANG_COMPILER_TOKEN_H
 #define MINILANG_COMPILER_TOKEN_H
+
+#include <iostream>
 
 enum TOKEN {
     TOK_EOF = 0,                // '\0'
@@ -72,10 +71,10 @@ public:
     TOKEN token_name; //The type of token
 
     double numerical_value = 0; //stores any numeric value the Token is referring to
-    std::string string_value = ""; //stroes any text value the Token might refer to
+    std::string string_value = ""; //stores any text value the Token might refer to
 
     //constructors:
-    Token();
+    Token(); //empty constructor initializes with TOK_Skip
     Token(TOKEN, double);
     Token(TOKEN, std::string);
     Token(TOKEN, double, std::string);
