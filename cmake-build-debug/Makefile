@@ -123,32 +123,59 @@ MiniLang_Compiler/fast:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/build
 .PHONY : MiniLang_Compiler/fast
 
-src/class/lexer.o: src/class/lexer.cpp.o
+src/class/Lexer.o: src/class/Lexer.cpp.o
 
-.PHONY : src/class/lexer.o
+.PHONY : src/class/Lexer.o
 
 # target to build an object file
-src/class/lexer.cpp.o:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.o
-.PHONY : src/class/lexer.cpp.o
+src/class/Lexer.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Lexer.cpp.o
+.PHONY : src/class/Lexer.cpp.o
 
-src/class/lexer.i: src/class/lexer.cpp.i
+src/class/Lexer.i: src/class/Lexer.cpp.i
 
-.PHONY : src/class/lexer.i
+.PHONY : src/class/Lexer.i
 
 # target to preprocess a source file
-src/class/lexer.cpp.i:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.i
-.PHONY : src/class/lexer.cpp.i
+src/class/Lexer.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Lexer.cpp.i
+.PHONY : src/class/Lexer.cpp.i
 
-src/class/lexer.s: src/class/lexer.cpp.s
+src/class/Lexer.s: src/class/Lexer.cpp.s
 
-.PHONY : src/class/lexer.s
+.PHONY : src/class/Lexer.s
 
 # target to generate assembly for a file
-src/class/lexer.cpp.s:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/lexer.cpp.s
-.PHONY : src/class/lexer.cpp.s
+src/class/Lexer.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Lexer.cpp.s
+.PHONY : src/class/Lexer.cpp.s
+
+src/class/Token.o: src/class/Token.cpp.o
+
+.PHONY : src/class/Token.o
+
+# target to build an object file
+src/class/Token.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Token.cpp.o
+.PHONY : src/class/Token.cpp.o
+
+src/class/Token.i: src/class/Token.cpp.i
+
+.PHONY : src/class/Token.i
+
+# target to preprocess a source file
+src/class/Token.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Token.cpp.i
+.PHONY : src/class/Token.cpp.i
+
+src/class/Token.s: src/class/Token.cpp.s
+
+.PHONY : src/class/Token.s
+
+# target to generate assembly for a file
+src/class/Token.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Token.cpp.s
+.PHONY : src/class/Token.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MiniLang_Compiler"
-	@echo "... src/class/lexer.o"
-	@echo "... src/class/lexer.i"
-	@echo "... src/class/lexer.s"
+	@echo "... src/class/Lexer.o"
+	@echo "... src/class/Lexer.i"
+	@echo "... src/class/Lexer.s"
+	@echo "... src/class/Token.o"
+	@echo "... src/class/Token.i"
+	@echo "... src/class/Token.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

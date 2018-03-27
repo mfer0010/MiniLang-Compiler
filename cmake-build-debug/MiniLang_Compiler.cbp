@@ -84,10 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/class/lexer.cpp">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/class/Lexer.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/lexer.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/class/Token.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Token.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/main.cpp">
