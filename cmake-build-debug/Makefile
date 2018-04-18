@@ -123,86 +123,113 @@ MiniLang_Compiler/fast:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/build
 .PHONY : MiniLang_Compiler/fast
 
-src/class/Exceptions/FileNotFound.o: src/class/Exceptions/FileNotFound.cpp.o
+src/FileNotFound.o: src/FileNotFound.cpp.o
 
-.PHONY : src/class/Exceptions/FileNotFound.o
-
-# target to build an object file
-src/class/Exceptions/FileNotFound.cpp.o:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Exceptions/FileNotFound.cpp.o
-.PHONY : src/class/Exceptions/FileNotFound.cpp.o
-
-src/class/Exceptions/FileNotFound.i: src/class/Exceptions/FileNotFound.cpp.i
-
-.PHONY : src/class/Exceptions/FileNotFound.i
-
-# target to preprocess a source file
-src/class/Exceptions/FileNotFound.cpp.i:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Exceptions/FileNotFound.cpp.i
-.PHONY : src/class/Exceptions/FileNotFound.cpp.i
-
-src/class/Exceptions/FileNotFound.s: src/class/Exceptions/FileNotFound.cpp.s
-
-.PHONY : src/class/Exceptions/FileNotFound.s
-
-# target to generate assembly for a file
-src/class/Exceptions/FileNotFound.cpp.s:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Exceptions/FileNotFound.cpp.s
-.PHONY : src/class/Exceptions/FileNotFound.cpp.s
-
-src/class/Lexer.o: src/class/Lexer.cpp.o
-
-.PHONY : src/class/Lexer.o
+.PHONY : src/FileNotFound.o
 
 # target to build an object file
-src/class/Lexer.cpp.o:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Lexer.cpp.o
-.PHONY : src/class/Lexer.cpp.o
+src/FileNotFound.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/FileNotFound.cpp.o
+.PHONY : src/FileNotFound.cpp.o
 
-src/class/Lexer.i: src/class/Lexer.cpp.i
+src/FileNotFound.i: src/FileNotFound.cpp.i
 
-.PHONY : src/class/Lexer.i
+.PHONY : src/FileNotFound.i
 
 # target to preprocess a source file
-src/class/Lexer.cpp.i:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Lexer.cpp.i
-.PHONY : src/class/Lexer.cpp.i
+src/FileNotFound.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/FileNotFound.cpp.i
+.PHONY : src/FileNotFound.cpp.i
 
-src/class/Lexer.s: src/class/Lexer.cpp.s
+src/FileNotFound.s: src/FileNotFound.cpp.s
 
-.PHONY : src/class/Lexer.s
+.PHONY : src/FileNotFound.s
 
 # target to generate assembly for a file
-src/class/Lexer.cpp.s:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Lexer.cpp.s
-.PHONY : src/class/Lexer.cpp.s
+src/FileNotFound.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/FileNotFound.cpp.s
+.PHONY : src/FileNotFound.cpp.s
 
-src/class/Token.o: src/class/Token.cpp.o
+src/Lexer.o: src/Lexer.cpp.o
 
-.PHONY : src/class/Token.o
+.PHONY : src/Lexer.o
 
 # target to build an object file
-src/class/Token.cpp.o:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Token.cpp.o
-.PHONY : src/class/Token.cpp.o
+src/Lexer.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o
+.PHONY : src/Lexer.cpp.o
 
-src/class/Token.i: src/class/Token.cpp.i
+src/Lexer.i: src/Lexer.cpp.i
 
-.PHONY : src/class/Token.i
+.PHONY : src/Lexer.i
 
 # target to preprocess a source file
-src/class/Token.cpp.i:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Token.cpp.i
-.PHONY : src/class/Token.cpp.i
+src/Lexer.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.i
+.PHONY : src/Lexer.cpp.i
 
-src/class/Token.s: src/class/Token.cpp.s
+src/Lexer.s: src/Lexer.cpp.s
 
-.PHONY : src/class/Token.s
+.PHONY : src/Lexer.s
 
 # target to generate assembly for a file
-src/class/Token.cpp.s:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/class/Token.cpp.s
-.PHONY : src/class/Token.cpp.s
+src/Lexer.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.s
+.PHONY : src/Lexer.cpp.s
+
+src/State.o: src/State.cpp.o
+
+.PHONY : src/State.o
+
+# target to build an object file
+src/State.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/State.cpp.o
+.PHONY : src/State.cpp.o
+
+src/State.i: src/State.cpp.i
+
+.PHONY : src/State.i
+
+# target to preprocess a source file
+src/State.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/State.cpp.i
+.PHONY : src/State.cpp.i
+
+src/State.s: src/State.cpp.s
+
+.PHONY : src/State.s
+
+# target to generate assembly for a file
+src/State.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/State.cpp.s
+.PHONY : src/State.cpp.s
+
+src/Token.o: src/Token.cpp.o
+
+.PHONY : src/Token.o
+
+# target to build an object file
+src/Token.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o
+.PHONY : src/Token.cpp.o
+
+src/Token.i: src/Token.cpp.i
+
+.PHONY : src/Token.i
+
+# target to preprocess a source file
+src/Token.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.i
+.PHONY : src/Token.cpp.i
+
+src/Token.s: src/Token.cpp.s
+
+.PHONY : src/Token.s
+
+# target to generate assembly for a file
+src/Token.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.s
+.PHONY : src/Token.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -240,15 +267,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MiniLang_Compiler"
-	@echo "... src/class/Exceptions/FileNotFound.o"
-	@echo "... src/class/Exceptions/FileNotFound.i"
-	@echo "... src/class/Exceptions/FileNotFound.s"
-	@echo "... src/class/Lexer.o"
-	@echo "... src/class/Lexer.i"
-	@echo "... src/class/Lexer.s"
-	@echo "... src/class/Token.o"
-	@echo "... src/class/Token.i"
-	@echo "... src/class/Token.s"
+	@echo "... src/FileNotFound.o"
+	@echo "... src/FileNotFound.i"
+	@echo "... src/FileNotFound.s"
+	@echo "... src/Lexer.o"
+	@echo "... src/Lexer.i"
+	@echo "... src/Lexer.s"
+	@echo "... src/State.o"
+	@echo "... src/State.i"
+	@echo "... src/State.s"
+	@echo "... src/Token.o"
+	@echo "... src/Token.i"
+	@echo "... src/Token.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

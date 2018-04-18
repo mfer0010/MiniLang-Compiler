@@ -2,7 +2,7 @@
 // Created by marc on 27/03/2018.
 //
 
-#include "../include/Token.h"
+#include "include/Token.h"
 
 Token::Token() {
     token_name = TOK_Skip;

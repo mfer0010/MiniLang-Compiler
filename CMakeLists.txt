@@ -3,5 +3,5 @@ project(MiniLang_Compiler)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES src/main.cpp src/include/Lexer.h src/class/Lexer.cpp src/include/Token.h src/class/Token.cpp src/include/Exceptions/FileNotFound.h src/class/Exceptions/FileNotFound.cpp)
+set(SOURCE_FILES src/main.cpp src/include/Lexer.h src/Lexer.cpp src/include/Token.h src/Token.cpp src/include/Exceptions/FileNotFound.h src/FileNotFound.cpp)
 add_executable(MiniLang_Compiler ${SOURCE_FILES})

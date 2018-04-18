@@ -84,13 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/class/Exceptions/FileNotFound.cpp">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/FileNotFound.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/class/Lexer.cpp">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/class/Token.cpp">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/State.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/State.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Token.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/FileNotFound.h">

@@ -3,7 +3,7 @@
 //
 
 
-#include "../../include/Exceptions/FileNotFound.h"
+#include "include/Exceptions/FileNotFound.h"
 
 FileNotFound::FileNotFound() {}
 
