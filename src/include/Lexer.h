@@ -39,7 +39,7 @@ enum CLASSIFIER {
 class Lexer {
 
 public:
-    static std::ifstream src;
+    //static std::ifstream src;
 
     std::string error;
 
@@ -54,6 +54,9 @@ public:
     Token nextToken();
 
 private:
+    std::string program = '\0';
+    unsigned int programPointer = 0;
+
     static STATE transitionTable[8][8] = {
             //{EOF,[0-9],.,",<printable>,_,<letter>,OTHER}
             {S1,S2,SE,S5,SE,S7,S7,SE},//S0
@@ -75,6 +78,8 @@ private:
     //Checks if word is a keyword and return that keyword token,
     // if not return identifier token
     Token determineIDToken(std::string);
+
+    char getNextChar(size_t);
 };
 
 #endif //MINILANG_COMPILER_LEXER_H

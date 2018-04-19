@@ -1,0 +1,9 @@
+LEXER:
+x Fix reading program and add it as a global variable in Lexer class
+-> Add errors to detect line number (and position maybe??)
+-> Complete Transition Table and all Automata
+-> Test, test, test
+-> Documentation
+
+PARSER:
+-> EVERYTHING!!!

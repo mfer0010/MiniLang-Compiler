@@ -4,30 +4,40 @@
 
 #include "include/Lexer.h"
 #include "include/Exceptions/FileNotFound.h"
-#include "include/Token.h"
 
 Lexer::Lexer() {}
 
 Lexer::~Lexer() {
+}
+
+void Lexer::scanner(std::string path) {
+    std::ifstream src;
+    std::string line;
+    src.open(path);
+
+    program = "";
+
+    //check that the file was opened, if not throw error
+    if (src) {
+        throw(FileNotFound::FileNotFound());
+    }
+
+    //save program to string:
+    while (getline(src,line)) {
+        program += line + "\n";
+    }
+
+    //close file
     try {
-        Lexer::src.close();
+        src.close();
     } catch (std::exception &e) {
         std::cerr << "Error Closing File";
     }
 }
 
-void Lexer::scanner(std::string path) {
-    Lexer::src.open(path);
-
-    //check that the file was opened, if not throw error
-    if (!Lexer::src) {
-        throw(FileNotFound::FileNotFound());
-    }
-}
-
 Token Lexer::nextToken() {
     //check that the file was opened, if not throw error
-    if (!Lexer::src) {
+    if (program == '\0') {
         throw(FileNotFound::FileNotFound());
     }
 
@@ -41,7 +51,7 @@ Token Lexer::nextToken() {
     //Scanning Loop
     while (state!=SE) {
         //get next character
-        Lexer::src.get(ch);
+        ch = getNextChar(lexeme.length());
         lexeme = lexeme + ch;
         //if state is a final state, clear stack
         if (isFinalState(state)) {
@@ -50,7 +60,7 @@ Token Lexer::nextToken() {
             }
         }
         stack.push(state);
-        state = Lexer::transitionTable[state][Lexer::toClassifier(ch)];
+        state = Lexer::transitionTable[state][toClassifier(ch)];
 
         //if the character is EOF then stop scanning as we have reached the end of the document
         if (ch == EOF || ch == '\0') {
@@ -63,6 +73,7 @@ Token Lexer::nextToken() {
         state = stack.top();
         stack.pop();
         lexeme.pop_back();
+        programPointer--;
     }
 
     //Report Result
@@ -155,4 +166,21 @@ Token Lexer::determineIDToken(std::string lexeme) {
 
     //return Identifier token
     return Token(TOK_Identifier, lexeme);
+}
+
+char Lexer::getNextChar(size_t lexemeLength) {
+    while (true) {
+        if ((size_t) programPointer == program.length()) {
+            return EOF;
+        } else if (lexemeLength == 0) {
+            //skip white spaces
+            if (program[programPointer] == ' ' || program[programPointer] == '\n' || program[programPointer] == '\t') {
+                programPointer++;
+            } else {
+                return program[programPointer++];
+            }
+        } else {
+            return program[programPointer++];
+        }
+    }
 }
