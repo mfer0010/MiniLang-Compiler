@@ -96,6 +96,9 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/FileNotFound.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerError.h.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>

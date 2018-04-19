@@ -12,6 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa3c8dca-6828-4e9d-b712-895d3b817258" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lexer.cpp" afterPath="$PROJECT_DIR$/src/Lexer.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/Lexer.h" afterPath="$PROJECT_DIR$/src/include/Lexer.h" />
     </list>
@@ -34,9 +36,12 @@
       <file leaf-file-name="Token.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/include/Token.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1098">
-              <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="928">
+              <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+              <folding>
+                <marker date="1524126449414" expanded="true" signature="141:1442" ph="{...}" />
+                <marker date="1524126449414" expanded="true" signature="2130:2580" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +49,8 @@
       <file leaf-file-name="Lexer.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/include/Lexer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="82" column="2" lean-forward="false" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+            <state relative-caret-position="748">
+              <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
               <folding>
                 <element signature="e#109#126#0" expanded="true" />
                 <element signature="e#203#377#1" expanded="false" />
@@ -57,16 +62,16 @@
       <file leaf-file-name="Lexer.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="478">
+              <caret line="81" column="12" lean-forward="true" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
               <folding>
                 <element signature="e#41#67#0" expanded="true" />
-                <element signature="e#638#1937#0" expanded="false" />
-                <element signature="e#2162#2877#0" expanded="false" />
-                <element signature="e#2879#3483#0" expanded="false" />
-                <element signature="e#3485#4497#0" expanded="false" />
-                <element signature="e#4499#5039#0" expanded="false" />
-                <marker date="1524131254299" expanded="false" signature="1973:2160" ph="{...}" />
+                <element signature="e#2193#2908#0" expanded="false" />
+                <element signature="e#2910#3514#0" expanded="false" />
+                <element signature="e#3516#4528#0" expanded="false" />
+                <element signature="e#4530#5070#0" expanded="false" />
+                <element signature="e#5072#5263#0" expanded="false" />
+                <marker date="1524158676880" expanded="false" signature="2004:2191" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -89,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/Token.cpp" />
         <option value="$PROJECT_DIR$/src/include/Token.h" />
         <option value="$PROJECT_DIR$/src/include/Lexer.h" />
+        <option value="$PROJECT_DIR$/src/include/Exceptions/LexerError.h" />
         <option value="$PROJECT_DIR$/src/Lexer.cpp" />
       </list>
     </option>
@@ -163,6 +169,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compilers" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compilers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exceptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,18 +401,18 @@
       <updated>1522161691639</updated>
       <workItem from="1522161694871" duration="8450000" />
       <workItem from="1524049486029" duration="4275000" />
-      <workItem from="1524122979972" duration="7678000" />
+      <workItem from="1524122979972" duration="10171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20403000" />
+    <option name="totallyTimeSpent" value="22896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -420,7 +448,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1524126449414" expanded="true" signature="141:1442" ph="{...}" />
+            <marker date="1524126449414" expanded="true" signature="2130:2580" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -441,12 +472,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#41#67#0" expanded="true" />
-            <element signature="e#638#1937#0" expanded="false" />
-            <element signature="e#2162#2877#0" expanded="false" />
-            <element signature="e#2879#3483#0" expanded="false" />
-            <element signature="e#3485#4497#0" expanded="false" />
-            <element signature="e#4499#5039#0" expanded="false" />
-            <marker date="1524131254299" expanded="false" signature="1973:2160" ph="{...}" />
+            <element signature="e#2193#2908#0" expanded="false" />
+            <element signature="e#2910#3514#0" expanded="false" />
+            <element signature="e#3516#4528#0" expanded="false" />
+            <element signature="e#4530#5070#0" expanded="false" />
+            <element signature="e#5072#5263#0" expanded="false" />
+            <marker date="1524158676880" expanded="false" signature="2004:2191" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -455,7 +486,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
+          <folding>
+            <marker date="1524126449414" expanded="true" signature="141:1442" ph="{...}" />
+            <marker date="1524126449414" expanded="true" signature="2130:2580" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -473,12 +507,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#41#67#0" expanded="true" />
-            <element signature="e#638#1937#0" expanded="false" />
-            <element signature="e#2162#2877#0" expanded="false" />
-            <element signature="e#2879#3483#0" expanded="false" />
-            <element signature="e#3485#4497#0" expanded="false" />
-            <element signature="e#4499#5039#0" expanded="false" />
-            <marker date="1524131254299" expanded="false" signature="1973:2160" ph="{...}" />
+            <element signature="e#2193#2908#0" expanded="false" />
+            <element signature="e#2910#3514#0" expanded="false" />
+            <element signature="e#3516#4528#0" expanded="false" />
+            <element signature="e#4530#5070#0" expanded="false" />
+            <element signature="e#5072#5263#0" expanded="false" />
+            <marker date="1524158676880" expanded="false" signature="2004:2191" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -509,17 +543,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/Exceptions/FileNotFound.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileNotFound.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -535,16 +563,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/include/Token.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="928">
+          <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <marker date="1524126449414" expanded="true" signature="141:1442" ph="{...}" />
+            <marker date="1524126449414" expanded="true" signature="2130:2580" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/include/Lexer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="82" column="2" lean-forward="false" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+        <state relative-caret-position="748">
+          <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
           <folding>
             <element signature="e#109#126#0" expanded="true" />
             <element signature="e#203#377#1" expanded="false" />
@@ -552,18 +583,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/c++/5/exception">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/Exceptions/FileNotFound.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/Exceptions/LexerError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="478">
+          <caret line="81" column="12" lean-forward="true" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
           <folding>
             <element signature="e#41#67#0" expanded="true" />
-            <element signature="e#638#1937#0" expanded="false" />
-            <element signature="e#2162#2877#0" expanded="false" />
-            <element signature="e#2879#3483#0" expanded="false" />
-            <element signature="e#3485#4497#0" expanded="false" />
-            <element signature="e#4499#5039#0" expanded="false" />
-            <marker date="1524131254299" expanded="false" signature="1973:2160" ph="{...}" />
+            <element signature="e#2193#2908#0" expanded="false" />
+            <element signature="e#2910#3514#0" expanded="false" />
+            <element signature="e#3516#4528#0" expanded="false" />
+            <element signature="e#4530#5070#0" expanded="false" />
+            <element signature="e#5072#5263#0" expanded="false" />
+            <marker date="1524158676880" expanded="false" signature="2004:2191" ph="{...}" />
           </folding>
         </state>
       </provider>

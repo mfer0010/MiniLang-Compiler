@@ -80,6 +80,8 @@ private:
     Token determineIDToken(std::string);
 
     char getNextChar(size_t);
+
+    int getErrorLine();
 };
 
 #endif //MINILANG_COMPILER_LEXER_H

@@ -80,8 +80,8 @@ Token Lexer::nextToken() {
     if (isFinalState(state)) {
         return toToken(lexeme, state);
     } else {
-        error = "Lexer Error"; //" at line: " + determineErrorLine(program, charIndex)
-        //throw LexerFailedException(error);
+        error = "Lexer Error at line: " + std::to_string(getErrorLine()) + "\nChar at " + std::to_string(programPointer);
+        throw std::runtime_error(error);
     }
 }
 
@@ -183,4 +183,14 @@ char Lexer::getNextChar(size_t lexemeLength) {
             return program[programPointer++];
         }
     }
+}
+
+int Lexer::getErrorLine() {
+    int counter = 1;
+    for (int i = 0; i <= programPointer; i++) {
+        if (program[i]=='\n') {
+            counter ++;
+        }
+    }
+    return(counter);
 }
