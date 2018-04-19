@@ -33,7 +33,8 @@ enum TOKEN {
     TOK_Colon = 23,             // ':'
     TOK_SemiColon = 24,         // ';'
     TOK_Equals = 25,            // '='
-    TOK_Skip = 26               // Used to discard comments and whitespaces
+    TOK_Skip = 26,               // Used to discard comments and whitespaces
+    TOK_Error = 27
 };
 
 const std::string TOKEN_NAME[] = {
@@ -63,7 +64,8 @@ const std::string TOKEN_NAME[] = {
         "TOK_Colon",
         "TOK_SemiColon",
         "TOK_Equals",
-        "TOK_Skip"
+        "TOK_Skip",
+        "TOK_Error"
 };
 
 class Token {
@@ -75,6 +77,7 @@ public:
 
     //constructors:
     Token(); //empty constructor initializes with TOK_Skip
+    Token(TOKEN);
     Token(TOKEN, double);
     Token(TOKEN, std::string);
     Token(TOKEN, double, std::string);

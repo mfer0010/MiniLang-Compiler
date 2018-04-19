@@ -177,33 +177,6 @@ src/Lexer.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.s
 .PHONY : src/Lexer.cpp.s
 
-src/State.o: src/State.cpp.o
-
-.PHONY : src/State.o
-
-# target to build an object file
-src/State.cpp.o:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/State.cpp.o
-.PHONY : src/State.cpp.o
-
-src/State.i: src/State.cpp.i
-
-.PHONY : src/State.i
-
-# target to preprocess a source file
-src/State.cpp.i:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/State.cpp.i
-.PHONY : src/State.cpp.i
-
-src/State.s: src/State.cpp.s
-
-.PHONY : src/State.s
-
-# target to generate assembly for a file
-src/State.cpp.s:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/State.cpp.s
-.PHONY : src/State.cpp.s
-
 src/Token.o: src/Token.cpp.o
 
 .PHONY : src/Token.o
@@ -273,9 +246,6 @@ help:
 	@echo "... src/Lexer.o"
 	@echo "... src/Lexer.i"
 	@echo "... src/Lexer.s"
-	@echo "... src/State.o"
-	@echo "... src/State.i"
-	@echo "... src/State.s"
 	@echo "... src/Token.o"
 	@echo "... src/Token.i"
 	@echo "... src/Token.s"

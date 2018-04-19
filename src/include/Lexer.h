@@ -8,6 +8,7 @@
 #include <fstream>
 #include <iostream>
 #include <stack>
+#include "Token.h"
 
 enum STATE {
     S0 = 0,
@@ -24,10 +25,23 @@ enum STATE {
     SE = -1 //Error state
 };
 
+enum CLASSIFIER {
+    END_OF_File = 0,
+    DIGIT = 1,
+    DECIMAL_POINT = 2,
+    INVERTED_COMMA = 3,
+    PRINTABLE = 4,
+    UNDERSCORE = 5,
+    LETTER = 6,
+    OTHER = 7
+};
+
 class Lexer {
 
 public:
     static std::ifstream src;
+
+    std::string error;
 
     Lexer(); //constructor
     ~Lexer(); //destructor
@@ -37,22 +51,30 @@ public:
      */
     void scanner(std::string);
 
-    void nextToken();
+    Token nextToken();
 
 private:
     static STATE transitionTable[8][8] = {
-            //{EOF,[0-9],.,",",<printable>,_,<letter>}
-            {S1,S2,SE,S5,SE,SE,S7,S7},//S0
+            //{EOF,[0-9],.,",<printable>,_,<letter>,OTHER}
+            {S1,S2,SE,S5,SE,S7,S7,SE},//S0
             {SE,SE,SE,SE,SE,SE,SE,SE},//S1
             {SE,S2,S3,SE,SE,SE,SE,SE},//S2
             {SE,S4,SE,SE,SE,SE,SE,SE},//S3
             {SE,S4,SE,SE,SE,SE,SE,SE},//S4
-            {SE,SE,SE,SE,S6,S5,SE,SE},//S5
+            {SE,SE,SE,S6,S5,SE,SE,SE},//S5
             {SE,SE,SE,SE,SE,SE,SE,SE},//S6
-            {SE,S7,SE,SE,SE,SE,S7,S7},//S7
+            {SE,S7,SE,SE,SE,S7,S7,SE},//S7
     };
 
     bool isFinalState(STATE);
+
+    int toClassifier(char);
+
+    Token toToken(std::string,STATE);
+
+    //Checks if word is a keyword and return that keyword token,
+    // if not return identifier token
+    Token determineIDToken(std::string);
 };
 
 #endif //MINILANG_COMPILER_LEXER_H

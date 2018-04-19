@@ -90,12 +90,6 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/State.cpp">
-			<Option target="MiniLang_Compiler"/>
-		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/State.h">
-			<Option target="MiniLang_Compiler"/>
-		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Token.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>

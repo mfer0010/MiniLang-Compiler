@@ -8,9 +8,8 @@ Token::Token() {
     token_name = TOK_Skip;
 }
 
-Token::Token(TOKEN token, double value) {
+Token::Token(TOKEN token){
     token_name = token;
-    numerical_value = value;
 }
 
 Token::Token(TOKEN token, std::string value) {
