@@ -84,7 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/main.cpp">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Token.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Token.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/main.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/CMakeLists.txt">

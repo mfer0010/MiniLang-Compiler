@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp
+include/Lexer.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Token.cpp
+include/Token.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
+string
+-
+fstream
+-
+iostream
+-
+stack
+-
+Token.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
+iostream
+-
+
+/home/marc/Uni 3rd Year/Compilers/src/main.cpp
+iostream
+-
+include/Lexer.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
+include/Token.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
+
