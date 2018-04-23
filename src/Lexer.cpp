@@ -69,7 +69,6 @@ Token Lexer::nextToken() {
         }
         stack.push(state);
         state = Lexer::transitionTable[state][toClassifier(ch)];
-        //std::cout << toClassifier(ch) << std::endl;
 
         //if the character is EOF then stop scanning as we have reached the end of the document
         if (ch == EOF || ch == '\0') {
@@ -80,10 +79,8 @@ Token Lexer::nextToken() {
     //Rollback Loop
     while (!isFinalState(state) || state == SE) {
         state = stack.top();
-        //std::cout << state << std::endl;
         stack.pop();
         //if we have a */ we need to remove both these characters
-        //if (lexeme.substr(lexeme.length() - 2) == "*/") {
         if (lexeme.back() == '/' && lexeme.at(lexeme.length()-2)=='*'){
             lexeme.pop_back();
             programPointer--;

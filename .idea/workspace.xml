@@ -12,14 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa3c8dca-6828-4e9d-b712-895d3b817258" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler" afterPath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampleProgram.ml" afterPath="$PROJECT_DIR$/sampleProgram.ml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lexer.cpp" afterPath="$PROJECT_DIR$/src/Lexer.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/Lexer.h" afterPath="$PROJECT_DIR$/src/include/Lexer.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/Token.h" afterPath="$PROJECT_DIR$/src/include/Token.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/toDo.txt" afterPath="$PROJECT_DIR$/toDo.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,81 +31,7 @@
     <favorites_list name="Compilers" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Token.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/include/Token.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-548">
-              <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Token.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Token.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lexer.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/include/Lexer.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="e#109#126#0" expanded="true" />
-                <element signature="e#203#447#1" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lexer.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="176" column="47" lean-forward="true" selection-start-line="176" selection-start-column="47" selection-end-line="176" selection-end-column="47" />
-              <folding>
-                <element signature="e#2808#3083#0" expanded="false" />
-                <element signature="e#4486#5421#0" expanded="false" />
-                <element signature="e#6437#6712#0" expanded="false" />
-                <element signature="e#6714#7483#0" expanded="false" />
-                <element signature="e#7485#8025#0" expanded="false" />
-                <marker date="1524487349710" expanded="false" signature="147:765" ph="{...}" />
-                <marker date="1524487349710" expanded="false" signature="8053:8218" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sampleProgram.ml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sampleProgram.ml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,8 +50,8 @@
         <option value="$PROJECT_DIR$/src/include/Token.h" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/src/include/Lexer.h" />
-        <option value="$PROJECT_DIR$/src/Lexer.cpp" />
         <option value="$PROJECT_DIR$/sampleProgram.ml" />
+        <option value="$PROJECT_DIR$/src/Lexer.cpp" />
       </list>
     </option>
   </component>
@@ -416,16 +337,16 @@
       <workItem from="1524049486029" duration="4275000" />
       <workItem from="1524122979972" duration="17183000" />
       <workItem from="1524480406218" duration="557000" />
-      <workItem from="1524480998850" duration="6414000" />
+      <workItem from="1524480998850" duration="6694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36879000" />
+    <option name="totallyTimeSpent" value="37159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -433,7 +354,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34755135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2906793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -538,13 +459,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2808#3083#0" expanded="false" />
-            <element signature="e#4486#5421#0" expanded="false" />
-            <element signature="e#6437#6712#0" expanded="false" />
-            <element signature="e#6714#7483#0" expanded="false" />
-            <element signature="e#7485#8025#0" expanded="false" />
-            <marker date="1524487349710" expanded="false" signature="147:765" ph="{...}" />
-            <marker date="1524487349710" expanded="false" signature="8053:8218" ph="{...}" />
+            <element signature="e#2651#2926#0" expanded="false" />
+            <element signature="e#2928#4327#0" expanded="false" />
+            <element signature="e#4329#5264#0" expanded="false" />
+            <element signature="e#6280#6555#0" expanded="false" />
+            <element signature="e#6557#7326#0" expanded="false" />
+            <element signature="e#7328#7868#0" expanded="false" />
+            <marker date="1524487678450" expanded="false" signature="147:765" ph="{...}" />
+            <marker date="1524487678450" expanded="false" signature="7896:8061" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -602,13 +524,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2808#3083#0" expanded="false" />
-            <element signature="e#4486#5421#0" expanded="false" />
-            <element signature="e#6437#6712#0" expanded="false" />
-            <element signature="e#6714#7483#0" expanded="false" />
-            <element signature="e#7485#8025#0" expanded="false" />
-            <marker date="1524487349710" expanded="false" signature="147:765" ph="{...}" />
-            <marker date="1524487349710" expanded="false" signature="8053:8218" ph="{...}" />
+            <element signature="e#2651#2926#0" expanded="false" />
+            <element signature="e#2928#4327#0" expanded="false" />
+            <element signature="e#4329#5264#0" expanded="false" />
+            <element signature="e#6280#6555#0" expanded="false" />
+            <element signature="e#6557#7326#0" expanded="false" />
+            <element signature="e#7328#7868#0" expanded="false" />
+            <marker date="1524487678450" expanded="false" signature="147:765" ph="{...}" />
+            <marker date="1524487678450" expanded="false" signature="7896:8061" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -634,13 +557,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2808#3083#0" expanded="false" />
-            <element signature="e#4486#5421#0" expanded="false" />
-            <element signature="e#6437#6712#0" expanded="false" />
-            <element signature="e#6714#7483#0" expanded="false" />
-            <element signature="e#7485#8025#0" expanded="false" />
-            <marker date="1524487349710" expanded="false" signature="147:765" ph="{...}" />
-            <marker date="1524487349710" expanded="false" signature="8053:8218" ph="{...}" />
+            <element signature="e#2651#2926#0" expanded="false" />
+            <element signature="e#2928#4327#0" expanded="false" />
+            <element signature="e#4329#5264#0" expanded="false" />
+            <element signature="e#6280#6555#0" expanded="false" />
+            <element signature="e#6557#7326#0" expanded="false" />
+            <element signature="e#7328#7868#0" expanded="false" />
+            <marker date="1524487678450" expanded="false" signature="147:765" ph="{...}" />
+            <marker date="1524487678450" expanded="false" signature="7896:8061" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -676,14 +600,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/include/Exceptions/FileNotFound.h" />
     <entry file="file://$PROJECT_DIR$/src/include/Exceptions/LexerError.h" />
-    <entry file="file://$PROJECT_DIR$/src/include/Token.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -694,11 +610,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Token.cpp">
+    <entry file="file://$PROJECT_DIR$/sampleProgram.ml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="54">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-624">
+          <caret line="82" column="65" lean-forward="false" selection-start-line="82" selection-start-column="65" selection-end-line="82" selection-end-column="65" />
+          <folding>
+            <element signature="e#2651#2926#0" expanded="false" />
+            <element signature="e#2928#4327#0" expanded="false" />
+            <element signature="e#4329#5264#0" expanded="false" />
+            <element signature="e#6280#6555#0" expanded="false" />
+            <element signature="e#6557#7326#0" expanded="false" />
+            <element signature="e#7328#7868#0" expanded="false" />
+            <marker date="1524487678450" expanded="false" signature="147:765" ph="{...}" />
+            <marker date="1524487678450" expanded="false" signature="7896:8061" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -713,26 +646,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
+    <entry file="file://$PROJECT_DIR$/src/Token.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="176" column="47" lean-forward="true" selection-start-line="176" selection-start-column="47" selection-end-line="176" selection-end-column="47" />
-          <folding>
-            <element signature="e#2808#3083#0" expanded="false" />
-            <element signature="e#4486#5421#0" expanded="false" />
-            <element signature="e#6437#6712#0" expanded="false" />
-            <element signature="e#6714#7483#0" expanded="false" />
-            <element signature="e#7485#8025#0" expanded="false" />
-            <marker date="1524487349710" expanded="false" signature="147:765" ph="{...}" />
-            <marker date="1524487349710" expanded="false" signature="8053:8218" ph="{...}" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampleProgram.ml">
+    <entry file="file://$PROJECT_DIR$/src/include/Token.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="-548">
+          <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
           <folding />
         </state>
       </provider>
