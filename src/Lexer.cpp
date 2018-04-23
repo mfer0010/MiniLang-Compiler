@@ -55,7 +55,12 @@ Token Lexer::nextToken() {
     while (state!=SE) {
         //get next character
         ch = getNextChar(lexeme.length());
-        lexeme = lexeme + ch;
+        //if condition added in order for detection of */ to work
+        if (ch == '*' && program[programPointer] == '/') {
+            lexeme = lexeme + "*/";
+        } else {
+            lexeme = lexeme + ch;
+        }
         //if state is a final state, clear stack
         if (isFinalState(state)) {
             while(!stack.empty()) {
@@ -64,6 +69,7 @@ Token Lexer::nextToken() {
         }
         stack.push(state);
         state = Lexer::transitionTable[state][toClassifier(ch)];
+        //std::cout << toClassifier(ch) << std::endl;
 
         //if the character is EOF then stop scanning as we have reached the end of the document
         if (ch == EOF || ch == '\0') {
@@ -74,7 +80,14 @@ Token Lexer::nextToken() {
     //Rollback Loop
     while (!isFinalState(state) || state == SE) {
         state = stack.top();
+        //std::cout << state << std::endl;
         stack.pop();
+        //if we have a */ we need to remove both these characters
+        //if (lexeme.substr(lexeme.length() - 2) == "*/") {
+        if (lexeme.back() == '/' && lexeme.at(lexeme.length()-2)=='*'){
+            lexeme.pop_back();
+            programPointer--;
+        }
         lexeme.pop_back();
         programPointer--;
     }
@@ -100,6 +113,9 @@ bool Lexer::isFinalState(STATE s) {
         case S7:
         case S8:
         case S9:
+        case S11:
+        case S12:
+        case S14:
             return true;
     }
     return false;
@@ -127,6 +143,34 @@ int Lexer::toClassifier(char ch) {
             return INVERTED_COMMA;
         case '_':
             return UNDERSCORE;
+        case '>':
+        case '<':
+            return GREATER_LESSTHAN;
+        case '!':
+            return EXCLEMATION;
+        case '=':
+            return EQUALS;
+        case '/':
+            return SLASH;
+        case '\n':
+            return NEW_LINE;
+        case '*':
+            //1 character lookahead for line comments:
+            if (program[programPointer] == '/') {
+                programPointer++;
+                return END_COMMENT;
+            }
+            return STAR;
+        case '+':
+        case '-':
+        case '{':
+        case '}':
+        case '(':
+        case ')':
+        case ',':
+        case ':':
+        case ';':
+            return OPERATORS;
         default:
             if (isalpha(ch)) {
                 return LETTER;
@@ -151,6 +195,16 @@ Token Lexer::toToken(std::string lexeme, STATE state) {
             return Token(TOK_StringLiteral,lexeme.substr(1,lexeme.size()-2));
         case S7:
             return determineIDToken(lexeme);
+        case S8:
+            return determineOperatorToken(lexeme);
+        case S9:
+            return Token(TOK_RelationalOp,lexeme);
+        case S11:
+            return determineOthersToken(lexeme);
+        case S12:
+            return Token(TOK_MultiplicativeOp, lexeme);
+        case S14:
+            return Token(TOK_Skip);
     }
     return Token(TOK_Error, "Error: Non Final State"); //This line should never happen
 }
@@ -172,6 +226,38 @@ Token Lexer::determineIDToken(std::string lexeme) {
 
     //return Identifier token
     return Token(TOK_Identifier, lexeme);
+}
+
+Token Lexer::determineOperatorToken(std::string lexeme) {
+    if (lexeme == "<" || lexeme == ">") {
+        return Token(TOK_RelationalOp,lexeme);
+    } else if (lexeme == "=") {
+        return Token(TOK_Equals);
+    }
+    return Token(TOK_Error, "Error: Non Final State");
+}
+
+Token Lexer::determineOthersToken(std::string lexeme) {
+    if (lexeme == "*") {
+        return Token(TOK_MultiplicativeOp,lexeme);
+    } else if (lexeme == "+" || lexeme == "-") {
+        return Token(TOK_AdditiveOp,lexeme);
+    } else if (lexeme == "{") {
+        return Token(TOK_LeftBrace);
+    } else if (lexeme == "}") {
+        return Token(TOK_RightBrace);
+    } else if (lexeme == "(") {
+        return Token(TOK_LeftBracket);
+    } else if (lexeme == ")") {
+        return Token(TOK_RightBracket);
+    } else if (lexeme == ",") {
+        return Token(TOK_Comma);
+    } else if (lexeme == ":") {
+        return Token(TOK_Colon);
+    } else if (lexeme == ";") {
+        return Token(TOK_SemiColon);
+    }
+    return Token(TOK_Error, "Error: Non Final State");
 }
 
 char Lexer::getNextChar(size_t lexemeLength) {

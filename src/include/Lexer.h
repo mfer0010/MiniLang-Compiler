@@ -22,7 +22,12 @@ enum STATE {
     S8 = 8,
     S9 = 9,
     S10 = 10,
-    SE = -1 //Error state
+    S11 = 11,
+    S12 = 12,
+    S13 = 13,
+    S14 = 14,
+    S15 = 15,
+    SE = 16 //Error state
 };
 
 enum CLASSIFIER {
@@ -33,7 +38,15 @@ enum CLASSIFIER {
     PRINTABLE = 4,
     UNDERSCORE = 5,
     LETTER = 6,
-    OTHER = 7
+    GREATER_LESSTHAN = 7,
+    EXCLEMATION = 8,
+    EQUALS = 9,
+    SLASH = 10,
+    NEW_LINE = 11,
+    STAR = 12,
+    END_COMMENT = 13,
+    OPERATORS = 14,
+    OTHER = 15 //Some symbol not recognised by the language
 };
 
 class Lexer {
@@ -57,16 +70,24 @@ private:
     std::string program = "EMPTY";
     unsigned int programPointer = 0;
 
-    STATE transitionTable[8][8] = {
-            //{EOF,[0-9],.,",<printable>,_,<letter>,OTHER}
-            {S1,S2,SE,S5,SE,S7,S7,SE},//S0
-            {SE,SE,SE,SE,SE,SE,SE,SE},//S1
-            {SE,S2,S3,SE,SE,SE,SE,SE},//S2
-            {SE,S4,SE,SE,SE,SE,SE,SE},//S3
-            {SE,S4,SE,SE,SE,SE,SE,SE},//S4
-            {SE,SE,SE,S6,S5,SE,SE,SE},//S5
-            {SE,SE,SE,SE,SE,SE,SE,SE},//S6
-            {SE,S7,SE,SE,SE,S7,S7,SE},//S7
+    STATE transitionTable[17][16] = {
+            {S1,S2,SE,S5,SE,S7,S7,S8,S10,S8,S12,S14,S11,S11,S11,SE},
+            {SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE},
+            {SE,S2,S3,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE},
+            {SE,S4,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE},
+            {SE,S4,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE},
+            {SE,S5,S5,S6,S5,S5,S5,S5,S5,S5,S5,S5,S5,S5,S5,SE},
+            {SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE},
+            {SE,S7,SE,SE,SE,S7,S7,SE,SE,SE,SE,SE,SE,SE,SE,SE},
+            {SE,SE,SE,SE,SE,SE,SE,SE,SE,S9,SE,SE,SE,SE,SE,SE},
+            {SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE},
+            {SE,SE,SE,SE,SE,SE,SE,SE,SE,S9,SE,SE,SE,SE,SE,SE},
+            {SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE},
+            {SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,S13,SE,S15,S15,SE,SE},
+            {SE,S13,S13,S13,S13,S13,S13,S13,S13,S13,S13,S14,S13,S13,S13,S13},
+            {SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE},
+            {SE,S15,S15,S15,S15,S15,S15,S15,S15,S15,S15,S15,S15,S14,S15,S15},
+            {SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE,SE}
     };
 
     bool isFinalState(STATE);
@@ -78,6 +99,13 @@ private:
     //Checks if word is a keyword and return that keyword token,
     // if not return identifier token
     Token determineIDToken(std::string);
+
+    //Returns either a > , < or = token
+    Token determineOperatorToken(std::string);
+
+    //Returns the correct token for one of the following:
+    //* + - { } ( ) , : ;
+    Token determineOthersToken(std::string);
 
     char getNextChar(size_t);
 

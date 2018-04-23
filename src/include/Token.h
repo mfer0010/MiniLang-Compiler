@@ -33,7 +33,7 @@ enum TOKEN {
     TOK_Colon = 23,             // ':'
     TOK_SemiColon = 24,         // ';'
     TOK_Equals = 25,            // '='
-    TOK_Skip = 26,               // Used to discard comments and whitespaces
+    TOK_Skip = 26,               // Used to discard comments
     TOK_Error = 27
 };
 
