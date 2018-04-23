@@ -123,6 +123,87 @@ MiniLang_Compiler/fast:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/build
 .PHONY : MiniLang_Compiler/fast
 
+src/ASTBinaryExprNode.o: src/ASTBinaryExprNode.cpp.o
+
+.PHONY : src/ASTBinaryExprNode.o
+
+# target to build an object file
+src/ASTBinaryExprNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.o
+.PHONY : src/ASTBinaryExprNode.cpp.o
+
+src/ASTBinaryExprNode.i: src/ASTBinaryExprNode.cpp.i
+
+.PHONY : src/ASTBinaryExprNode.i
+
+# target to preprocess a source file
+src/ASTBinaryExprNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.i
+.PHONY : src/ASTBinaryExprNode.cpp.i
+
+src/ASTBinaryExprNode.s: src/ASTBinaryExprNode.cpp.s
+
+.PHONY : src/ASTBinaryExprNode.s
+
+# target to generate assembly for a file
+src/ASTBinaryExprNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.s
+.PHONY : src/ASTBinaryExprNode.cpp.s
+
+src/ASTNode.o: src/ASTNode.cpp.o
+
+.PHONY : src/ASTNode.o
+
+# target to build an object file
+src/ASTNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.o
+.PHONY : src/ASTNode.cpp.o
+
+src/ASTNode.i: src/ASTNode.cpp.i
+
+.PHONY : src/ASTNode.i
+
+# target to preprocess a source file
+src/ASTNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.i
+.PHONY : src/ASTNode.cpp.i
+
+src/ASTNode.s: src/ASTNode.cpp.s
+
+.PHONY : src/ASTNode.s
+
+# target to generate assembly for a file
+src/ASTNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.s
+.PHONY : src/ASTNode.cpp.s
+
+src/ASTNumberExprNode.o: src/ASTNumberExprNode.cpp.o
+
+.PHONY : src/ASTNumberExprNode.o
+
+# target to build an object file
+src/ASTNumberExprNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o
+.PHONY : src/ASTNumberExprNode.cpp.o
+
+src/ASTNumberExprNode.i: src/ASTNumberExprNode.cpp.i
+
+.PHONY : src/ASTNumberExprNode.i
+
+# target to preprocess a source file
+src/ASTNumberExprNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.i
+.PHONY : src/ASTNumberExprNode.cpp.i
+
+src/ASTNumberExprNode.s: src/ASTNumberExprNode.cpp.s
+
+.PHONY : src/ASTNumberExprNode.s
+
+# target to generate assembly for a file
+src/ASTNumberExprNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.s
+.PHONY : src/ASTNumberExprNode.cpp.s
+
 src/Lexer.o: src/Lexer.cpp.o
 
 .PHONY : src/Lexer.o
@@ -149,6 +230,33 @@ src/Lexer.s: src/Lexer.cpp.s
 src/Lexer.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.s
 .PHONY : src/Lexer.cpp.s
+
+src/Parser.o: src/Parser.cpp.o
+
+.PHONY : src/Parser.o
+
+# target to build an object file
+src/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o
+.PHONY : src/Parser.cpp.o
+
+src/Parser.i: src/Parser.cpp.i
+
+.PHONY : src/Parser.i
+
+# target to preprocess a source file
+src/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.i
+.PHONY : src/Parser.cpp.i
+
+src/Parser.s: src/Parser.cpp.s
+
+.PHONY : src/Parser.s
+
+# target to generate assembly for a file
+src/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.s
+.PHONY : src/Parser.cpp.s
 
 src/Token.o: src/Token.cpp.o
 
@@ -213,9 +321,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MiniLang_Compiler"
+	@echo "... src/ASTBinaryExprNode.o"
+	@echo "... src/ASTBinaryExprNode.i"
+	@echo "... src/ASTBinaryExprNode.s"
+	@echo "... src/ASTNode.o"
+	@echo "... src/ASTNode.i"
+	@echo "... src/ASTNode.s"
+	@echo "... src/ASTNumberExprNode.o"
+	@echo "... src/ASTNumberExprNode.i"
+	@echo "... src/ASTNumberExprNode.s"
 	@echo "... src/Lexer.o"
 	@echo "... src/Lexer.i"
 	@echo "... src/Lexer.s"
+	@echo "... src/Parser.o"
+	@echo "... src/Parser.i"
+	@echo "... src/Parser.s"
 	@echo "... src/Token.o"
 	@echo "... src/Token.i"
 	@echo "... src/Token.s"

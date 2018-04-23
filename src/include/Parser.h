@@ -1,0 +1,25 @@
+//
+// Created by marc on 23/04/2018.
+//
+
+#ifndef MINILANG_COMPILER_PARSER_H
+#define MINILANG_COMPILER_PARSER_H
+
+#include "Lexer.h"
+
+
+class Parser {
+
+public:
+    Parser(Lexer *);
+
+    //std::vector<ASTStatement_Node *> parse();
+
+private:
+    Lexer * lexer;
+
+    Token currentToken = Token(TOK_Skip);
+};
+
+
+#endif //MINILANG_COMPILER_PARSER_H

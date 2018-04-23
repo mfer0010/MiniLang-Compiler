@@ -6,13 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/home/marc/Uni 3rd Year/Compilers/src/ASTNode.cpp
+include/ASTNodes/ASTNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+
 /home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp
 include/Lexer.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
 
+/home/marc/Uni 3rd Year/Compilers/src/Parser.cpp
+include/Parser.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
+
 /home/marc/Uni 3rd Year/Compilers/src/Token.cpp
 include/Token.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+vector
+-
 
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
 string
@@ -26,6 +38,10 @@ stack
 Token.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 
+/home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
+Lexer.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
+
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 iostream
 -
@@ -35,6 +51,6 @@ iostream
 -
 include/Lexer.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
-include/Token.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
+include/Parser.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
 
