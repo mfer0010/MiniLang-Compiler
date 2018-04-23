@@ -10,10 +10,10 @@
 
 class ASTNumberExprNode : public ASTExpression_Node {
 public:
-    float value;
+    double value;
     std::string type;
 
-    ASTNumberExprNode(float, std::string);
+    ASTNumberExprNode(double, std::string);
 
     virtual ~ASTNumberExprNode();
 };

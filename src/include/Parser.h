@@ -6,6 +6,9 @@
 #define MINILANG_COMPILER_PARSER_H
 
 #include "Lexer.h"
+#include "ASTNodes/ASTExpression_Node.h"
+#include "ASTNodes/ASTNumberExprNode.h"
+#include "ASTNodes/ASTBinaryExprNode.h"
 
 
 class Parser {
@@ -19,6 +22,12 @@ private:
     Lexer * lexer;
 
     Token currentToken = Token(TOK_Skip);
+
+    ASTExpression_Node * parseExpression();
+
+    ASTNumberExprNode * parseUnaryExpression();
+
+    ASTBinaryExprNode * parseBinaryExpression();
 };
 
 

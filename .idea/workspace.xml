@@ -12,36 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa3c8dca-6828-4e9d-b712-895d3b817258" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ASTBinaryExprNode.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ASTNode.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ASTNumberExprNode.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parser.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTStatement_Node.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/Parser.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler" afterPath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/Token.h" afterPath="$PROJECT_DIR$/src/include/Token.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTNumberExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTNumberExprNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parser.cpp" afterPath="$PROJECT_DIR$/src/Parser.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/Parser.h" afterPath="$PROJECT_DIR$/src/include/Parser.h" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,34 +34,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Parser.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/include/Parser.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#112#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Parser.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parser.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="402">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="25" selection-end-column="3" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parser.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/include/Parser.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ASTBinaryExprNode.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#134#165#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -94,47 +59,19 @@
       <file leaf-file-name="ASTNumberExprNode.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding>
-                <element signature="e#134#151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ASTExpression_Node.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="188">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ASTNode.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h">
+      <file leaf-file-name="ASTNumberExprNode.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ASTNumberExprNode.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-              <folding>
-                <element signature="e#114#131#0" expanded="true" />
-                <marker date="1524510581140" expanded="true" signature="168:398" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ASTNode.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ASTNode.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-              <folding>
-                <marker date="1524510581028" expanded="true" signature="166:258" ph="{...}" />
-                <marker date="1524510581028" expanded="true" signature="292:325" ph="{...}" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,8 +96,6 @@
         <option value="$PROJECT_DIR$/src/Lexer.cpp" />
         <option value="$PROJECT_DIR$/src/include/Token.h" />
         <option value="$PROJECT_DIR$/sampleProgram.ml" />
-        <option value="$PROJECT_DIR$/src/include/Parser.h" />
-        <option value="$PROJECT_DIR$/src/Parser.cpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTStatement_Node.h" />
@@ -172,6 +107,8 @@
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h" />
         <option value="$PROJECT_DIR$/src/ASTNumberExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/include/Parser.h" />
+        <option value="$PROJECT_DIR$/src/Parser.cpp" />
       </list>
     </option>
   </component>
@@ -509,12 +446,12 @@
       <workItem from="1524122979972" duration="17183000" />
       <workItem from="1524480406218" duration="557000" />
       <workItem from="1524480998850" duration="6694000" />
-      <workItem from="1524488088029" duration="6841000" />
+      <workItem from="1524488088029" duration="9443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44000000" />
+    <option name="totallyTimeSpent" value="46602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -778,33 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <element signature="e#2651#2926#0" expanded="false" />
-            <element signature="e#2928#4327#0" expanded="false" />
-            <element signature="e#4329#5264#0" expanded="false" />
-            <element signature="e#6280#6555#0" expanded="false" />
-            <element signature="e#6557#7326#0" expanded="false" />
-            <element signature="e#7328#7868#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sampleProgram.ml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -837,62 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/Parser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-          <folding>
-            <marker date="1524510581028" expanded="true" signature="166:258" ph="{...}" />
-            <marker date="1524510581028" expanded="true" signature="292:325" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#114#131#0" expanded="true" />
-            <marker date="1524510581140" expanded="true" signature="168:398" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#134#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTNumberExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ASTBinaryExprNode.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -906,7 +764,81 @@
         <state relative-caret-position="222">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#134#165#0" expanded="true" />
+            <element signature="e#134#165#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#114#131#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="e#2651#2926#0" expanded="false" />
+            <element signature="e#2928#4327#0" expanded="false" />
+            <element signature="e#6280#6555#0" expanded="false" />
+            <element signature="e#6557#7326#0" expanded="false" />
+            <element signature="e#7328#7868#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTNumberExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="25" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/Parser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#112#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
