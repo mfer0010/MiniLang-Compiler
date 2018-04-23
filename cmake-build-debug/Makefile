@@ -123,33 +123,6 @@ MiniLang_Compiler/fast:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/build
 .PHONY : MiniLang_Compiler/fast
 
-src/FileNotFound.o: src/FileNotFound.cpp.o
-
-.PHONY : src/FileNotFound.o
-
-# target to build an object file
-src/FileNotFound.cpp.o:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/FileNotFound.cpp.o
-.PHONY : src/FileNotFound.cpp.o
-
-src/FileNotFound.i: src/FileNotFound.cpp.i
-
-.PHONY : src/FileNotFound.i
-
-# target to preprocess a source file
-src/FileNotFound.cpp.i:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/FileNotFound.cpp.i
-.PHONY : src/FileNotFound.cpp.i
-
-src/FileNotFound.s: src/FileNotFound.cpp.s
-
-.PHONY : src/FileNotFound.s
-
-# target to generate assembly for a file
-src/FileNotFound.cpp.s:
-	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/FileNotFound.cpp.s
-.PHONY : src/FileNotFound.cpp.s
-
 src/Lexer.o: src/Lexer.cpp.o
 
 .PHONY : src/Lexer.o
@@ -240,9 +213,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MiniLang_Compiler"
-	@echo "... src/FileNotFound.o"
-	@echo "... src/FileNotFound.i"
-	@echo "... src/FileNotFound.s"
 	@echo "... src/Lexer.o"
 	@echo "... src/Lexer.i"
 	@echo "... src/Lexer.s"

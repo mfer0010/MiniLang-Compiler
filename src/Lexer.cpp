@@ -3,7 +3,6 @@
 //
 
 #include "include/Lexer.h"
-#include "include/Exceptions/FileNotFound.h"
 
 Lexer::Lexer() {}
 
@@ -17,16 +16,20 @@ void Lexer::scanner(std::string path) {
 
     program = "";
 
+    //std::cout << src.is_open() << std::endl;
     //check that the file was opened, if not throw error
-    if (src) {
-        throw(FileNotFound::FileNotFound());
+    if (!src) {
+        throw std::runtime_error("Error Opening File");
     }
 
     //save program to string:
-    while (getline(src,line)) {
+    while (std::getline(src,line)) {
+        //std::cout << line << std::endl;
         program += line + "\n";
     }
 
+    //testing:
+    std::cout << "Program: " << program <<std::endl;
     //close file
     try {
         src.close();
@@ -37,8 +40,8 @@ void Lexer::scanner(std::string path) {
 
 Token Lexer::nextToken() {
     //check that the file was opened, if not throw error
-    if (program == '\0') {
-        throw(FileNotFound::FileNotFound());
+    if (program == "EMPTY") {
+        throw std::runtime_error("Error Opening File");
     }
 
     //Initialisation
@@ -69,19 +72,22 @@ Token Lexer::nextToken() {
     }
 
     //Rollback Loop
-    while (!isFinalState(state) && state != SE) {
+    while (!isFinalState(state) || state == SE) {
         state = stack.top();
         stack.pop();
         lexeme.pop_back();
         programPointer--;
     }
 
+    //std::cout << state << std::endl;
     //Report Result
     if (isFinalState(state)) {
         return toToken(lexeme, state);
     } else {
         error = "Lexer Error at line: " + std::to_string(getErrorLine()) + "\nChar at " + std::to_string(programPointer);
-        throw std::runtime_error(error);
+        std::cout << error << std::endl;
+        std::cout << "\""<<lexeme<< "\"" << std::endl;
+        //throw std::runtime_error(error);
     }
 }
 

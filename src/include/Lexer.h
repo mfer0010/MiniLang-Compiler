@@ -41,7 +41,7 @@ class Lexer {
 public:
     //static std::ifstream src;
 
-    std::string error;
+    std::string error = "";
 
     Lexer(); //constructor
     ~Lexer(); //destructor
@@ -54,10 +54,10 @@ public:
     Token nextToken();
 
 private:
-    std::string program = '\0';
+    std::string program = "EMPTY";
     unsigned int programPointer = 0;
 
-    static STATE transitionTable[8][8] = {
+    STATE transitionTable[8][8] = {
             //{EOF,[0-9],.,",<printable>,_,<letter>,OTHER}
             {S1,S2,SE,S5,SE,S7,S7,SE},//S0
             {SE,SE,SE,SE,SE,SE,SE,SE},//S1

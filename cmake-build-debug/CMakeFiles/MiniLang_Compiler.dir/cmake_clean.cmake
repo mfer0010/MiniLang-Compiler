@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o"
-  "CMakeFiles/MiniLang_Compiler.dir/src/FileNotFound.cpp.o"
   "MiniLang_Compiler.pdb"
   "MiniLang_Compiler"
 )
