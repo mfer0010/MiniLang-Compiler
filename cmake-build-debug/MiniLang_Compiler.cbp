@@ -96,7 +96,13 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/LexerException.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Parser.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/ParserException.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Token.cpp">
@@ -120,7 +126,16 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/MiniLangExceptions.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Parser.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ParserException.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Token.h">

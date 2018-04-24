@@ -16,7 +16,13 @@ CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o: ../src/include/AST
 
 CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/Lexer.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/Lexer.h
+CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/LexerException.h
+CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/Token.h
+
+CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o: ../src/LexerException.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o: ../src/include/LexerException.h
+CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o: ../src/include/MiniLangExceptions.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/Parser.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ASTNodes/ASTBinaryExprNode.h
@@ -27,6 +33,10 @@ CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Lexer.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Parser.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Token.h
 
+CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/ParserException.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/LexerException.h
+CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/MiniLangExceptions.h
+
 CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o: ../src/Token.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o: ../src/include/Token.h
 
@@ -35,6 +45,8 @@ CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTExpr
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTNumberExprNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/Lexer.h
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/LexerException.h
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/Parser.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/Token.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/main.cpp

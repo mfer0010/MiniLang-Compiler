@@ -2,6 +2,7 @@
 
 #include "include/Lexer.h"
 #include "include/Parser.h"
+#include "include/LexerException.h"
 
 using namespace std;
 
@@ -10,7 +11,12 @@ int main() {
     r.scanner("../sampleProgram.ml");
     //cout << "Lexer Loaded" << endl;
     Token t0 = r.nextToken();
-    Token t = r.nextToken();
+    try {
+        Token t = r.nextToken();
+    } catch (LexerException &p) {
+        cout << p.printMessage() << endl;
+        return 0;
+    }
     Token t2 = r.nextToken();
     Token t3 = r.nextToken();
     Token t4 = r.nextToken();
@@ -20,7 +26,7 @@ int main() {
     Token t8 = r.nextToken();
 
     cout << TOKEN_NAME[t0.token_name] << endl;
-    cout << TOKEN_NAME[t.token_name] << endl;
+    //cout << TOKEN_NAME[t.token_name] << endl;
     cout << TOKEN_NAME[t2.token_name] << " " << t2.string_value << endl;
     cout << TOKEN_NAME[t3.token_name] << endl;
     cout << TOKEN_NAME[t4.token_name] << " " << t4.string_value << endl;

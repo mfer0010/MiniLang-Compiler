@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o"
+  "CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o"
+  "CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o"
   "MiniLang_Compiler.pdb"
   "MiniLang_Compiler"
 )

@@ -3,6 +3,7 @@
 //
 
 #include "include/Lexer.h"
+#include "include/LexerException.h"
 
 Lexer::Lexer() {}
 
@@ -96,10 +97,11 @@ Token Lexer::nextToken() {
     if (isFinalState(state)) {
         return toToken(lexeme, state);
     } else {
-        error = "Lexer Error at line: " + std::to_string(getErrorLine()) + "\nChar at " + std::to_string(programPointer);
-        std::cout << error << std::endl;
-        std::cout << "\""<<lexeme<< "\"" << std::endl;
-        return (Token(TOK_Error));
+        throw LexerException("Lexer Error, char at " + std::to_string(programPointer), getErrorLine());
+//        error = "Lexer Error at line: " + std::to_string(getErrorLine()) + "\nChar at " + std::to_string(programPointer);
+//        std::cout << error << std::endl;
+//        std::cout << "\""<<lexeme<< "\"" << std::endl;
+//        return (Token(TOK_Error));
         //throw std::runtime_error(error);
     }
 }

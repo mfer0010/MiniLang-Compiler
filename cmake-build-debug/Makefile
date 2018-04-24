@@ -231,6 +231,33 @@ src/Lexer.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.s
 .PHONY : src/Lexer.cpp.s
 
+src/LexerException.o: src/LexerException.cpp.o
+
+.PHONY : src/LexerException.o
+
+# target to build an object file
+src/LexerException.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o
+.PHONY : src/LexerException.cpp.o
+
+src/LexerException.i: src/LexerException.cpp.i
+
+.PHONY : src/LexerException.i
+
+# target to preprocess a source file
+src/LexerException.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.i
+.PHONY : src/LexerException.cpp.i
+
+src/LexerException.s: src/LexerException.cpp.s
+
+.PHONY : src/LexerException.s
+
+# target to generate assembly for a file
+src/LexerException.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.s
+.PHONY : src/LexerException.cpp.s
+
 src/Parser.o: src/Parser.cpp.o
 
 .PHONY : src/Parser.o
@@ -257,6 +284,33 @@ src/Parser.s: src/Parser.cpp.s
 src/Parser.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.s
 .PHONY : src/Parser.cpp.s
+
+src/ParserException.o: src/ParserException.cpp.o
+
+.PHONY : src/ParserException.o
+
+# target to build an object file
+src/ParserException.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o
+.PHONY : src/ParserException.cpp.o
+
+src/ParserException.i: src/ParserException.cpp.i
+
+.PHONY : src/ParserException.i
+
+# target to preprocess a source file
+src/ParserException.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.i
+.PHONY : src/ParserException.cpp.i
+
+src/ParserException.s: src/ParserException.cpp.s
+
+.PHONY : src/ParserException.s
+
+# target to generate assembly for a file
+src/ParserException.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.s
+.PHONY : src/ParserException.cpp.s
 
 src/Token.o: src/Token.cpp.o
 
@@ -333,9 +387,15 @@ help:
 	@echo "... src/Lexer.o"
 	@echo "... src/Lexer.i"
 	@echo "... src/Lexer.s"
+	@echo "... src/LexerException.o"
+	@echo "... src/LexerException.i"
+	@echo "... src/LexerException.s"
 	@echo "... src/Parser.o"
 	@echo "... src/Parser.i"
 	@echo "... src/Parser.s"
+	@echo "... src/ParserException.o"
+	@echo "... src/ParserException.i"
+	@echo "... src/ParserException.s"
 	@echo "... src/Token.o"
 	@echo "... src/Token.i"
 	@echo "... src/Token.s"

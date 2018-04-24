@@ -21,10 +21,20 @@ include/ASTNodes/ASTNumberExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp
 include/Lexer.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
+include/LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
+
+/home/marc/Uni 3rd Year/Compilers/src/LexerException.cpp
+include/LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
 
 /home/marc/Uni 3rd Year/Compilers/src/Parser.cpp
 include/Parser.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ParserException.cpp
+include/LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
 
 /home/marc/Uni 3rd Year/Compilers/src/Token.cpp
 include/Token.h
@@ -64,6 +74,14 @@ stack
 Token.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 
+/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/include/MiniLangExceptions.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/MiniLangExceptions.h
+string
+-
+
 /home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
 Lexer.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
@@ -85,4 +103,6 @@ include/Lexer.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
 include/Parser.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
+include/LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
 
