@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/marc/Uni 3rd Year/Compilers/src/ASTBinaryExprNode.cpp
+include/ASTNodes/ASTBinaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h
+
 /home/marc/Uni 3rd Year/Compilers/src/ASTNode.cpp
 include/ASTNodes/ASTNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNumberExprNode.cpp
+include/ASTNodes/ASTNumberExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
 
 /home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp
 include/Lexer.h
@@ -22,9 +30,27 @@ include/Parser.h
 include/Token.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
+string
+-
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
+ASTNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
 vector
 -
+algorithm
+-
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
+string
+-
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
 string
@@ -41,6 +67,12 @@ Token.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
 Lexer.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
+ASTNodes/ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
+ASTNodes/ASTNumberExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
+ASTNodes/ASTBinaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 iostream

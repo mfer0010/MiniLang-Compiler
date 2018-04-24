@@ -14,7 +14,7 @@ public:
 
     ASTNode();
 
-    virtual ~ASTNode() {};
+    virtual ~ASTNode();
 
     void addStatements(std::vector<ASTNode *> statements);
 

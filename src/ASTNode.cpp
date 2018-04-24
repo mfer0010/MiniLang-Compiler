@@ -14,7 +14,7 @@ void ASTNode::clearStatements() {
 }
 
 ASTNode::~ASTNode() {
-    std::for_each(statements.begin(), statements.end(),deleteStatement);
+    //std::for_each(statements.begin(), statements.end(),deleteStatement);
 }
 
 void ASTNode::deleteStatement(ASTNode * statement) {

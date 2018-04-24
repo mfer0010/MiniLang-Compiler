@@ -77,13 +77,15 @@ Token Lexer::nextToken() {
     }
 
     //Rollback Loop
-    while (!isFinalState(state) || state == SE) {
+    while (!isFinalState(state) && state == SE) {
         state = stack.top();
         stack.pop();
         //if we have a */ we need to remove both these characters
-        if (lexeme.back() == '/' && lexeme.at(lexeme.length()-2)=='*'){
-            lexeme.pop_back();
-            programPointer--;
+        if (lexeme.length() > 1) {
+            if (lexeme.back() == '/' && lexeme.at(lexeme.length() - 2) == '*') {
+                lexeme.pop_back();
+                programPointer--;
+            }
         }
         lexeme.pop_back();
         programPointer--;
@@ -97,6 +99,7 @@ Token Lexer::nextToken() {
         error = "Lexer Error at line: " + std::to_string(getErrorLine()) + "\nChar at " + std::to_string(programPointer);
         std::cout << error << std::endl;
         std::cout << "\""<<lexeme<< "\"" << std::endl;
+        return (Token(TOK_Error));
         //throw std::runtime_error(error);
     }
 }

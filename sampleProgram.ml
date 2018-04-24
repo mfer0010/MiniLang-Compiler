@@ -1,4 +1,5 @@
-/*Comment
-Comment?
-COMMENT!*/
-var x : real = 2.4;
+/*asdasd
+asd
+asda
+dsa */
+var x : real = 4.2;
