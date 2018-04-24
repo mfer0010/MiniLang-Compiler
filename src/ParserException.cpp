@@ -6,10 +6,11 @@
 
 ParserException::ParserException() {}
 
-ParserException::ParserException(std::string _message) {
+ParserException::ParserException(std::string _message, int lineNo) {
     this->error = _message;
+    this->lineNo = lineNo;
 }
 
 std::string ParserException::printMessage() {
-    return error;
+    return "Parser Error:\n\t"+error+"\n\tLine: "+std::to_string(lineNo);
 }

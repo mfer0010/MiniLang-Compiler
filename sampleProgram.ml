@@ -1,5 +1,1 @@
-/*asdasd
-asd
-asda
-dsa */
-` x : real = 4.2;
+12 * 2;

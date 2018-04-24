@@ -30,12 +30,14 @@ CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ASTNodes/ASTEx
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ASTNodes/ASTNumberExprNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Lexer.h
+CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Parser.h
+CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ParserException.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Token.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/ParserException.cpp
-CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/LexerException.h
 CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/MiniLangExceptions.h
+CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/ParserException.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o: ../src/Token.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o: ../src/include/Token.h

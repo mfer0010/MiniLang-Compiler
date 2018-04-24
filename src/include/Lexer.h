@@ -66,6 +66,10 @@ public:
 
     Token nextToken();
 
+    Token oneTokenLookahead();
+
+    int getErrorLine();
+
 private:
     std::string program = "EMPTY";
     unsigned int programPointer = 0;
@@ -109,7 +113,6 @@ private:
 
     char getNextChar(size_t);
 
-    int getErrorLine();
 };
 
 #endif //MINILANG_COMPILER_LEXER_H

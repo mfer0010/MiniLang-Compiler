@@ -288,3 +288,10 @@ int Lexer::getErrorLine() {
     }
     return(counter);
 }
+
+Token Lexer::oneTokenLookahead() {
+    unsigned int currentProgramPointer = programPointer;
+    Token toReturn = nextToken();
+    programPointer = currentProgramPointer;
+    return toReturn;
+}

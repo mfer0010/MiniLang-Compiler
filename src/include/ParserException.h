@@ -9,9 +9,11 @@
 
 class ParserException : public MiniLangExceptions {
 public:
+    int lineNo = 0;
+
     ParserException();
 
-    ParserException(std::string);
+    ParserException(std::string, int);
 
     virtual std::string printMessage();
 };

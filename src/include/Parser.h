@@ -17,13 +17,13 @@ public:
     Parser(Lexer *);
 
     //std::vector<ASTStatement_Node *> parse();
-
+    void parse();
 private:
     Lexer * lexer;
 
     Token currentToken = Token(TOK_Skip);
 
-    ASTExpression_Node * parseExpression();
+    //ASTExpression_Node * parseExpression();
 
     ASTNumberExprNode * parseUnaryExpression();
 

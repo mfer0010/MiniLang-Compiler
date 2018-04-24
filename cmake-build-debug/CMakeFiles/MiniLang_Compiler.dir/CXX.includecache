@@ -31,10 +31,14 @@ include/LexerException.h
 /home/marc/Uni 3rd Year/Compilers/src/Parser.cpp
 include/Parser.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
+include/MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/include/MiniLangExceptions.h
+include/ParserException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ParserException.h
 
 /home/marc/Uni 3rd Year/Compilers/src/ParserException.cpp
-include/LexerException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
+include/ParserException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ParserException.h
 
 /home/marc/Uni 3rd Year/Compilers/src/Token.cpp
 include/Token.h
@@ -91,6 +95,10 @@ ASTNodes/ASTNumberExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
 ASTNodes/ASTBinaryExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ParserException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/include/MiniLangExceptions.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 iostream
