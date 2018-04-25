@@ -3,7 +3,7 @@
 //
 
 #include "include/Lexer.h"
-#include "include/LexerException.h"
+#include "include/Exceptions/LexerException.h"
 
 Lexer::Lexer() {}
 

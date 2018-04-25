@@ -3,7 +3,7 @@
 //
 #include "include/ASTNodes/ASTBinaryExprNode.h"
 
-ASTBinaryExprNode::ASTBinaryExprNode(std::string _operator, ASTExpression_Node *LHS, ASTExpression_Node *RHS) {
+ASTBinaryExprNode::ASTBinaryExprNode(std::string _operator, ASTNumberExprNode *LHS, ASTNumberExprNode *RHS) {
     this->_opertor = _operator;
     this->LHS = LHS;
     this->RHS = RHS;

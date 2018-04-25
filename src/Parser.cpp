@@ -3,8 +3,8 @@
 //
 
 #include "include/Parser.h"
-#include "include/MiniLangExceptions.h"
-#include "include/ParserException.h"
+#include "include/Exceptions/MiniLangExceptions.h"
+#include "include/Exceptions/ParserException.h"
 
 
 Parser::Parser(Lexer * lexer) {
@@ -19,12 +19,56 @@ void Parser::parse() {
         std::cout << e.printMessage() << std::endl;
         throw -1;
     }
-    std::cout << Node->LHS << Node->_opertor << Node->RHS;
+    std::cout << Node->LHS->value << Node->_opertor << Node->RHS->value;
 }
 
 //ASTExpression_Node* Parser::parseExpression() {
+//    TOKEN acceptedTokens [] = {TOK_Number, TOK_MultiplicativeOp, TOK_RelationalOp,TOK_AdditiveOp,TOK_Identifier};
+//    TOKEN *found = acceptedTokens;
 //
+//    ASTExpression_Node *toReturn;
+//
+//    //loop until the next token is not in acceptedTokens:
+//    while (found != std::end(acceptedTokens)) {
+//        currentToken = lexer->nextToken();
+//        switch (currentToken.token_name) {
+//            case TOK_Number:
+//                try {
+////                    ASTBinaryExprNode * = parseBinaryExpression();
+////                    toReturn.
+//                } catch (ParserException &e) {
+//                    throw e;
+//                }
+//            case TOK_MultiplicativeOp:
+//            case TOK_AdditiveOp:
+//            case TOK_RelationalOp:
+//            case TOK_Identifier:
+//        }
+//
+//        found = std::find(acceptedTokens, std::end(acceptedTokens),lexer->oneTokenLookahead().token_name);
+//    }
 //}
+
+ASTExpression_Node *Parser::parseExpression() {
+
+    //First we parse the binary expression
+    ASTBinaryExprNode *binaryExpression = parseBinaryExpression();
+
+    //then we see if there's more to parse
+    TOKEN lookahead = lexer->oneTokenLookahead().token_name;
+    bool loop = lookahead == TOK_MultiplicativeOp || lookahead == TOK_AdditiveOp;
+    while(loop) {
+        //if multiplicative op, do that first
+        if (lookahead == TOK_MultiplicativeOp) {
+
+        } else {
+            //else do it after
+        }
+
+        lookahead = lexer->oneTokenLookahead().token_name;
+        loop = lookahead == TOK_MultiplicativeOp || lookahead == TOK_AdditiveOp;
+    }
+}
 
 ASTNumberExprNode* Parser::parseUnaryExpression() {
     switch(currentToken.token_name) {

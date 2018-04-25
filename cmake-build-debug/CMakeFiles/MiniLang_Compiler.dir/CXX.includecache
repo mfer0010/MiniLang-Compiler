@@ -10,6 +10,22 @@
 include/ASTNodes/ASTBinaryExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h
 
+/home/marc/Uni 3rd Year/Compilers/src/ASTBooleanLiteralExprNode.cpp
+include/ASTNodes/ASTBooleanLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBooleanLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTFunctionCallExprNode.cpp
+include/ASTNodes/ASTFunctionCallExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFunctionCallExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTIdentifierExprNode.cpp
+include/ASTNodes/ASTIdentifierExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIdentifierExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTIntegerLiteralExprNode.cpp
+include/ASTNodes/ASTIntegerLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIntegerLiteralExprNode.h
+
 /home/marc/Uni 3rd Year/Compilers/src/ASTNode.cpp
 include/ASTNodes/ASTNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
@@ -18,27 +34,43 @@ include/ASTNodes/ASTNode.h
 include/ASTNodes/ASTNumberExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
 
+/home/marc/Uni 3rd Year/Compilers/src/ASTRealLiteralExprNode.cpp
+include/ASTNodes/ASTRealLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTRealLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTStringLiteralExprNode.cpp
+include/ASTNodes/ASTStringLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStringLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTSubExpressionExprNode.cpp
+include/ASTNodes/ASTSubExpressionExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTSubExpressionExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTUnaryExprNode.cpp
+include/ASTNodes/ASTUnaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTUnaryExprNode.h
+
 /home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp
 include/Lexer.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
-include/LexerException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
+include/Exceptions/LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h
 
 /home/marc/Uni 3rd Year/Compilers/src/LexerException.cpp
-include/LexerException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
+include/Exceptions/LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h
 
 /home/marc/Uni 3rd Year/Compilers/src/Parser.cpp
 include/Parser.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
-include/MiniLangExceptions.h
-/home/marc/Uni 3rd Year/Compilers/src/include/MiniLangExceptions.h
-include/ParserException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ParserException.h
+include/Exceptions/MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
+include/Exceptions/ParserException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/ParserException.h
 
 /home/marc/Uni 3rd Year/Compilers/src/ParserException.cpp
-include/ParserException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ParserException.h
+include/Exceptions/ParserException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/ParserException.h
 
 /home/marc/Uni 3rd Year/Compilers/src/Token.cpp
 include/Token.h
@@ -47,12 +79,34 @@ include/Token.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h
 ASTExpression_Node.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
+ASTNumberExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
 string
 -
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBooleanLiteralExprNode.h
+ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTLiteralExprNode.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
 ASTNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFunctionCallExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIdentifierExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIntegerLiteralExprNode.h
+ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTLiteralExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
 vector
@@ -66,6 +120,34 @@ string
 ASTExpression_Node.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
 
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTRealLiteralExprNode.h
+ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStringLiteralExprNode.h
+ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTSubExpressionExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTUnaryExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
+string
+-
+
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/ParserException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
+
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
 string
 -
@@ -78,14 +160,6 @@ stack
 Token.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
-MiniLangExceptions.h
-/home/marc/Uni 3rd Year/Compilers/src/include/MiniLangExceptions.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/MiniLangExceptions.h
-string
--
-
 /home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
 Lexer.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
@@ -95,10 +169,6 @@ ASTNodes/ASTNumberExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
 ASTNodes/ASTBinaryExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ParserException.h
-MiniLangExceptions.h
-/home/marc/Uni 3rd Year/Compilers/src/include/MiniLangExceptions.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 iostream
@@ -111,6 +181,6 @@ include/Lexer.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
 include/Parser.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
-include/LexerException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/LexerException.h
+include/Exceptions/LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h
 

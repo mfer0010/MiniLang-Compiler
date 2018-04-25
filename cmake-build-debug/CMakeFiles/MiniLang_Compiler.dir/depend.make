@@ -5,6 +5,29 @@ CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.o: ../src/ASTBinaryEx
 CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.o: ../src/include/ASTNodes/ASTBinaryExprNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.o: ../src/include/ASTNodes/ASTNumberExprNode.h
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.o: ../src/ASTBooleanLiteralExprNode.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTBooleanLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.cpp.o: ../src/ASTFunctionCallExprNode.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.cpp.o: ../src/include/ASTNodes/ASTFunctionCallExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.o: ../src/ASTIdentifierExprNode.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.o: ../src/include/ASTNodes/ASTIdentifierExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIntegerLiteralExprNode.cpp.o: ../src/ASTIntegerLiteralExprNode.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIntegerLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIntegerLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTIntegerLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIntegerLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIntegerLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.o: ../src/ASTNode.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
@@ -14,30 +37,52 @@ CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o: ../src/include/AST
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o: ../src/include/ASTNodes/ASTNumberExprNode.h
 
+CMakeFiles/MiniLang_Compiler.dir/src/ASTRealLiteralExprNode.cpp.o: ../src/ASTRealLiteralExprNode.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/ASTRealLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTRealLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTRealLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTRealLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTRealLiteralExprNode.h
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTStringLiteralExprNode.cpp.o: ../src/ASTStringLiteralExprNode.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/ASTStringLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTStringLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTStringLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTStringLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTStringLiteralExprNode.h
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTSubExpressionExprNode.cpp.o: ../src/ASTSubExpressionExprNode.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/ASTSubExpressionExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTSubExpressionExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTSubExpressionExprNode.cpp.o: ../src/include/ASTNodes/ASTSubExpressionExprNode.h
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o: ../src/ASTUnaryExprNode.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o: ../src/include/ASTNodes/ASTUnaryExprNode.h
+
 CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/Lexer.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/Exceptions/LexerException.h
+CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/Exceptions/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/Lexer.h
-CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/LexerException.h
-CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o: ../src/include/Token.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o: ../src/LexerException.cpp
-CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o: ../src/include/LexerException.h
-CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o: ../src/include/MiniLangExceptions.h
+CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o: ../src/include/Exceptions/LexerException.h
+CMakeFiles/MiniLang_Compiler.dir/src/LexerException.cpp.o: ../src/include/Exceptions/MiniLangExceptions.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/Parser.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ASTNodes/ASTBinaryExprNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ASTNodes/ASTNumberExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Exceptions/MiniLangExceptions.h
+CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Exceptions/ParserException.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Lexer.h
-CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Parser.h
-CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/ParserException.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o: ../src/include/Token.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/ParserException.cpp
-CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/MiniLangExceptions.h
-CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/ParserException.h
+CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/Exceptions/MiniLangExceptions.h
+CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/Exceptions/ParserException.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o: ../src/Token.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o: ../src/include/Token.h
@@ -46,9 +91,9 @@ CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTBina
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTNumberExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/Exceptions/LexerException.h
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/Exceptions/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/Lexer.h
-CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/LexerException.h
-CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/Parser.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/Token.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/main.cpp

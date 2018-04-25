@@ -2,7 +2,7 @@
 
 #include "include/Lexer.h"
 #include "include/Parser.h"
-#include "include/LexerException.h"
+#include "include/Exceptions/LexerException.h"
 
 using namespace std;
 

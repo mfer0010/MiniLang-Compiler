@@ -6,15 +6,16 @@
 #define MINILANG_COMPILER_ASTBINARYEXPRNODE_H
 
 #include "ASTExpression_Node.h"
+#include "ASTNumberExprNode.h"
 #include <string>
 
 class ASTBinaryExprNode : public ASTExpression_Node {
 public:
     std::string _opertor;
-    ASTExpression_Node *LHS = nullptr;
-    ASTExpression_Node *RHS = nullptr;
+    ASTNumberExprNode *LHS = nullptr;
+    ASTNumberExprNode *RHS = nullptr;
 
-    ASTBinaryExprNode(std::string, ASTExpression_Node*, ASTExpression_Node*);
+    ASTBinaryExprNode(std::string, ASTNumberExprNode*, ASTNumberExprNode*);
 
     virtual ~ASTBinaryExprNode();
 };

@@ -23,7 +23,10 @@ private:
 
     Token currentToken = Token(TOK_Skip);
 
-    //ASTExpression_Node * parseExpression();
+
+    /* Uses ParseUnaryExpression and Parse Binary Expression to
+     * parse any expression and take care of operator precedence */
+    ASTExpression_Node * parseExpression();
 
     ASTNumberExprNode * parseUnaryExpression();
 

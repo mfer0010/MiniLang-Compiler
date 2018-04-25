@@ -2,7 +2,7 @@
 // Created by marc on 24/04/2018.
 //
 
-#include "include/LexerException.h"
+#include "include/Exceptions/LexerException.h"
 
 LexerException::LexerException(std::string _message, int line_no) {
     this->error = _message;
