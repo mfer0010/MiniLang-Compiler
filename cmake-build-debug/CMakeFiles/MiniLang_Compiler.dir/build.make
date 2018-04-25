@@ -465,6 +465,222 @@ CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o.provides: CMakeFiles
 CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o
 
 
+CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o: ../src/ASTVariableDeclStmtNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/ASTVariableDeclStmtNode.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/ASTVariableDeclStmtNode.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/ASTVariableDeclStmtNode.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o: ../src/ASTAssignmentStmtNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/ASTAssignmentStmtNode.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/ASTAssignmentStmtNode.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/ASTAssignmentStmtNode.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o: ../src/ASTPrintStmtNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/ASTPrintStmtNode.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/ASTPrintStmtNode.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/ASTPrintStmtNode.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o: ../src/ASTIfStmtNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/ASTIfStmtNode.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/ASTIfStmtNode.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/ASTIfStmtNode.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o: ../src/ASTBlockStmtNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/ASTBlockStmtNode.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/ASTBlockStmtNode.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/ASTBlockStmtNode.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o: ../src/ASTWhileStmtNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/ASTWhileStmtNode.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/ASTWhileStmtNode.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/ASTWhileStmtNode.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o: ../src/ASTReturnStmtNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/ASTReturnStmtNode.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/ASTReturnStmtNode.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/ASTReturnStmtNode.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o: ../src/ASTFormalParamStmtNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/ASTFormalParamStmtNode.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/ASTFormalParamStmtNode.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/ASTFormalParamStmtNode.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o: ../src/ASTFuncDeclStmtNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/ASTFuncDeclStmtNode.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/ASTFuncDeclStmtNode.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/ASTFuncDeclStmtNode.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o
+
+
 # Object files for target MiniLang_Compiler
 MiniLang_Compiler_OBJECTS = \
 "CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" \
@@ -483,7 +699,16 @@ MiniLang_Compiler_OBJECTS = \
 "CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.cpp.o" \
 "CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.o" \
 "CMakeFiles/MiniLang_Compiler.dir/src/ASTSubExpressionExprNode.cpp.o" \
-"CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o"
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o"
 
 # External object files for target MiniLang_Compiler
 MiniLang_Compiler_EXTERNAL_OBJECTS =
@@ -505,9 +730,18 @@ MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTSubExpressionExprNode.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/build.make
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable MiniLang_Compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable MiniLang_Compiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MiniLang_Compiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -532,6 +766,15 @@ CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/
 CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.o.requires
 CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTSubExpressionExprNode.cpp.o.requires
 CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.requires
 
 .PHONY : CMakeFiles/MiniLang_Compiler.dir/requires
 

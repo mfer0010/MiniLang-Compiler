@@ -19,7 +19,7 @@ void Parser::parse() {
         std::cout << e.printMessage() << std::endl;
         throw -1;
     }
-    std::cout << Node->LHS->value << Node->_opertor << Node->RHS->value;
+    //std::cout << Node->LHS->value << Node->_opertor << Node->RHS->value;
 }
 
 //ASTExpression_Node* Parser::parseExpression() {

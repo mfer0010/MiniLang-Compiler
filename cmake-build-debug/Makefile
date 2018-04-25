@@ -123,6 +123,33 @@ MiniLang_Compiler/fast:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/build
 .PHONY : MiniLang_Compiler/fast
 
+src/ASTAssignmentStmtNode.o: src/ASTAssignmentStmtNode.cpp.o
+
+.PHONY : src/ASTAssignmentStmtNode.o
+
+# target to build an object file
+src/ASTAssignmentStmtNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o
+.PHONY : src/ASTAssignmentStmtNode.cpp.o
+
+src/ASTAssignmentStmtNode.i: src/ASTAssignmentStmtNode.cpp.i
+
+.PHONY : src/ASTAssignmentStmtNode.i
+
+# target to preprocess a source file
+src/ASTAssignmentStmtNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.i
+.PHONY : src/ASTAssignmentStmtNode.cpp.i
+
+src/ASTAssignmentStmtNode.s: src/ASTAssignmentStmtNode.cpp.s
+
+.PHONY : src/ASTAssignmentStmtNode.s
+
+# target to generate assembly for a file
+src/ASTAssignmentStmtNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.s
+.PHONY : src/ASTAssignmentStmtNode.cpp.s
+
 src/ASTBinaryExprNode.o: src/ASTBinaryExprNode.cpp.o
 
 .PHONY : src/ASTBinaryExprNode.o
@@ -150,6 +177,33 @@ src/ASTBinaryExprNode.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.s
 .PHONY : src/ASTBinaryExprNode.cpp.s
 
+src/ASTBlockStmtNode.o: src/ASTBlockStmtNode.cpp.o
+
+.PHONY : src/ASTBlockStmtNode.o
+
+# target to build an object file
+src/ASTBlockStmtNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o
+.PHONY : src/ASTBlockStmtNode.cpp.o
+
+src/ASTBlockStmtNode.i: src/ASTBlockStmtNode.cpp.i
+
+.PHONY : src/ASTBlockStmtNode.i
+
+# target to preprocess a source file
+src/ASTBlockStmtNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.i
+.PHONY : src/ASTBlockStmtNode.cpp.i
+
+src/ASTBlockStmtNode.s: src/ASTBlockStmtNode.cpp.s
+
+.PHONY : src/ASTBlockStmtNode.s
+
+# target to generate assembly for a file
+src/ASTBlockStmtNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.s
+.PHONY : src/ASTBlockStmtNode.cpp.s
+
 src/ASTBooleanLiteralExprNode.o: src/ASTBooleanLiteralExprNode.cpp.o
 
 .PHONY : src/ASTBooleanLiteralExprNode.o
@@ -176,6 +230,60 @@ src/ASTBooleanLiteralExprNode.s: src/ASTBooleanLiteralExprNode.cpp.s
 src/ASTBooleanLiteralExprNode.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.s
 .PHONY : src/ASTBooleanLiteralExprNode.cpp.s
+
+src/ASTFormalParamStmtNode.o: src/ASTFormalParamStmtNode.cpp.o
+
+.PHONY : src/ASTFormalParamStmtNode.o
+
+# target to build an object file
+src/ASTFormalParamStmtNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o
+.PHONY : src/ASTFormalParamStmtNode.cpp.o
+
+src/ASTFormalParamStmtNode.i: src/ASTFormalParamStmtNode.cpp.i
+
+.PHONY : src/ASTFormalParamStmtNode.i
+
+# target to preprocess a source file
+src/ASTFormalParamStmtNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.i
+.PHONY : src/ASTFormalParamStmtNode.cpp.i
+
+src/ASTFormalParamStmtNode.s: src/ASTFormalParamStmtNode.cpp.s
+
+.PHONY : src/ASTFormalParamStmtNode.s
+
+# target to generate assembly for a file
+src/ASTFormalParamStmtNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.s
+.PHONY : src/ASTFormalParamStmtNode.cpp.s
+
+src/ASTFuncDeclStmtNode.o: src/ASTFuncDeclStmtNode.cpp.o
+
+.PHONY : src/ASTFuncDeclStmtNode.o
+
+# target to build an object file
+src/ASTFuncDeclStmtNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o
+.PHONY : src/ASTFuncDeclStmtNode.cpp.o
+
+src/ASTFuncDeclStmtNode.i: src/ASTFuncDeclStmtNode.cpp.i
+
+.PHONY : src/ASTFuncDeclStmtNode.i
+
+# target to preprocess a source file
+src/ASTFuncDeclStmtNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.i
+.PHONY : src/ASTFuncDeclStmtNode.cpp.i
+
+src/ASTFuncDeclStmtNode.s: src/ASTFuncDeclStmtNode.cpp.s
+
+.PHONY : src/ASTFuncDeclStmtNode.s
+
+# target to generate assembly for a file
+src/ASTFuncDeclStmtNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.s
+.PHONY : src/ASTFuncDeclStmtNode.cpp.s
 
 src/ASTFunctionCallExprNode.o: src/ASTFunctionCallExprNode.cpp.o
 
@@ -230,6 +338,33 @@ src/ASTIdentifierExprNode.s: src/ASTIdentifierExprNode.cpp.s
 src/ASTIdentifierExprNode.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.s
 .PHONY : src/ASTIdentifierExprNode.cpp.s
+
+src/ASTIfStmtNode.o: src/ASTIfStmtNode.cpp.o
+
+.PHONY : src/ASTIfStmtNode.o
+
+# target to build an object file
+src/ASTIfStmtNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o
+.PHONY : src/ASTIfStmtNode.cpp.o
+
+src/ASTIfStmtNode.i: src/ASTIfStmtNode.cpp.i
+
+.PHONY : src/ASTIfStmtNode.i
+
+# target to preprocess a source file
+src/ASTIfStmtNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.i
+.PHONY : src/ASTIfStmtNode.cpp.i
+
+src/ASTIfStmtNode.s: src/ASTIfStmtNode.cpp.s
+
+.PHONY : src/ASTIfStmtNode.s
+
+# target to generate assembly for a file
+src/ASTIfStmtNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.s
+.PHONY : src/ASTIfStmtNode.cpp.s
 
 src/ASTIntegerLiteralExprNode.o: src/ASTIntegerLiteralExprNode.cpp.o
 
@@ -312,6 +447,33 @@ src/ASTNumberExprNode.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.s
 .PHONY : src/ASTNumberExprNode.cpp.s
 
+src/ASTPrintStmtNode.o: src/ASTPrintStmtNode.cpp.o
+
+.PHONY : src/ASTPrintStmtNode.o
+
+# target to build an object file
+src/ASTPrintStmtNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o
+.PHONY : src/ASTPrintStmtNode.cpp.o
+
+src/ASTPrintStmtNode.i: src/ASTPrintStmtNode.cpp.i
+
+.PHONY : src/ASTPrintStmtNode.i
+
+# target to preprocess a source file
+src/ASTPrintStmtNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.i
+.PHONY : src/ASTPrintStmtNode.cpp.i
+
+src/ASTPrintStmtNode.s: src/ASTPrintStmtNode.cpp.s
+
+.PHONY : src/ASTPrintStmtNode.s
+
+# target to generate assembly for a file
+src/ASTPrintStmtNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.s
+.PHONY : src/ASTPrintStmtNode.cpp.s
+
 src/ASTRealLiteralExprNode.o: src/ASTRealLiteralExprNode.cpp.o
 
 .PHONY : src/ASTRealLiteralExprNode.o
@@ -338,6 +500,33 @@ src/ASTRealLiteralExprNode.s: src/ASTRealLiteralExprNode.cpp.s
 src/ASTRealLiteralExprNode.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTRealLiteralExprNode.cpp.s
 .PHONY : src/ASTRealLiteralExprNode.cpp.s
+
+src/ASTReturnStmtNode.o: src/ASTReturnStmtNode.cpp.o
+
+.PHONY : src/ASTReturnStmtNode.o
+
+# target to build an object file
+src/ASTReturnStmtNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o
+.PHONY : src/ASTReturnStmtNode.cpp.o
+
+src/ASTReturnStmtNode.i: src/ASTReturnStmtNode.cpp.i
+
+.PHONY : src/ASTReturnStmtNode.i
+
+# target to preprocess a source file
+src/ASTReturnStmtNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.i
+.PHONY : src/ASTReturnStmtNode.cpp.i
+
+src/ASTReturnStmtNode.s: src/ASTReturnStmtNode.cpp.s
+
+.PHONY : src/ASTReturnStmtNode.s
+
+# target to generate assembly for a file
+src/ASTReturnStmtNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.s
+.PHONY : src/ASTReturnStmtNode.cpp.s
 
 src/ASTStringLiteralExprNode.o: src/ASTStringLiteralExprNode.cpp.o
 
@@ -419,6 +608,60 @@ src/ASTUnaryExprNode.s: src/ASTUnaryExprNode.cpp.s
 src/ASTUnaryExprNode.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.s
 .PHONY : src/ASTUnaryExprNode.cpp.s
+
+src/ASTVariableDeclStmtNode.o: src/ASTVariableDeclStmtNode.cpp.o
+
+.PHONY : src/ASTVariableDeclStmtNode.o
+
+# target to build an object file
+src/ASTVariableDeclStmtNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o
+.PHONY : src/ASTVariableDeclStmtNode.cpp.o
+
+src/ASTVariableDeclStmtNode.i: src/ASTVariableDeclStmtNode.cpp.i
+
+.PHONY : src/ASTVariableDeclStmtNode.i
+
+# target to preprocess a source file
+src/ASTVariableDeclStmtNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.i
+.PHONY : src/ASTVariableDeclStmtNode.cpp.i
+
+src/ASTVariableDeclStmtNode.s: src/ASTVariableDeclStmtNode.cpp.s
+
+.PHONY : src/ASTVariableDeclStmtNode.s
+
+# target to generate assembly for a file
+src/ASTVariableDeclStmtNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.s
+.PHONY : src/ASTVariableDeclStmtNode.cpp.s
+
+src/ASTWhileStmtNode.o: src/ASTWhileStmtNode.cpp.o
+
+.PHONY : src/ASTWhileStmtNode.o
+
+# target to build an object file
+src/ASTWhileStmtNode.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o
+.PHONY : src/ASTWhileStmtNode.cpp.o
+
+src/ASTWhileStmtNode.i: src/ASTWhileStmtNode.cpp.i
+
+.PHONY : src/ASTWhileStmtNode.i
+
+# target to preprocess a source file
+src/ASTWhileStmtNode.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.i
+.PHONY : src/ASTWhileStmtNode.cpp.i
+
+src/ASTWhileStmtNode.s: src/ASTWhileStmtNode.cpp.s
+
+.PHONY : src/ASTWhileStmtNode.s
+
+# target to generate assembly for a file
+src/ASTWhileStmtNode.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.s
+.PHONY : src/ASTWhileStmtNode.cpp.s
 
 src/Lexer.o: src/Lexer.cpp.o
 
@@ -591,18 +834,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MiniLang_Compiler"
+	@echo "... src/ASTAssignmentStmtNode.o"
+	@echo "... src/ASTAssignmentStmtNode.i"
+	@echo "... src/ASTAssignmentStmtNode.s"
 	@echo "... src/ASTBinaryExprNode.o"
 	@echo "... src/ASTBinaryExprNode.i"
 	@echo "... src/ASTBinaryExprNode.s"
+	@echo "... src/ASTBlockStmtNode.o"
+	@echo "... src/ASTBlockStmtNode.i"
+	@echo "... src/ASTBlockStmtNode.s"
 	@echo "... src/ASTBooleanLiteralExprNode.o"
 	@echo "... src/ASTBooleanLiteralExprNode.i"
 	@echo "... src/ASTBooleanLiteralExprNode.s"
+	@echo "... src/ASTFormalParamStmtNode.o"
+	@echo "... src/ASTFormalParamStmtNode.i"
+	@echo "... src/ASTFormalParamStmtNode.s"
+	@echo "... src/ASTFuncDeclStmtNode.o"
+	@echo "... src/ASTFuncDeclStmtNode.i"
+	@echo "... src/ASTFuncDeclStmtNode.s"
 	@echo "... src/ASTFunctionCallExprNode.o"
 	@echo "... src/ASTFunctionCallExprNode.i"
 	@echo "... src/ASTFunctionCallExprNode.s"
 	@echo "... src/ASTIdentifierExprNode.o"
 	@echo "... src/ASTIdentifierExprNode.i"
 	@echo "... src/ASTIdentifierExprNode.s"
+	@echo "... src/ASTIfStmtNode.o"
+	@echo "... src/ASTIfStmtNode.i"
+	@echo "... src/ASTIfStmtNode.s"
 	@echo "... src/ASTIntegerLiteralExprNode.o"
 	@echo "... src/ASTIntegerLiteralExprNode.i"
 	@echo "... src/ASTIntegerLiteralExprNode.s"
@@ -612,9 +870,15 @@ help:
 	@echo "... src/ASTNumberExprNode.o"
 	@echo "... src/ASTNumberExprNode.i"
 	@echo "... src/ASTNumberExprNode.s"
+	@echo "... src/ASTPrintStmtNode.o"
+	@echo "... src/ASTPrintStmtNode.i"
+	@echo "... src/ASTPrintStmtNode.s"
 	@echo "... src/ASTRealLiteralExprNode.o"
 	@echo "... src/ASTRealLiteralExprNode.i"
 	@echo "... src/ASTRealLiteralExprNode.s"
+	@echo "... src/ASTReturnStmtNode.o"
+	@echo "... src/ASTReturnStmtNode.i"
+	@echo "... src/ASTReturnStmtNode.s"
 	@echo "... src/ASTStringLiteralExprNode.o"
 	@echo "... src/ASTStringLiteralExprNode.i"
 	@echo "... src/ASTStringLiteralExprNode.s"
@@ -624,6 +888,12 @@ help:
 	@echo "... src/ASTUnaryExprNode.o"
 	@echo "... src/ASTUnaryExprNode.i"
 	@echo "... src/ASTUnaryExprNode.s"
+	@echo "... src/ASTVariableDeclStmtNode.o"
+	@echo "... src/ASTVariableDeclStmtNode.i"
+	@echo "... src/ASTVariableDeclStmtNode.s"
+	@echo "... src/ASTWhileStmtNode.o"
+	@echo "... src/ASTWhileStmtNode.i"
+	@echo "... src/ASTWhileStmtNode.s"
 	@echo "... src/Lexer.o"
 	@echo "... src/Lexer.i"
 	@echo "... src/Lexer.s"

@@ -11,11 +11,11 @@
 
 class ASTBinaryExprNode : public ASTExpression_Node {
 public:
-    std::string _opertor;
-    ASTNumberExprNode *LHS = nullptr;
-    ASTNumberExprNode *RHS = nullptr;
+    std::string _operator;
+    ASTExpression_Node *LHS = nullptr;
+    ASTExpression_Node *RHS = nullptr;
 
-    ASTBinaryExprNode(std::string, ASTNumberExprNode*, ASTNumberExprNode*);
+    ASTBinaryExprNode(std::string, ASTExpression_Node*, ASTExpression_Node*);
 
     virtual ~ASTBinaryExprNode();
 };
