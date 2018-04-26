@@ -10,6 +10,7 @@
 #include "ASTExpression_Node.h"
 
 class ASTIfStmtNode : public ASTStatement_Node {
+public:
     ASTExpression_Node *expression;
     ASTStatement_Node *ifBlock;
     ASTStatement_Node *elseBlock = nullptr; //optional

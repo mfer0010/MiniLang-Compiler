@@ -18,6 +18,8 @@
 #include "ASTNodes/ASTReturnStmtNode.h"
 #include "ASTNodes/ASTFuncDeclStmtNode.h"
 #include "ASTNodes/ASTBlockStmtNode.h"
+#include "ASTNodes/ASTLiteralExprNode.h"
+#include "ASTNodes/ASTFunctionCallExprNode.h"
 
 
 class Parser {
@@ -74,7 +76,7 @@ private:
     ASTExpression_Node *parseExpression();
 
     //<FormalParams> ::= <FormalParam> {',' <FormalParam>}
-    std::vector<ASTFormalParamStmtNode *> parseFormalParams();
+    void parseFormalParams(std::vector<ASTFormalParamStmtNode *> &);
 
     //<FormalParam> ::= <Identifier> ':' <Type>
     ASTFormalParamStmtNode *parseFormalParam();
@@ -92,6 +94,19 @@ private:
      *          | <Unary>
      */
     ASTExpression_Node *parseFactor();
+
+    //<FunctionCall> ::= <Identifier> '(' [<ActualParams>] ')'
+    ASTFunctionCallExprNode *parseFunctionCall();
+
+    //<ActualParams> ::= <Expression> {',' <Expression>}
+    void parseActualParams(std::vector<ASTExpression_Node *> &);
+
+    /*<Literal> ::= <BooleanLiteral>
+     *          | <IntegerLiteral>
+     *          | <RealLiteral>
+     *          | <StringLiteral>
+    */
+    ASTLiteralExprNode *parseLiteral();
 
 //    ASTNumberExprNode *parseUnaryExpression();
 //
