@@ -27,8 +27,7 @@ class Parser {
 public:
     Parser(Lexer *);
 
-    //std::vector<ASTStatement_Node *> parse();
-    void parse();
+    std::vector<ASTStatement_Node *> parse();
 private:
     Lexer * lexer;
 

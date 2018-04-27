@@ -51,6 +51,7 @@ Token Lexer::nextToken() {
     std::stack <STATE> stack;
     stack.push(SE);
     char ch;
+    Token toReturn;
 
     //Scanning Loop
     while (state!=SE) {
@@ -95,7 +96,12 @@ Token Lexer::nextToken() {
     //std::cout << state << std::endl;
     //Report Result
     if (isFinalState(state)) {
-        return toToken(lexeme, state);
+        toReturn = toToken(lexeme, state);
+        //do not feed the comments to the Parser:
+        if(toReturn.token_name == TOK_Skip) {
+            return nextToken();
+        }
+        return toReturn;
     } else {
         throw LexerException("Lexer Error, char at " + std::to_string(programPointer), getErrorLine());
 //        error = "Lexer Error at line: " + std::to_string(getErrorLine()) + "\nChar at " + std::to_string(programPointer);

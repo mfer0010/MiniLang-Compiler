@@ -12,9 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa3c8dca-6828-4e9d-b712-895d3b817258" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Lexer.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler" afterPath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampleProgram.ml" afterPath="$PROJECT_DIR$/sampleProgram.ml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lexer.cpp" afterPath="$PROJECT_DIR$/src/Lexer.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parser.cpp" afterPath="$PROJECT_DIR$/src/Parser.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTIfStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTIfStmtNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/Parser.h" afterPath="$PROJECT_DIR$/src/include/Parser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Parser.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Parser.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/include/Parser.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1494">
-              <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+            <state relative-caret-position="-954">
+              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding>
                 <element signature="e#112#130#0" expanded="true" />
               </folding>
@@ -47,25 +57,62 @@
       <file leaf-file-name="Parser.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parser.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="1854">
+              <caret line="345" column="38" lean-forward="false" selection-start-line="345" selection-start-column="38" selection-end-line="345" selection-end-column="38" />
               <folding>
-                <element signature="e#1870#3146#0" expanded="false" />
-                <element signature="e#3148#3951#0" expanded="false" />
-                <element signature="e#3953#4310#0" expanded="false" />
-                <element signature="e#4312#5172#0" expanded="false" />
-                <element signature="e#5174#5791#0" expanded="false" />
-                <element signature="e#5793#6153#0" expanded="false" />
-                <element signature="e#7581#8131#0" expanded="false" />
-                <element signature="e#8133#8883#0" expanded="false" />
-                <element signature="e#8885#9409#0" expanded="false" />
-                <element signature="e#9411#9900#0" expanded="false" />
-                <element signature="e#9902#12006#0" expanded="false" />
-                <element signature="e#12008#12653#0" expanded="false" />
-                <element signature="e#12655#13258#0" expanded="false" />
-                <element signature="e#13260#14031#0" expanded="false" />
-                <element signature="e#14033#14918#0" expanded="false" />
-                <element signature="e#14921#15451#0" expanded="false" />
+                <element signature="e#41#68#0" expanded="true" />
+                <element signature="e#1896#3172#0" expanded="false" />
+                <element signature="e#3174#3977#0" expanded="false" />
+                <element signature="e#3979#4336#0" expanded="false" />
+                <element signature="e#4338#5198#0" expanded="false" />
+                <element signature="e#5200#5817#0" expanded="false" />
+                <element signature="e#5819#6179#0" expanded="false" />
+                <element signature="e#7607#8147#0" expanded="false" />
+                <element signature="e#8149#8899#0" expanded="false" />
+                <element signature="e#8901#9425#0" expanded="false" />
+                <element signature="e#9427#9916#0" expanded="false" />
+                <element signature="e#9918#11950#0" expanded="false" />
+                <element signature="e#12610#13213#0" expanded="false" />
+                <element signature="e#13215#13986#0" expanded="false" />
+                <element signature="e#13988#14873#0" expanded="false" />
+                <element signature="e#14876#15406#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sampleProgram.ml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sampleProgram.ml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lexer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
+              <folding>
+                <element signature="e#3098#3373#0" expanded="false" />
+                <element signature="e#3375#4774#0" expanded="false" />
+                <element signature="e#4776#5711#0" expanded="false" />
+                <element signature="e#6727#7002#0" expanded="false" />
+                <element signature="e#7004#7773#0" expanded="false" />
+                <element signature="e#7775#8315#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -79,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sampleProgram.ml" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTLiteralExprNode.h" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h" />
         <option value="$PROJECT_DIR$/src/ASTBooleanLiteralExprNode.h" />
         <option value="$PROJECT_DIR$/src/ASTBooleanLiteralExprNode.cpp" />
         <option value="$PROJECT_DIR$/src/ASTIntegerLiteralExprNode.h" />
@@ -130,6 +174,9 @@
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTIfStmtNode.h" />
         <option value="$PROJECT_DIR$/src/include/Parser.h" />
         <option value="$PROJECT_DIR$/src/Parser.cpp" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/Lexer.cpp" />
+        <option value="$PROJECT_DIR$/sampleProgram.ml" />
       </list>
     </option>
   </component>
@@ -465,24 +512,24 @@
       <workItem from="1524480406218" duration="557000" />
       <workItem from="1524480998850" duration="6694000" />
       <workItem from="1524488088029" duration="10207000" />
-      <workItem from="1524567019077" duration="35965000" />
+      <workItem from="1524567019077" duration="37434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83331000" />
+    <option name="totallyTimeSpent" value="84800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27086383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12884334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52606636" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3665087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13270143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43759874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -519,6 +566,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ml" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -529,24 +579,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTLiteralExprNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -901,19 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="213" column="51" lean-forward="true" selection-start-line="213" selection-start-column="51" selection-end-line="213" selection-end-column="51" />
-          <folding>
-            <element signature="e#3188#4587#0" expanded="false" />
-            <element signature="e#6540#6815#0" expanded="false" />
-            <element signature="e#6817#7586#0" expanded="false" />
-            <element signature="e#7588#8128#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -938,38 +957,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser.cpp">
+    <entry file="file://$PROJECT_DIR$/src/include/Parser.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="-954">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
-            <element signature="e#1870#3146#0" expanded="false" />
-            <element signature="e#3148#3951#0" expanded="false" />
-            <element signature="e#3953#4310#0" expanded="false" />
-            <element signature="e#4312#5172#0" expanded="false" />
-            <element signature="e#5174#5791#0" expanded="false" />
-            <element signature="e#5793#6153#0" expanded="false" />
-            <element signature="e#7581#8131#0" expanded="false" />
-            <element signature="e#8133#8883#0" expanded="false" />
-            <element signature="e#8885#9409#0" expanded="false" />
-            <element signature="e#9411#9900#0" expanded="false" />
-            <element signature="e#9902#12006#0" expanded="false" />
-            <element signature="e#12008#12653#0" expanded="false" />
-            <element signature="e#12655#13258#0" expanded="false" />
-            <element signature="e#13260#14031#0" expanded="false" />
-            <element signature="e#14033#14918#0" expanded="false" />
-            <element signature="e#14921#15451#0" expanded="false" />
+            <element signature="e#112#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/Parser.h">
+    <entry file="file://$PROJECT_DIR$/src/Parser.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+        <state relative-caret-position="1854">
+          <caret line="345" column="38" lean-forward="false" selection-start-line="345" selection-start-column="38" selection-end-line="345" selection-end-column="38" />
           <folding>
-            <element signature="e#112#130#0" expanded="true" />
+            <element signature="e#41#68#0" expanded="true" />
+            <element signature="e#1896#3172#0" expanded="false" />
+            <element signature="e#3174#3977#0" expanded="false" />
+            <element signature="e#3979#4336#0" expanded="false" />
+            <element signature="e#4338#5198#0" expanded="false" />
+            <element signature="e#5200#5817#0" expanded="false" />
+            <element signature="e#5819#6179#0" expanded="false" />
+            <element signature="e#7607#8147#0" expanded="false" />
+            <element signature="e#8149#8899#0" expanded="false" />
+            <element signature="e#8901#9425#0" expanded="false" />
+            <element signature="e#9427#9916#0" expanded="false" />
+            <element signature="e#9918#11950#0" expanded="false" />
+            <element signature="e#12610#13213#0" expanded="false" />
+            <element signature="e#13215#13986#0" expanded="false" />
+            <element signature="e#13988#14873#0" expanded="false" />
+            <element signature="e#14876#15406#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lexer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
+          <folding>
+            <element signature="e#3098#3373#0" expanded="false" />
+            <element signature="e#3375#4774#0" expanded="false" />
+            <element signature="e#4776#5711#0" expanded="false" />
+            <element signature="e#6727#7002#0" expanded="false" />
+            <element signature="e#7004#7773#0" expanded="false" />
+            <element signature="e#7775#8315#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampleProgram.ml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

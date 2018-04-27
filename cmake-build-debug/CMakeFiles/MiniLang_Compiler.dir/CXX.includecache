@@ -99,10 +99,22 @@ include/Exceptions/LexerException.h
 /home/marc/Uni 3rd Year/Compilers/src/Parser.cpp
 include/Parser.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
-include/Exceptions/MiniLangExceptions.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
 include/Exceptions/ParserException.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/ParserException.h
+include/ASTNodes/ASTBooleanLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBooleanLiteralExprNode.h
+include/ASTNodes/ASTIntegerLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIntegerLiteralExprNode.h
+include/ASTNodes/ASTRealLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTRealLiteralExprNode.h
+include/ASTNodes/ASTStringLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStringLiteralExprNode.h
+include/ASTNodes/ASTIdentifierExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIdentifierExprNode.h
+include/ASTNodes/ASTUnaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTUnaryExprNode.h
+include/ASTNodes/ASTSubExpressionExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTSubExpressionExprNode.h
 
 /home/marc/Uni 3rd Year/Compilers/src/ParserException.cpp
 include/Exceptions/ParserException.h
@@ -259,6 +271,28 @@ ASTNodes/ASTNumberExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
 ASTNodes/ASTBinaryExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h
+ASTNodes/ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStatement_Node.h
+ASTNodes/ASTVariableDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTVariableDeclStmtNode.h
+ASTNodes/ASTAssignmentStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTAssignmentStmtNode.h
+ASTNodes/ASTPrintStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTPrintStmtNode.h
+ASTNodes/ASTIfStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIfStmtNode.h
+ASTNodes/ASTWhileStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTWhileStmtNode.h
+ASTNodes/ASTReturnStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTReturnStmtNode.h
+ASTNodes/ASTFuncDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFuncDeclStmtNode.h
+ASTNodes/ASTBlockStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBlockStmtNode.h
+ASTNodes/ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTLiteralExprNode.h
+ASTNodes/ASTFunctionCallExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFunctionCallExprNode.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 iostream

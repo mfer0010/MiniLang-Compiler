@@ -17,12 +17,12 @@ Parser::Parser(Lexer * lexer) {
     this->lexer = lexer;
 }
 
-void Parser::parse() {
+std::vector<ASTStatement_Node *> Parser::parse() {
     std::vector<ASTStatement_Node *> statementNodes;
     while (lexer->oneTokenLookahead().token_name != TOK_EOF) {
         statementNodes.push_back(parseStatement());
     }
-    //return statementNodes;
+    return statementNodes;
 }
 
 ASTStatement_Node * Parser::parseStatement() {
@@ -232,7 +232,7 @@ ASTBlockStmtNode * Parser::parseBlock() {
         throw ParserException("Expected LeftBrace Token",lexer->getErrorLine());
     }
 
-    std::vector<ASTStatement_Node *> statements = nullptr;
+    std::vector<ASTStatement_Node *> statements;
     while(lexer->oneTokenLookahead().token_name != TOK_RightBrace) {
         statements.push_back(parseStatement());
     }
@@ -322,26 +322,25 @@ ASTExpression_Node * Parser::parseFactor() {
 
     //if token wasn't a literal then it must be a FunctionCall or an identifier
     if (literal == nullptr) {
-        switch (currentToken.token_name) {
-            case TOK_Identifier:
-                //could be a function call or an identifier
-                ASTFunctionCallExprNode *funcCall = parseFunctionCall();
-                if (funcCall != nullptr) {
-                    return funcCall;
-                }
-                return new ASTIdentifierExprNode(currentToken.string_value);
-            default:
-                throw ParserException("Expected Factor", lexer->getErrorLine());
+        if (currentToken.token_name == TOK_Identifier) {
+            //could be a function call or an identifier
+            ASTFunctionCallExprNode *funcCall = parseFunctionCall();
+            if (funcCall != nullptr) {
+                return funcCall;
+            }
+            return new ASTIdentifierExprNode(currentToken.string_value);
         }
+        throw ParserException("Expected Factor", lexer->getErrorLine());
     } else {
         return literal;
     }
 }
 
 ASTLiteralExprNode * Parser::parseLiteral(){
+    bool value;
     switch(currentToken.token_name) {
         case TOK_Bool:
-            bool value = currentToken.string_value == "TRUE";
+            value = currentToken.string_value == "TRUE";
             return new ASTBooleanLiteralExprNode(value);
         case TOK_Number:
             if (currentToken.string_value == "INT") {
