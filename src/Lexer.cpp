@@ -3,6 +3,7 @@
 //
 
 #include "include/Lexer.h"
+#include "include/Exceptions/LexerException.h"
 
 Lexer::Lexer() {}
 
@@ -50,6 +51,7 @@ Token Lexer::nextToken() {
     std::stack <STATE> stack;
     stack.push(SE);
     char ch;
+    Token toReturn;
 
     //Scanning Loop
     while (state!=SE) {
@@ -77,13 +79,15 @@ Token Lexer::nextToken() {
     }
 
     //Rollback Loop
-    while (!isFinalState(state) || state == SE) {
+    while (!isFinalState(state) && state == SE) {
         state = stack.top();
         stack.pop();
         //if we have a */ we need to remove both these characters
-        if (lexeme.back() == '/' && lexeme.at(lexeme.length()-2)=='*'){
-            lexeme.pop_back();
-            programPointer--;
+        if (lexeme.length() > 1) {
+            if (lexeme.back() == '/' && lexeme.at(lexeme.length() - 2) == '*') {
+                lexeme.pop_back();
+                programPointer--;
+            }
         }
         lexeme.pop_back();
         programPointer--;
@@ -92,11 +96,18 @@ Token Lexer::nextToken() {
     //std::cout << state << std::endl;
     //Report Result
     if (isFinalState(state)) {
-        return toToken(lexeme, state);
+        toReturn = toToken(lexeme, state);
+        //do not feed the comments to the Parser:
+        if(toReturn.token_name == TOK_Skip) {
+            return nextToken();
+        }
+        return toReturn;
     } else {
-        error = "Lexer Error at line: " + std::to_string(getErrorLine()) + "\nChar at " + std::to_string(programPointer);
-        std::cout << error << std::endl;
-        std::cout << "\""<<lexeme<< "\"" << std::endl;
+        throw LexerException("Lexer Error, char at " + std::to_string(programPointer), getErrorLine());
+//        error = "Lexer Error at line: " + std::to_string(getErrorLine()) + "\nChar at " + std::to_string(programPointer);
+//        std::cout << error << std::endl;
+//        std::cout << "\""<<lexeme<< "\"" << std::endl;
+//        return (Token(TOK_Error));
         //throw std::runtime_error(error);
     }
 }
@@ -282,4 +293,11 @@ int Lexer::getErrorLine() {
         }
     }
     return(counter);
+}
+
+Token Lexer::oneTokenLookahead() {
+    unsigned int currentProgramPointer = programPointer;
+    Token toReturn = nextToken();
+    programPointer = currentProgramPointer;
+    return toReturn;
 }

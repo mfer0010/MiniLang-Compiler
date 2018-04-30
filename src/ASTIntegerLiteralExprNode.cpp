@@ -1,0 +1,11 @@
+//
+// Created by marc on 25/04/2018.
+//
+
+#include "include/ASTNodes/ASTIntegerLiteralExprNode.h"
+
+ASTIntegerLiteralExprNode::ASTIntegerLiteralExprNode(int value) {
+    this->literalValue = value;
+}
+
+ASTIntegerLiteralExprNode::~ASTIntegerLiteralExprNode() {}

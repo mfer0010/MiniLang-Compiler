@@ -78,7 +78,7 @@ public:
     //constructors:
     Token(); //empty constructor initializes with TOK_Skip
     Token(TOKEN);
-    Token(TOKEN, double);
+    //Token(TOKEN, double);
     Token(TOKEN, std::string);
     Token(TOKEN, double, std::string);
 
