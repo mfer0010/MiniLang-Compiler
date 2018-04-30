@@ -1,17 +1,21 @@
-def funcSquare(x:real) : real {
-    return x*x;
-}
-
-def funcGreaterThan(x:real, y:real) : bool {
-    var ans : bool = true; //YA
-    if (y>x) {
-        set ans = false;
+def funcPow( x : real, n: int) : real {
+    var y : real = 1.0;
+    if(n > 0) {
+        while (n > 0) {
+            set y = y * x;
+            set n = n-1;
+        }
     }
-    return ans;
+    else {
+        while (n<0) {
+            set y = y/x;
+            set n = n+1;
+        }
+    }
+    return y;
 }
 
 var x : real = 2.4;
-//var y : real = funcSquare(2.5);
+var z : int = 3;
+var y : real = funcPow(2.3,5);
 print y;
-//print funcGreaterThan(x,2.3);
-//print funcGreaterThan(x,funcSquare(1.555));

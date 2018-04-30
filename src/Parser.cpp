@@ -421,14 +421,23 @@ ASTFunctionCallExprNode * Parser::parseFunctionCall() {
 
 void Parser::parseActualParams(std::vector<ASTExpression_Node *> &args) {
     //<Expression>
-    while (lexer->oneTokenLookahead().token_name != TOK_RightBracket) {
+    if (lexer->oneTokenLookahead().token_name != TOK_RightBracket) {
+        //currentToken = lexer->nextToken();
         args.push_back(parseExpression());
 
-        currentToken = lexer->nextToken();//','|')'
-        if (currentToken.token_name != TOK_Comma &&
-                currentToken.token_name != TOK_RightBracket) {
-            throw ParserException("Expected Comma or Right Bracket",lexer->getErrorLine());
+        if (lexer->oneTokenLookahead().token_name == TOK_Comma) {
+            currentToken = lexer->nextToken();
+
+            if (lexer->oneTokenLookahead().token_name == TOK_RightBracket) {
+                throw ParserException("Expected Expression After Comma",lexer->getErrorLine());
+            }
+            parseActualParams(args);
         }
-        //currentToken = lexer->nextToken();
+//        currentToken = lexer->nextToken();//','|')'
+//        if (currentToken.token_name != TOK_Comma &&
+//                currentToken.token_name != TOK_RightBracket) {
+//            throw ParserException("Expected Comma or Right Bracket",lexer->getErrorLine());
+//        }
+//        //currentToken = lexer->nextToken();
     }
 }
