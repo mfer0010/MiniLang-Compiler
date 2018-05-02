@@ -17,6 +17,8 @@ public:
     ASTFunctionCallExprNode(std::string, std::vector<ASTExpression_Node *>);
 
     ~ASTFunctionCallExprNode();
+
+    virtual void accept(Visitor &v) override;
 };
 
 

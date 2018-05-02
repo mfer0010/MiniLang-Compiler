@@ -15,6 +15,8 @@ public:
     ASTSubExpressionExprNode(ASTExpression_Node *);
 
     ~ASTSubExpressionExprNode();
+
+    virtual void accept(Visitor &v) override;
 };
 
 

@@ -9,3 +9,7 @@ ASTIntegerLiteralExprNode::ASTIntegerLiteralExprNode(int value) {
 }
 
 ASTIntegerLiteralExprNode::~ASTIntegerLiteralExprNode() {}
+
+void ASTIntegerLiteralExprNode::accept(Visitor &v) {
+    v.visit(this);
+}

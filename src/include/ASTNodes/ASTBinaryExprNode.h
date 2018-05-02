@@ -18,6 +18,8 @@ public:
     ASTBinaryExprNode(std::string, ASTExpression_Node*, ASTExpression_Node*);
 
     virtual ~ASTBinaryExprNode();
+
+    virtual void accept(Visitor &v) override;
 };
 
 #endif //MINILANG_COMPILER_ASTBINARYEXPRNODE_H

@@ -15,6 +15,8 @@ public:
     ASTBooleanLiteralExprNode(bool);
 
     ~ASTBooleanLiteralExprNode();
+
+    virtual void accept(Visitor &v) override;
 };
 
 

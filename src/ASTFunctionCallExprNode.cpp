@@ -18,3 +18,7 @@ ASTFunctionCallExprNode::~ASTFunctionCallExprNode() {
         delete actualParam;
     }
 }
+
+void ASTFunctionCallExprNode::accept(Visitor &v) {
+    v.visit(this);
+}

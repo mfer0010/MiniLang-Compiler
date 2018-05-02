@@ -9,3 +9,7 @@ ASTStringLiteralExprNode::ASTStringLiteralExprNode(std::string value) {
 }
 
 ASTStringLiteralExprNode::~ASTStringLiteralExprNode() {}
+
+void ASTStringLiteralExprNode::accept(Visitor &v) {
+    v.visit(this);
+}

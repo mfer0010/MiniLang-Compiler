@@ -9,3 +9,7 @@ ASTIdentifierExprNode::ASTIdentifierExprNode(std::string identifier) {
 }
 
 ASTIdentifierExprNode::~ASTIdentifierExprNode() {}
+
+void ASTIdentifierExprNode::accept(Visitor &v) {
+    v.visit(this);
+}

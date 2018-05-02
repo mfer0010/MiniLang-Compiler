@@ -5,24 +5,28 @@
 #ifndef MINILANG_COMPILER_VISITOR_H_H
 #define MINILANG_COMPILER_VISITOR_H_H
 
-#include "ASTAssignmentStmtNode.h"
-#include "ASTBinaryExprNode.h"
-#include "ASTBlockStmtNode.h"
-#include "ASTBooleanLiteralExprNode.h"
-#include "ASTFormalParamStmtNode.h"
-#include "ASTFuncDeclStmtNode.h"
-#include "ASTFunctionCallExprNode.h"
-#include "ASTIdentifierExprNode.h"
-#include "ASTIfStmtNode.h"
-#include "ASTIntegerLiteralExprNode.h"
-#include "ASTPrintStmtNode.h"
-#include "ASTRealLiteralExprNode.h"
-#include "ASTReturnStmtNode.h"
-#include "ASTStringLiteralExprNode.h"
-#include "ASTSubExpressionExprNode.h"
-#include "ASTUnaryExprNode.h"
-#include "ASTVariableDeclStmtNode.h"
-#include "ASTWhileStmtNode.h"
+
+class ASTNode;
+class ASTAssignmentStmtNode;
+class ASTBinaryExprNode;
+class ASTBlockStmtNode;
+class ASTBooleanLiteralExprNode;
+class ASTFormalParamStmtNode;
+class ASTFuncDeclStmtNode;
+class ASTFunctionCallExprNode;
+class ASTIdentifierExprNode;
+class ASTIfStmtNode;
+class ASTIntegerLiteralExprNode;
+class ASTNumberExprNode;
+class ASTPrintStmtNode;
+class ASTRealLiteralExprNode;
+class ASTReturnStmtNode;
+class ASTStringLiteralExprNode;
+class ASTSubExpressionExprNode;
+class ASTUnaryExprNode;
+class ASTVariableDeclStmtNode;
+class ASTWhileStmtNode;
+
 
 class Visitor {
 public:

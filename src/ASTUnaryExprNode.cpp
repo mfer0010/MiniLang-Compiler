@@ -12,3 +12,7 @@ ASTUnaryExprNode::ASTUnaryExprNode(std::string prefix, ASTExpression_Node * expr
 ASTUnaryExprNode::~ASTUnaryExprNode() {
     delete expression;
 }
+
+void ASTUnaryExprNode::accept(Visitor &v) {
+    v.visit(this);
+}
