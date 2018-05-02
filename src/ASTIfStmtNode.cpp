@@ -21,6 +21,6 @@ ASTIfStmtNode::~ASTIfStmtNode() {
     delete elseBlock;
 }
 
-void ASTIfStmtNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTIfStmtNode::accept(Visitor *v) {
+    v->visit(this);
 }

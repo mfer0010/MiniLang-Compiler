@@ -69,6 +69,7 @@ CMakeFiles/MiniLang_Compiler.dir/src/ASTIntegerLiteralExprNode.cpp.o: ../src/inc
 
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.o: ../src/ASTNode.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.o: ../src/include/ASTNodes/Visitor.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o: ../src/ASTNumberExprNode.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
@@ -183,6 +184,7 @@ CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o: ../src/include/Exce
 CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o: ../src/include/Exceptions/VisitorException.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/XMLVisitor.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/Visitor.h
 CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/XMLVisitor.h
 CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/Exceptions/MiniLangExceptions.h

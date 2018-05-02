@@ -1,7 +1,7 @@
 //
 // Created by marc on 01/05/2018.
 //
-
+/*
 #ifndef MINILANG_COMPILER_XMLVISITOR_H
 #define MINILANG_COMPILER_XMLVISITOR_H
 
@@ -19,7 +19,7 @@ private:
 
     /*std::string printOperator(std::string _operator);
 
-    void printExpression(ASTExpression_Node * node);*/
+    void printExpression(ASTExpression_Node * node);
 
     virtual void visit(ASTAssignmentStmtNode *node) override;
 
@@ -68,3 +68,4 @@ public:
 };
 
 #endif //MINILANG_COMPILER_XMLVISITOR_H
+*/

@@ -19,7 +19,7 @@ public:
 
     virtual ~ASTBinaryExprNode();
 
-    virtual void accept(Visitor &v) override;
+    virtual void accept(Visitor *v) override;
 };
 
 #endif //MINILANG_COMPILER_ASTBINARYEXPRNODE_H

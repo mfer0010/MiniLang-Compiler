@@ -14,6 +14,6 @@ ASTBinaryExprNode::~ASTBinaryExprNode() {
     delete RHS;
 }
 
-void ASTBinaryExprNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTBinaryExprNode::accept(Visitor *v) {
+    v->visit(this);
 }

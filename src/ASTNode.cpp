@@ -22,3 +22,7 @@ ASTNode::~ASTNode() {
 void ASTNode::deleteStatement(ASTStatement_Node * statement) {
     delete statement;
 }
+
+void ASTNode::accept(Visitor *v) {
+    v->visit(this);
+}

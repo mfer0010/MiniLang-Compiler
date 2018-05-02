@@ -12,7 +12,7 @@ class ASTExpression_Node /*: public ASTNode*/ {
 public:
     virtual ~ASTExpression_Node() {};
 
-    virtual void accept(Visitor &v) = 0;
+    virtual void accept(Visitor *v) = 0;
 };
 
 #endif //MINILANG_COMPILER_ASTEXPRESSION_NODE_H

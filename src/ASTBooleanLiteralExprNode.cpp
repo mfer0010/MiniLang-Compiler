@@ -10,6 +10,6 @@ ASTBooleanLiteralExprNode::ASTBooleanLiteralExprNode(bool value) {
 
 ASTBooleanLiteralExprNode::~ASTBooleanLiteralExprNode() {}
 
-void ASTBooleanLiteralExprNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTBooleanLiteralExprNode::accept(Visitor *v) {
+    v->visit(this);
 }

@@ -19,6 +19,6 @@ ASTFunctionCallExprNode::~ASTFunctionCallExprNode() {
     }
 }
 
-void ASTFunctionCallExprNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTFunctionCallExprNode::accept(Visitor *v) {
+    v->visit(this);
 }

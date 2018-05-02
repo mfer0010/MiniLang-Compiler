@@ -1,9 +1,10 @@
 //
 // Created by marc on 01/05/2018.
 //
-
+/*
 #include "include/ASTNodes/XMLVisitor.h"
 #include "include/Exceptions/VisitorException.h"
+#include "include/ASTNodes/ASTNode.h"
 
 XMLVisitor::XMLVisitor() {}
 
@@ -23,10 +24,10 @@ void XMLVisitor::visit(ASTNode *node) {
     XMLFileOutput << word << "<Program>" << std::endl;
 
     indentationNo++;
-    for (auto const &children : node->statements) {
-        children.accept(this);
-    }
+
+
+
     indentationNo --;
     XMLFileOutput << word << "</Program>" << std::endl;
     XMLFileOutput.close();
-}
+}*/

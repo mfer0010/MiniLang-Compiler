@@ -13,6 +13,6 @@ ASTAssignmentStmtNode::~ASTAssignmentStmtNode() {
     delete expression;
 }
 
-void ASTAssignmentStmtNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTAssignmentStmtNode::accept(Visitor *v) {
+    v->visit(this);
 }

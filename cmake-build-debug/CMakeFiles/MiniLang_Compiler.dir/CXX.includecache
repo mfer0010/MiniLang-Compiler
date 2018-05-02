@@ -133,6 +133,8 @@ include/ASTNodes/XMLVisitor.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/XMLVisitor.h
 include/Exceptions/VisitorException.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/VisitorException.h
+include/ASTNodes/ASTNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTAssignmentStmtNode.h
 ASTStatement_Node.h
@@ -199,6 +201,8 @@ vector
 -
 algorithm
 -
+Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/Visitor.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
 string

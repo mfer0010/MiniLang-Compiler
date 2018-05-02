@@ -14,6 +14,6 @@ ASTBlockStmtNode::~ASTBlockStmtNode() {
     }
 }
 
-void ASTBlockStmtNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTBlockStmtNode::accept(Visitor *v) {
+    v->visit(this);
 }

@@ -17,7 +17,7 @@ public:
 
     virtual ~ASTNumberExprNode();
 
-    virtual void accept(Visitor &v) override;
+    virtual void accept(Visitor *v) override;
 };
 
 

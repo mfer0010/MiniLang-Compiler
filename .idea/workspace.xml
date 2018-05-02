@@ -13,38 +13,74 @@
   <component name="ChangeListManager">
     <list default="true" id="aa3c8dca-6828-4e9d-b712-895d3b817258" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTAssignmentStmtNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTBinaryExprNode.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTIdentifierExprNode.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTIfStmtNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTIntegerLiteralExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTIntegerLiteralExprNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTNumberExprNode.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTPrintStmtNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTRealLiteralExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTRealLiteralExprNode.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTStringLiteralExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTStringLiteralExprNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTSubExpressionExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTSubExpressionExprNode.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTUnaryExprNode.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTVariableDeclStmtNode.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler" afterPath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTAssignmentStmtNode.cpp" afterPath="$PROJECT_DIR$/src/ASTAssignmentStmtNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTBinaryExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTBinaryExprNode.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTBlockStmtNode.cpp" afterPath="$PROJECT_DIR$/src/ASTBlockStmtNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTBooleanLiteralExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTBooleanLiteralExprNode.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTFormalParamStmtNode.cpp" afterPath="$PROJECT_DIR$/src/ASTFormalParamStmtNode.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTFuncDeclStmtNode.cpp" afterPath="$PROJECT_DIR$/src/ASTFuncDeclStmtNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTFunctionCallExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTFunctionCallExprNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTIdentifierExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTIdentifierExprNode.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTIfStmtNode.cpp" afterPath="$PROJECT_DIR$/src/ASTIfStmtNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTIntegerLiteralExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTIntegerLiteralExprNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTNode.cpp" afterPath="$PROJECT_DIR$/src/ASTNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTNumberExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTNumberExprNode.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTPrintStmtNode.cpp" afterPath="$PROJECT_DIR$/src/ASTPrintStmtNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTRealLiteralExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTRealLiteralExprNode.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTReturnStmtNode.cpp" afterPath="$PROJECT_DIR$/src/ASTReturnStmtNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTStringLiteralExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTStringLiteralExprNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTSubExpressionExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTSubExpressionExprNode.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTUnaryExprNode.cpp" afterPath="$PROJECT_DIR$/src/ASTUnaryExprNode.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTVariableDeclStmtNode.cpp" afterPath="$PROJECT_DIR$/src/ASTVariableDeclStmtNode.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ASTWhileStmtNode.cpp" afterPath="$PROJECT_DIR$/src/ASTWhileStmtNode.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XMLVisitor.cpp" afterPath="$PROJECT_DIR$/src/XMLVisitor.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTAssignmentStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTAssignmentStmtNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTBlockStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTBlockStmtNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTBooleanLiteralExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTBooleanLiteralExprNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTFormalParamStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTFormalParamStmtNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTFuncDeclStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTFuncDeclStmtNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTFunctionCallExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTFunctionCallExprNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTIdentifierExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTIdentifierExprNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTIfStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTIfStmtNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTIntegerLiteralExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTIntegerLiteralExprNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTLiteralExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTLiteralExprNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTPrintStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTPrintStmtNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTRealLiteralExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTRealLiteralExprNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTReturnStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTReturnStmtNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTStatement_Node.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTStatement_Node.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTStringLiteralExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTStringLiteralExprNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTSubExpressionExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTSubExpressionExprNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTUnaryExprNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTUnaryExprNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTVariableDeclStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTVariableDeclStmtNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/ASTWhileStmtNode.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/ASTWhileStmtNode.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/include/ASTNodes/XMLVisitor.h" afterPath="$PROJECT_DIR$/src/include/ASTNodes/XMLVisitor.h" />
@@ -65,46 +101,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="XMLVisitor.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XMLVisitor.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XMLVisitor.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding>
-                <element signature="e#41#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ASTNode.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ASTNode.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="376">
+              <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ASTNode.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XMLVisitor.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="XMLVisitor.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/XMLVisitor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-              <folding>
-                <element signature="e#120#138#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,55 +131,55 @@
       <list>
         <option value="$PROJECT_DIR$/src/Parser.cpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
-        <option value="$PROJECT_DIR$/src/ASTNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h" />
         <option value="$PROJECT_DIR$/src/include/Exceptions/VisitorException.h" />
         <option value="$PROJECT_DIR$/src/VisitorException.cpp" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/Visitor.h" />
         <option value="$PROJECT_DIR$/sampleProgram.ml" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h" />
+        <option value="$PROJECT_DIR$/src/ASTNode.cpp" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTLiteralExprNode.h" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTBinaryExprNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTBooleanLiteralExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTBooleanLiteralExprNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTFunctionCallExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTFunctionCallExprNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTIdentifierExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTIdentifierExprNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTIntegerLiteralExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTIntegerLiteralExprNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTNumberExprNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTRealLiteralExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTRealLiteralExprNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTStringLiteralExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTStringLiteralExprNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTSubExpressionExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTSubExpressionExprNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTUnaryExprNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTUnaryExprNode.cpp" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTStatement_Node.h" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTLiteralExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTAssignmentStmtNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTAssignmentStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTBlockStmtNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTBlockStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTBooleanLiteralExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTFormalParamStmtNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTFormalParamStmtNode.cpp" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTFuncDeclStmtNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTFuncDeclStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTFunctionCallExprNode.h" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTIdentifierExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTIfStmtNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTIfStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTIntegerLiteralExprNode.h" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTPrintStmtNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTPrintStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTRealLiteralExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTReturnStmtNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTReturnStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTStringLiteralExprNode.h" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTSubExpressionExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTVariableDeclStmtNode.h" />
-        <option value="$PROJECT_DIR$/src/ASTVariableDeclStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTUnaryExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTWhileStmtNode.h" />
+        <option value="$PROJECT_DIR$/src/ASTAssignmentStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTBinaryExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTBlockStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTBooleanLiteralExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTFormalParamStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTFuncDeclStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTFunctionCallExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTIdentifierExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTIfStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTIntegerLiteralExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTNumberExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTPrintStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTRealLiteralExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTReturnStmtNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTStringLiteralExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTSubExpressionExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTUnaryExprNode.cpp" />
+        <option value="$PROJECT_DIR$/src/ASTVariableDeclStmtNode.cpp" />
         <option value="$PROJECT_DIR$/src/ASTWhileStmtNode.cpp" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/XMLVisitor.h" />
         <option value="$PROJECT_DIR$/src/XMLVisitor.cpp" />
+        <option value="$PROJECT_DIR$/src/include/ASTNodes/XMLVisitor.h" />
       </list>
     </option>
   </component>
@@ -509,12 +521,12 @@
       <workItem from="1524567019077" duration="37434000" />
       <workItem from="1525006608137" duration="4290000" />
       <workItem from="1525190649849" duration="4100000" />
-      <workItem from="1525259249336" duration="1595000" />
+      <workItem from="1525259249336" duration="3924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94785000" />
+    <option name="totallyTimeSpent" value="97114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -522,13 +534,14 @@
     <layout>
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1421801" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18957347" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18957347" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26382306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06319115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31259152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.069510266" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07266983" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -581,6 +594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,14 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sampleProgram.ml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -635,198 +641,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTLiteralExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTBinaryExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTBooleanLiteralExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTFunctionCallExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTFunctionCallExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTIdentifierExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTIdentifierExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTIntegerLiteralExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTIntegerLiteralExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTNumberExprNode.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h">
+    <entry file="file://$PROJECT_DIR$/src/ASTNode.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="430">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTRealLiteralExprNode.h">
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTRealLiteralExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTStringLiteralExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTStringLiteralExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTSubExpressionExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTSubExpressionExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTUnaryExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTUnaryExprNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#114#131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTExpression_Node.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="e#136#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTBooleanLiteralExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTStatement_Node.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="e#134#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTAssignmentStmtNode.cpp">
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTLiteralExprNode.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -834,15 +698,15 @@
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTAssignmentStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTBlockStmtNode.cpp">
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="342">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -850,7 +714,15 @@
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTBlockStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTBooleanLiteralExprNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -858,15 +730,7 @@
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTFormalParamStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTFormalParamStmtNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -874,15 +738,23 @@
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTFuncDeclStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTFuncDeclStmtNode.cpp">
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTFunctionCallExprNode.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="360">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTIdentifierExprNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -890,33 +762,39 @@
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTIfStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTIntegerLiteralExprNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNumberExprNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTPrintStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="e#133#163#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTPrintStmtNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="324">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTIfStmtNode.cpp">
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTRealLiteralExprNode.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="324">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -924,15 +802,15 @@
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTReturnStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTReturnStmtNode.cpp">
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTSubExpressionExprNode.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="324">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -940,15 +818,15 @@
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTVariableDeclStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTVariableDeclStmtNode.cpp">
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTUnaryExprNode.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="342">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -956,7 +834,151 @@
     <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTWhileStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTStringLiteralExprNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTAssignmentStmtNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTBinaryExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTBlockStmtNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTBooleanLiteralExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTFormalParamStmtNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTFuncDeclStmtNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTFunctionCallExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTIfStmtNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTIdentifierExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTIntegerLiteralExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTNumberExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTPrintStmtNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTRealLiteralExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTReturnStmtNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTStringLiteralExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTSubExpressionExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ASTUnaryExprNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -964,44 +986,32 @@
     <entry file="file://$PROJECT_DIR$/src/ASTWhileStmtNode.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/XMLVisitor.h">
+    <entry file="file://$PROJECT_DIR$/src/ASTVariableDeclStmtNode.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-          <folding>
-            <element signature="e#120#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/ASTNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/XMLVisitor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#41#81#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="376">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/ASTNodes/XMLVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>

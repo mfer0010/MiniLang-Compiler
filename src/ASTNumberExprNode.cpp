@@ -11,6 +11,6 @@ ASTNumberExprNode::ASTNumberExprNode(double value, std::string type) {
 
 ASTNumberExprNode::~ASTNumberExprNode() {}
 
-void ASTNumberExprNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTNumberExprNode::accept(Visitor *v) {
+    v->visit(this);
 }

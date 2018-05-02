@@ -12,6 +12,6 @@ ASTSubExpressionExprNode::~ASTSubExpressionExprNode() {
     delete expression;
 }
 
-void ASTSubExpressionExprNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTSubExpressionExprNode::accept(Visitor *v) {
+    v->visit(this);
 }

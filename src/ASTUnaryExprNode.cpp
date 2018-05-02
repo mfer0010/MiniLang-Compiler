@@ -13,6 +13,6 @@ ASTUnaryExprNode::~ASTUnaryExprNode() {
     delete expression;
 }
 
-void ASTUnaryExprNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTUnaryExprNode::accept(Visitor *v) {
+    v->visit(this);
 }

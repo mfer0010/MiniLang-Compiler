@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <algorithm>
+#include "Visitor.h"
 
 class ASTStatement_Node;
 
@@ -21,6 +22,8 @@ public:
     void addStatements(std::vector<ASTStatement_Node *> statements);
 
     void clearStatements();
+
+    virtual void accept(Visitor *v);
 
 private:
     void deleteStatement(ASTStatement_Node *);

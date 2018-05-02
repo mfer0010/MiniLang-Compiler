@@ -12,6 +12,6 @@ ASTPrintStmtNode::~ASTPrintStmtNode(){
     delete expression;
 }
 
-void ASTPrintStmtNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTPrintStmtNode::accept(Visitor *v) {
+    v->visit(this);
 }

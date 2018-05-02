@@ -15,6 +15,6 @@ ASTVariableDeclStmtNode::~ASTVariableDeclStmtNode(){
     delete expression;
 }
 
-void ASTVariableDeclStmtNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTVariableDeclStmtNode::accept(Visitor *v) {
+    v->visit(this);
 }

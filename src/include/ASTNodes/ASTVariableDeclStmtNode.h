@@ -19,7 +19,7 @@ public:
 
     ~ASTVariableDeclStmtNode();
 
-    virtual void accept(Visitor &v) override;
+    virtual void accept(Visitor *v) override;
 };
 
 

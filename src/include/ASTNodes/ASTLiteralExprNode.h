@@ -13,7 +13,7 @@ class ASTLiteralExprNode : public ASTExpression_Node {
 public:
     virtual ~ASTLiteralExprNode() {};
 
-    virtual void accept(Visitor &v) = 0;
+    virtual void accept(Visitor *v) = 0;
 };
 
 

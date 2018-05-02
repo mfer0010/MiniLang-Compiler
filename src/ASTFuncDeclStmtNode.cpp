@@ -19,6 +19,6 @@ ASTFuncDeclStmtNode::~ASTFuncDeclStmtNode() {
     }
 }
 
-void ASTFuncDeclStmtNode::accept(Visitor &v) {
-    v.visit(this);
+void ASTFuncDeclStmtNode::accept(Visitor *v) {
+    v->visit(this);
 }
