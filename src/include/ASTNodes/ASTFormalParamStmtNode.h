@@ -16,6 +16,8 @@ public:
     ASTFormalParamStmtNode(std::string, std::string);
 
     ~ASTFormalParamStmtNode();
+
+    virtual void accept(Visitor &v) override;
 };
 
 

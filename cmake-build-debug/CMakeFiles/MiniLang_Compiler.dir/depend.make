@@ -19,6 +19,7 @@ CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o: ../src/ASTBlockStmt
 CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o: ../src/include/ASTNodes/ASTBlockStmtNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o: ../src/include/ASTNodes/ASTStatement_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTBlockStmtNode.cpp.o: ../src/include/ASTNodes/Visitor.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.o: ../src/ASTBooleanLiteralExprNode.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/ASTBooleanLiteralExprNode.cpp.o: ../src/include/ASTNodes/ASTBooleanLiteralExprNode.h
@@ -31,12 +32,14 @@ CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o: ../src/ASTFor
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o: ../src/include/ASTNodes/ASTFormalParamStmtNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o: ../src/include/ASTNodes/ASTStatement_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o: ../src/include/ASTNodes/Visitor.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o: ../src/ASTFuncDeclStmtNode.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o: ../src/include/ASTNodes/ASTFormalParamStmtNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o: ../src/include/ASTNodes/ASTFuncDeclStmtNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o: ../src/include/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o: ../src/include/ASTNodes/ASTStatement_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o: ../src/include/ASTNodes/Visitor.h
 
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.cpp.o: ../src/ASTFunctionCallExprNode.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFunctionCallExprNode.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h

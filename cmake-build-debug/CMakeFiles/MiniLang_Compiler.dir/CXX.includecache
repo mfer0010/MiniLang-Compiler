@@ -225,6 +225,8 @@ ASTExpression_Node.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStatement_Node.h
 ASTNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/Visitor.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStringLiteralExprNode.h
 ASTLiteralExprNode.h

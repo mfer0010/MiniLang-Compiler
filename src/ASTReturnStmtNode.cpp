@@ -11,3 +11,7 @@ ASTReturnStmtNode::ASTReturnStmtNode(ASTExpression_Node *expression) {
 ASTReturnStmtNode::~ASTReturnStmtNode(){
     delete expression;
 }
+
+void ASTReturnStmtNode::accept(Visitor &v) {
+    v.visit(this);
+}

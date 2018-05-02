@@ -16,6 +16,8 @@ public:
     ASTReturnStmtNode(ASTExpression_Node *);
 
     ~ASTReturnStmtNode();
+
+    virtual void accept(Visitor &v) override;
 };
 
 

@@ -11,3 +11,7 @@ ASTPrintStmtNode::ASTPrintStmtNode(ASTExpression_Node *expression) {
 ASTPrintStmtNode::~ASTPrintStmtNode(){
     delete expression;
 }
+
+void ASTPrintStmtNode::accept(Visitor &v) {
+    v.visit(this);
+}

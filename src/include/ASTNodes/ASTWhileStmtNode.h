@@ -17,6 +17,8 @@ public:
     ASTWhileStmtNode(ASTExpression_Node *, ASTStatement_Node *);
 
     ~ASTWhileStmtNode();
+
+    virtual void accept(Visitor &v) override;
 };
 
 

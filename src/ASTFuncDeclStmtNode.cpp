@@ -18,3 +18,7 @@ ASTFuncDeclStmtNode::~ASTFuncDeclStmtNode() {
         delete param;
     }
 }
+
+void ASTFuncDeclStmtNode::accept(Visitor &v) {
+    v.visit(this);
+}

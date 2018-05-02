@@ -19,6 +19,8 @@ public:
     ASTFuncDeclStmtNode(std::string, std::vector<ASTFormalParamStmtNode *>, std::string, ASTStatement_Node *);
 
     ~ASTFuncDeclStmtNode();
+
+    virtual void accept(Visitor &v) override;
 };
 
 
