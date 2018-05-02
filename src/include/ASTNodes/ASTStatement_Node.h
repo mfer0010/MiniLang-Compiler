@@ -7,7 +7,7 @@
 
 #include "ASTNode.h"
 
-class ASTStatement_Node : public ASTNode {
+class ASTStatement_Node /*: public ASTNode*/ {
 public:
     virtual ~ASTStatement_Node() {};
 };

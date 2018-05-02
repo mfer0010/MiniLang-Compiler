@@ -158,6 +158,33 @@ CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o
 CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o
  /home/marc/Uni 3rd Year/Compilers/src/Token.cpp
  /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o
+ /home/marc/Uni 3rd Year/Compilers/src/XMLVisitor.cpp
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTAssignmentStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBlockStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBooleanLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFormalParamStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFuncDeclStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFunctionCallExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIdentifierExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIfStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIntegerLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTPrintStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTRealLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTReturnStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStatement_Node.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStringLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTSubExpressionExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTUnaryExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTVariableDeclStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTWhileStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/Visitor.h
+ /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/XMLVisitor.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o
  /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTAssignmentStmtNode.h
  /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h

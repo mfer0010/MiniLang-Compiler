@@ -13,8 +13,10 @@ int main() {
 
     Parser parser = Parser(&r);
     cout << "Parser Loaded" << endl;
+
+    ASTNode node = ASTNode();
     try {
-        statements = parser.parse();
+        node.statements = parser.parse();
     } catch (MiniLangExceptions &e) {
         cout << e.printMessage() << endl;
         return 0;

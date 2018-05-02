@@ -798,6 +798,60 @@ src/Token.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.s
 .PHONY : src/Token.cpp.s
 
+src/VisitorException.o: src/VisitorException.cpp.o
+
+.PHONY : src/VisitorException.o
+
+# target to build an object file
+src/VisitorException.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o
+.PHONY : src/VisitorException.cpp.o
+
+src/VisitorException.i: src/VisitorException.cpp.i
+
+.PHONY : src/VisitorException.i
+
+# target to preprocess a source file
+src/VisitorException.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.i
+.PHONY : src/VisitorException.cpp.i
+
+src/VisitorException.s: src/VisitorException.cpp.s
+
+.PHONY : src/VisitorException.s
+
+# target to generate assembly for a file
+src/VisitorException.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.s
+.PHONY : src/VisitorException.cpp.s
+
+src/XMLVisitor.o: src/XMLVisitor.cpp.o
+
+.PHONY : src/XMLVisitor.o
+
+# target to build an object file
+src/XMLVisitor.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o
+.PHONY : src/XMLVisitor.cpp.o
+
+src/XMLVisitor.i: src/XMLVisitor.cpp.i
+
+.PHONY : src/XMLVisitor.i
+
+# target to preprocess a source file
+src/XMLVisitor.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.i
+.PHONY : src/XMLVisitor.cpp.i
+
+src/XMLVisitor.s: src/XMLVisitor.cpp.s
+
+.PHONY : src/XMLVisitor.s
+
+# target to generate assembly for a file
+src/XMLVisitor.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.s
+.PHONY : src/XMLVisitor.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -909,6 +963,12 @@ help:
 	@echo "... src/Token.o"
 	@echo "... src/Token.i"
 	@echo "... src/Token.s"
+	@echo "... src/VisitorException.o"
+	@echo "... src/VisitorException.i"
+	@echo "... src/VisitorException.s"
+	@echo "... src/XMLVisitor.o"
+	@echo "... src/XMLVisitor.i"
+	@echo "... src/XMLVisitor.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

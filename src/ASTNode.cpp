@@ -5,7 +5,7 @@
 
 ASTNode::ASTNode() {};
 
-void ASTNode::addStatements(std::vector<ASTNode *> statements) {
+void ASTNode::addStatements(std::vector<ASTStatement_Node *> statements) {
     this->statements.insert(this->statements.end(),statements.begin(),statements.end());
 }
 
@@ -19,6 +19,6 @@ ASTNode::~ASTNode() {
     }
 }
 
-void ASTNode::deleteStatement(ASTNode * statement) {
+void ASTNode::deleteStatement(ASTStatement_Node * statement) {
     delete statement;
 }

@@ -158,6 +158,33 @@ CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o: ../src/include/Excep
 CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o: ../src/Token.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o: ../src/include/Token.h
 
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/XMLVisitor.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTAssignmentStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTBinaryExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTBlockStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTBooleanLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTFormalParamStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTFuncDeclStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTFunctionCallExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTIdentifierExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTIfStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTIntegerLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTNumberExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTPrintStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTRealLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTReturnStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTStatement_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTStringLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTSubExpressionExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTUnaryExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTVariableDeclStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/ASTWhileStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/Visitor.h
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/include/ASTNodes/XMLVisitor.h
+
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTAssignmentStmtNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTBinaryExprNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/include/ASTNodes/ASTBlockStmtNode.h

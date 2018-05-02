@@ -681,6 +681,54 @@ CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.provides: CMakeFi
 CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o
 
 
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o: ../src/XMLVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/XMLVisitor.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/XMLVisitor.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/XMLVisitor.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o: ../src/VisitorException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/VisitorException.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/VisitorException.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/VisitorException.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o
+
+
 # Object files for target MiniLang_Compiler
 MiniLang_Compiler_OBJECTS = \
 "CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" \
@@ -708,7 +756,9 @@ MiniLang_Compiler_OBJECTS = \
 "CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o" \
 "CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o" \
 "CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o" \
-"CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o"
+"CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o"
 
 # External object files for target MiniLang_Compiler
 MiniLang_Compiler_EXTERNAL_OBJECTS =
@@ -739,9 +789,11 @@ MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTWhileStmtNode.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/build.make
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable MiniLang_Compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable MiniLang_Compiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MiniLang_Compiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -775,6 +827,8 @@ CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/
 CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTReturnStmtNode.cpp.o.requires
 CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTFormalParamStmtNode.cpp.o.requires
 CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o.requires
 
 .PHONY : CMakeFiles/MiniLang_Compiler.dir/requires
 

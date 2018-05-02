@@ -159,6 +159,12 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Token.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/VisitorException.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/XMLVisitor.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTAssignmentStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
@@ -228,6 +234,9 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTWhileStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/XMLVisitor.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
@@ -235,6 +244,9 @@
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/ParserException.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/VisitorException.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h">
