@@ -12,6 +12,8 @@ class ASTLiteralExprNode : public ASTExpression_Node {
     //pure virtual class that will be inherited by all types of literal nodes
 public:
     virtual ~ASTLiteralExprNode() {};
+
+    virtual void accept(Visitor *v) = 0;
 };
 
 

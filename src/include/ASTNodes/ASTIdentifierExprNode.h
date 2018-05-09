@@ -15,6 +15,8 @@ public:
     ASTIdentifierExprNode(std::string);
 
     ~ASTIdentifierExprNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

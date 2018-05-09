@@ -9,3 +9,7 @@ ASTRealLiteralExprNode::ASTRealLiteralExprNode(double value) {
 }
 
 ASTRealLiteralExprNode::~ASTRealLiteralExprNode() {}
+
+void ASTRealLiteralExprNode::accept(Visitor *v) {
+    v->visit(this);
+}

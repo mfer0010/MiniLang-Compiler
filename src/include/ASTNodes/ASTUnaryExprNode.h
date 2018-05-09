@@ -16,6 +16,8 @@ public:
     ASTUnaryExprNode(std::string, ASTExpression_Node *);
 
     ~ASTUnaryExprNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

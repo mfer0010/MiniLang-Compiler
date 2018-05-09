@@ -10,3 +10,7 @@ ASTFormalParamStmtNode::ASTFormalParamStmtNode(std::string identifier, std::stri
 }
 
 ASTFormalParamStmtNode::~ASTFormalParamStmtNode() {}
+
+void ASTFormalParamStmtNode::accept(Visitor *v) {
+    v->visit(this);
+}

@@ -6,10 +6,13 @@
 #define MINILANG_COMPILER_ASTEXPRESSION_NODE_H
 
 #include "ASTNode.h"
+#include "Visitor.h"
 
-class ASTExpression_Node : public ASTNode {
+class ASTExpression_Node /*: public ASTNode*/ {
 public:
     virtual ~ASTExpression_Node() {};
+
+    virtual void accept(Visitor *v) = 0;
 };
 
 #endif //MINILANG_COMPILER_ASTEXPRESSION_NODE_H

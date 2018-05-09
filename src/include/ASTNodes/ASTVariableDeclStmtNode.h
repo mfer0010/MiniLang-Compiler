@@ -18,6 +18,8 @@ public:
     ASTVariableDeclStmtNode(std::string, std::string, ASTExpression_Node *);
 
     ~ASTVariableDeclStmtNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

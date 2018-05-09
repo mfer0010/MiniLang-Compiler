@@ -19,6 +19,8 @@ public:
     ASTIfStmtNode(ASTExpression_Node *, ASTStatement_Node *, ASTStatement_Node *);
 
     ~ASTIfStmtNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

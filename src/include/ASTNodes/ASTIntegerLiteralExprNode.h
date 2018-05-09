@@ -15,6 +15,8 @@ public:
     ASTIntegerLiteralExprNode(int);
 
     ~ASTIntegerLiteralExprNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

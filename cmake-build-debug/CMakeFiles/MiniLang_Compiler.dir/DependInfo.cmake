@@ -29,6 +29,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/marc/Uni 3rd Year/Compilers/src/Parser.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Parser.cpp.o"
   "/home/marc/Uni 3rd Year/Compilers/src/ParserException.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.o"
   "/home/marc/Uni 3rd Year/Compilers/src/Token.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.o"
+  "/home/marc/Uni 3rd Year/Compilers/src/VisitorException.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o"
+  "/home/marc/Uni 3rd Year/Compilers/src/XMLVisitor.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o"
   "/home/marc/Uni 3rd Year/Compilers/src/main.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

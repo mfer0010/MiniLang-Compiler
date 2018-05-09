@@ -15,6 +15,8 @@ public:
     ASTStringLiteralExprNode(std::string);
 
     ~ASTStringLiteralExprNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

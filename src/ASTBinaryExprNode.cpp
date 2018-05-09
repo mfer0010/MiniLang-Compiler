@@ -13,3 +13,7 @@ ASTBinaryExprNode::~ASTBinaryExprNode() {
     delete LHS;
     delete RHS;
 }
+
+void ASTBinaryExprNode::accept(Visitor *v) {
+    v->visit(this);
+}

@@ -13,3 +13,7 @@ ASTBlockStmtNode::~ASTBlockStmtNode() {
         delete statement;
     }
 }
+
+void ASTBlockStmtNode::accept(Visitor *v) {
+    v->visit(this);
+}

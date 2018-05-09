@@ -124,6 +124,18 @@ include/Exceptions/ParserException.h
 include/Token.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Token.h
 
+/home/marc/Uni 3rd Year/Compilers/src/VisitorException.cpp
+include/Exceptions/VisitorException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/VisitorException.h
+
+/home/marc/Uni 3rd Year/Compilers/src/XMLVisitor.cpp
+include/ASTNodes/XMLVisitor.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/XMLVisitor.h
+include/Exceptions/VisitorException.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/VisitorException.h
+include/ASTNodes/ASTNode.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTAssignmentStmtNode.h
 ASTStatement_Node.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStatement_Node.h
@@ -149,6 +161,8 @@ ASTLiteralExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
 ASTNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/Visitor.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFormalParamStmtNode.h
 ASTStatement_Node.h
@@ -187,6 +201,8 @@ vector
 -
 algorithm
 -
+Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/Visitor.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h
 string
@@ -213,6 +229,8 @@ ASTExpression_Node.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStatement_Node.h
 ASTNode.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h
+Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/Visitor.h
 
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStringLiteralExprNode.h
 ASTLiteralExprNode.h
@@ -238,6 +256,16 @@ ASTStatement_Node.h
 ASTExpression_Node.h
 /home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h
 
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/Visitor.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/XMLVisitor.h
+fstream
+-
+iostream
+-
+Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/Visitor.h
+
 /home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h
 MiniLangExceptions.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
@@ -247,6 +275,10 @@ string
 -
 
 /home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/ParserException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
+
+/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/VisitorException.h
 MiniLangExceptions.h
 /home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
 

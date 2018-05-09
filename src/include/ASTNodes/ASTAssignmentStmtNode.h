@@ -17,6 +17,8 @@ public:
     ASTAssignmentStmtNode(std::string, ASTExpression_Node *);
 
     ~ASTAssignmentStmtNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

@@ -14,3 +14,7 @@ ASTVariableDeclStmtNode::ASTVariableDeclStmtNode(std::string identifier, std::st
 ASTVariableDeclStmtNode::~ASTVariableDeclStmtNode(){
     delete expression;
 }
+
+void ASTVariableDeclStmtNode::accept(Visitor *v) {
+    v->visit(this);
+}

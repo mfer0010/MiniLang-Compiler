@@ -16,6 +16,8 @@ public:
     ASTNumberExprNode(double, std::string);
 
     virtual ~ASTNumberExprNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

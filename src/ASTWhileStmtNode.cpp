@@ -13,3 +13,7 @@ ASTWhileStmtNode::~ASTWhileStmtNode() {
     delete expression;
     delete block;
 }
+
+void ASTWhileStmtNode::accept(Visitor *v) {
+    v->visit(this);
+}

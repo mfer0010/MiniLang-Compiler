@@ -15,6 +15,8 @@ public:
     ASTBlockStmtNode(std::vector<ASTStatement_Node *>);
 
     ~ASTBlockStmtNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

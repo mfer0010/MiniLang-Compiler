@@ -15,6 +15,8 @@ public:
     ASTRealLiteralExprNode(double);
 
     ~ASTRealLiteralExprNode();
+
+    virtual void accept(Visitor *v) override;
 };
 
 

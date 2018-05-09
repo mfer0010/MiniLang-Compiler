@@ -20,3 +20,7 @@ ASTIfStmtNode::~ASTIfStmtNode() {
     delete ifBlock;
     delete elseBlock;
 }
+
+void ASTIfStmtNode::accept(Visitor *v) {
+    v->visit(this);
+}

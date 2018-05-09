@@ -7,21 +7,26 @@
 
 #include <vector>
 #include <algorithm>
+#include "Visitor.h"
+
+class ASTStatement_Node;
 
 class ASTNode {
 public:
-    std::vector<ASTNode *> statements;
+    std::vector<ASTStatement_Node *> statements;
 
     ASTNode();
 
     virtual ~ASTNode();
 
-    void addStatements(std::vector<ASTNode *> statements);
+    void addStatements(std::vector<ASTStatement_Node *> statements);
 
     void clearStatements();
 
+    virtual void accept(Visitor *v);
+
 private:
-    void deleteStatement(ASTNode *);
+    void deleteStatement(ASTStatement_Node *);
 };
 
 #endif //MINILANG_COMPILER_ASTNODE_H
