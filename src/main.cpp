@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "include/Lexer.h"
-#include "include/Parser.h"
-#include "include/Exceptions/LexerException.h"
-#include "include/XMLVisitor.h"
+#include "Lexer/Lexer.h"
+#include "Parser/Parser.h"
+#include "Exceptions/LexerException.h"
+#include "Visitors/XMLVisitor.h"
 
 using namespace std;
 

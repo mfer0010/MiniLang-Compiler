@@ -6,325 +6,277 @@
 
 #IncludeRegexTransform: 
 
-/home/marc/Uni 3rd Year/Compilers/src/ASTAssignmentStmtNode.cpp
-include/ASTAssignmentStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTAssignmentStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTBinaryExprNode.cpp
-include/ASTBinaryExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBinaryExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTBlockStmtNode.cpp
-include/ASTBlockStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBlockStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTBooleanLiteralExprNode.cpp
-include/ASTBooleanLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBooleanLiteralExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTFormalParamStmtNode.cpp
-include/ASTFormalParamStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFormalParamStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTFuncDeclStmtNode.cpp
-include/ASTFuncDeclStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFuncDeclStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTFunctionCallExprNode.cpp
-include/ASTFunctionCallExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFunctionCallExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTIdentifierExprNode.cpp
-include/ASTIdentifierExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIdentifierExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTIfStmtNode.cpp
-include/ASTIfStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIfStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTIntegerLiteralExprNode.cpp
-include/ASTIntegerLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIntegerLiteralExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTNode.cpp
-include/ASTNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTNumberExprNode.cpp
-include/ASTNumberExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTNumberExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTPrintStmtNode.cpp
-include/ASTPrintStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTPrintStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTRealLiteralExprNode.cpp
-include/ASTRealLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTRealLiteralExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTReturnStmtNode.cpp
-include/ASTReturnStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTReturnStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTStringLiteralExprNode.cpp
-include/ASTStringLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStringLiteralExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTSubExpressionExprNode.cpp
-include/ASTSubExpressionExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTSubExpressionExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTUnaryExprNode.cpp
-include/ASTUnaryExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTUnaryExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTVariableDeclStmtNode.cpp
-include/ASTVariableDeclStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTVariableDeclStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ASTWhileStmtNode.cpp
-include/ASTWhileStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTWhileStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/Lexer.cpp
-include/Lexer.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
-include/Exceptions/LexerException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h
-
-/home/marc/Uni 3rd Year/Compilers/src/LexerException.cpp
-include/Exceptions/LexerException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h
-
-/home/marc/Uni 3rd Year/Compilers/src/Parser.cpp
-include/Parser.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
-include/Exceptions/ParserException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/ParserException.h
-include/ASTBooleanLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBooleanLiteralExprNode.h
-include/ASTIntegerLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIntegerLiteralExprNode.h
-include/ASTRealLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTRealLiteralExprNode.h
-include/ASTStringLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStringLiteralExprNode.h
-include/ASTIdentifierExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIdentifierExprNode.h
-include/ASTUnaryExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTUnaryExprNode.h
-include/ASTSubExpressionExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTSubExpressionExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/ParserException.cpp
-include/Exceptions/ParserException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/ParserException.h
-
-/home/marc/Uni 3rd Year/Compilers/src/Scope.cpp
-include/Scope.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Scope.h
-include/ASTVariableDeclStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTVariableDeclStmtNode.h
-include/ASTFuncDeclStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFuncDeclStmtNode.h
-include/Exceptions/VisitorException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/VisitorException.h
-
-/home/marc/Uni 3rd Year/Compilers/src/Token.cpp
-include/Token.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
-
-/home/marc/Uni 3rd Year/Compilers/src/VariableDetails.cpp
-include/VariableDetails.h
-/home/marc/Uni 3rd Year/Compilers/src/include/VariableDetails.h
-
-/home/marc/Uni 3rd Year/Compilers/src/VisitorException.cpp
-include/Exceptions/VisitorException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/VisitorException.h
-
-/home/marc/Uni 3rd Year/Compilers/src/XMLVisitor.cpp
-include/XMLVisitor.h
-/home/marc/Uni 3rd Year/Compilers/src/include/XMLVisitor.h
-include/Exceptions/VisitorException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/VisitorException.h
-include/ASTNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTNode.h
-include/ASTAssignmentStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTAssignmentStmtNode.h
-include/ASTBinaryExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBinaryExprNode.h
-include/ASTBlockStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBlockStmtNode.h
-include/ASTBooleanLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBooleanLiteralExprNode.h
-include/Token.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
-include/ASTFormalParamStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFormalParamStmtNode.h
-include/ASTFuncDeclStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFuncDeclStmtNode.h
-include/ASTFunctionCallExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFunctionCallExprNode.h
-include/ASTIdentifierExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIdentifierExprNode.h
-include/ASTIfStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIfStmtNode.h
-include/ASTIntegerLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIntegerLiteralExprNode.h
-include/ASTPrintStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTPrintStmtNode.h
-include/ASTRealLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTRealLiteralExprNode.h
-include/ASTReturnStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTReturnStmtNode.h
-include/ASTStringLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStringLiteralExprNode.h
-include/ASTSubExpressionExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTSubExpressionExprNode.h
-include/ASTUnaryExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTUnaryExprNode.h
-include/ASTVariableDeclStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTVariableDeclStmtNode.h
-include/ASTWhileStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTWhileStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTAssignmentStmtNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBinaryExprNode.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-ASTNumberExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTNumberExprNode.h
-string
--
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBlockStmtNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBooleanLiteralExprNode.h
-ASTLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTLiteralExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ASTNode.cpp
 ASTNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTNode.h
-Visitor.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ASTNode.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFormalParamStmtNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFuncDeclStmtNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-ASTFormalParamStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFormalParamStmtNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFunctionCallExprNode.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIdentifierExprNode.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIfStmtNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIntegerLiteralExprNode.h
-ASTLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTLiteralExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTLiteralExprNode.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ASTNode.h
 vector
 -
 algorithm
 -
-Visitor.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Visitor.h
+../Visitors/Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTNumberExprNode.h
-string
--
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.cpp
+ASTBinaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
 ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTPrintStmtNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTRealLiteralExprNode.h
-ASTLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTLiteralExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTReturnStmtNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-ASTNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTNode.h
-Visitor.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Visitor.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStringLiteralExprNode.h
-ASTLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTLiteralExprNode.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTSubExpressionExprNode.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTUnaryExprNode.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTVariableDeclStmtNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTWhileStmtNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h
-MiniLangExceptions.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+ASTNumberExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTNumberExprNode.h
 string
 -
 
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/ParserException.h
-MiniLangExceptions.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.cpp
+ASTBooleanLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/VisitorException.h
-MiniLangExceptions.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
+ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTLiteralExprNode.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+../ASTNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ASTNode.h
+../../Visitors/Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.cpp
+ASTFunctionCallExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIdentifierExprNode.cpp
+ASTIdentifierExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.cpp
+ASTIntegerLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h
+ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTLiteralExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTNumberExprNode.cpp
+ASTNumberExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTNumberExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTNumberExprNode.h
+string
+-
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.cpp
+ASTRealLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h
+ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.cpp
+ASTStringLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h
+ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTLiteralExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.cpp
+ASTSubExpressionExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTUnaryExprNode.cpp
+ASTUnaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTAssignmentStmtNode.cpp
+ASTAssignmentStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+../ExpressionNodes/ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTBlockStmtNode.cpp
+ASTBlockStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTBlockStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTBlockStmtNode.h
+ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.cpp
+ASTFormalParamStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.cpp
+ASTFuncDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+ASTFormalParamStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTIfStmtNode.cpp
+ASTIfStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTIfStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTIfStmtNode.h
+ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+../ExpressionNodes/ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTPrintStmtNode.cpp
+ASTPrintStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTPrintStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTPrintStmtNode.h
+ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+../ExpressionNodes/ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTReturnStmtNode.cpp
+ASTReturnStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTReturnStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTReturnStmtNode.h
+ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+../ExpressionNodes/ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+../ASTNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ASTNode.h
+../../Visitors/Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.cpp
+ASTVariableDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+../ExpressionNodes/ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.cpp
+ASTWhileStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
+ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+../ExpressionNodes/ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Scope.cpp
+Scope.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Scope.h
+../ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+../ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+../Exceptions/VisitorException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.h
+
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Scope.h
+map
+-
+VariableDetails.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/VariableDetails.h
+
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.cpp
+Token.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.h
+
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.h
+iostream
+-
+
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/VariableDetails.cpp
+VariableDetails.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/VariableDetails.h
+
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/VariableDetails.h
+vector
+-
+Token.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.h
+../ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.cpp
+LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+string
+-
+
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/ParserException.cpp
+ParserException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/ParserException.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/ParserException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.cpp
+VisitorException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.cpp
+Lexer.h
+/home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.h
+../Exceptions/LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.h
 string
 -
 fstream
@@ -333,78 +285,126 @@ iostream
 -
 stack
 -
-Token.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
+../DataStructures/Token.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
-Lexer.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
-ASTExpression_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h
-ASTNumberExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTNumberExprNode.h
-ASTBinaryExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBinaryExprNode.h
-ASTStatement_Node.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h
-ASTVariableDeclStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTVariableDeclStmtNode.h
-ASTAssignmentStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTAssignmentStmtNode.h
-ASTPrintStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTPrintStmtNode.h
-ASTIfStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTIfStmtNode.h
-ASTWhileStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTWhileStmtNode.h
-ASTReturnStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTReturnStmtNode.h
-ASTFuncDeclStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFuncDeclStmtNode.h
-ASTBlockStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTBlockStmtNode.h
-ASTLiteralExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTLiteralExprNode.h
-ASTFunctionCallExprNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFunctionCallExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.cpp
+Parser.h
+/home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.h
+../Exceptions/ParserException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/ParserException.h
+../ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
+../ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h
+../ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h
+../ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h
+../ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+../ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+../ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/Scope.h
-map
--
-VariableDetails.h
-/home/marc/Uni 3rd Year/Compilers/src/include/VariableDetails.h
+/home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.h
+../Lexer/Lexer.h
+/home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.h
+../ASTNodes/ExpressionNodes/ASTExpression_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+../ASTNodes/ExpressionNodes/ASTNumberExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTNumberExprNode.h
+../ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+../ASTNodes/StatementNodes/ASTStatement_Node.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+../ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+../ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+../ASTNodes/StatementNodes/ASTPrintStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTPrintStmtNode.h
+../ASTNodes/StatementNodes/ASTIfStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTIfStmtNode.h
+../ASTNodes/StatementNodes/ASTWhileStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
+../ASTNodes/StatementNodes/ASTReturnStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTReturnStmtNode.h
+../ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+../ASTNodes/StatementNodes/ASTBlockStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTBlockStmtNode.h
+../ASTNodes/ExpressionNodes/ASTLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTLiteralExprNode.h
+../ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
-iostream
--
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/VariableDetails.h
-vector
--
-Token.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Token.h
-ASTFormalParamStmtNode.h
-/home/marc/Uni 3rd Year/Compilers/src/include/ASTFormalParamStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/XMLVisitor.cpp
+XMLVisitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/XMLVisitor.h
+../Exceptions/VisitorException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.h
+../ASTNodes/ASTNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ASTNode.h
+../ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+../ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+../ASTNodes/StatementNodes/ASTBlockStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTBlockStmtNode.h
+../ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
+../DataStructures/Token.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.h
+../ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+../ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+../ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+../ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+../ASTNodes/StatementNodes/ASTIfStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTIfStmtNode.h
+../ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h
+../ASTNodes/StatementNodes/ASTPrintStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTPrintStmtNode.h
+../ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h
+../ASTNodes/StatementNodes/ASTReturnStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTReturnStmtNode.h
+../ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h
+../ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+../ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+../ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+../ASTNodes/StatementNodes/ASTWhileStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
 
-/home/marc/Uni 3rd Year/Compilers/src/include/Visitor.h
-
-/home/marc/Uni 3rd Year/Compilers/src/include/XMLVisitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/XMLVisitor.h
 fstream
 -
 iostream
 -
 Visitor.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
 
 /home/marc/Uni 3rd Year/Compilers/src/main.cpp
 iostream
 -
-include/Lexer.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Lexer.h
-include/Parser.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Parser.h
-include/Exceptions/LexerException.h
-/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h
-include/XMLVisitor.h
-/home/marc/Uni 3rd Year/Compilers/src/include/XMLVisitor.h
+Lexer/Lexer.h
+/home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.h
+Parser/Parser.h
+/home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.h
+Exceptions/LexerException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.h
+Visitors/XMLVisitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/XMLVisitor.h
 
