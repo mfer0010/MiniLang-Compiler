@@ -59,7 +59,8 @@ std::vector<ASTFormalParamStmtNode *>* Scope::returnParams(std::string identifie
     if (iter != identifiers.end()) {
         return iter->second->parameters;
     } else {
-        throw VisitorException("Semantic Analysis Error:\n\tIdentifier not found");
+        //throw VisitorException("Semantic Analysis Error:\n\tIdentifier not found");
+        return nullptr;
     }
 }
 

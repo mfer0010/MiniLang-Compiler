@@ -264,6 +264,12 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Visitors/XMLVisitor.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>

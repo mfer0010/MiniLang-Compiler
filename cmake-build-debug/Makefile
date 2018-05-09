@@ -879,6 +879,33 @@ src/Parser/Parser.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Parser/Parser.cpp.s
 .PHONY : src/Parser/Parser.cpp.s
 
+src/SemanticAnalyser/SemanticAnalyser.o: src/SemanticAnalyser/SemanticAnalyser.cpp.o
+
+.PHONY : src/SemanticAnalyser/SemanticAnalyser.o
+
+# target to build an object file
+src/SemanticAnalyser/SemanticAnalyser.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/SemanticAnalyser/SemanticAnalyser.cpp.o
+.PHONY : src/SemanticAnalyser/SemanticAnalyser.cpp.o
+
+src/SemanticAnalyser/SemanticAnalyser.i: src/SemanticAnalyser/SemanticAnalyser.cpp.i
+
+.PHONY : src/SemanticAnalyser/SemanticAnalyser.i
+
+# target to preprocess a source file
+src/SemanticAnalyser/SemanticAnalyser.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/SemanticAnalyser/SemanticAnalyser.cpp.i
+.PHONY : src/SemanticAnalyser/SemanticAnalyser.cpp.i
+
+src/SemanticAnalyser/SemanticAnalyser.s: src/SemanticAnalyser/SemanticAnalyser.cpp.s
+
+.PHONY : src/SemanticAnalyser/SemanticAnalyser.s
+
+# target to generate assembly for a file
+src/SemanticAnalyser/SemanticAnalyser.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/SemanticAnalyser/SemanticAnalyser.cpp.s
+.PHONY : src/SemanticAnalyser/SemanticAnalyser.cpp.s
+
 src/Visitors/XMLVisitor.o: src/Visitors/XMLVisitor.cpp.o
 
 .PHONY : src/Visitors/XMLVisitor.o
@@ -1026,6 +1053,9 @@ help:
 	@echo "... src/Parser/Parser.o"
 	@echo "... src/Parser/Parser.i"
 	@echo "... src/Parser/Parser.s"
+	@echo "... src/SemanticAnalyser/SemanticAnalyser.o"
+	@echo "... src/SemanticAnalyser/SemanticAnalyser.i"
+	@echo "... src/SemanticAnalyser/SemanticAnalyser.s"
 	@echo "... src/Visitors/XMLVisitor.o"
 	@echo "... src/Visitors/XMLVisitor.i"
 	@echo "... src/Visitors/XMLVisitor.s"
