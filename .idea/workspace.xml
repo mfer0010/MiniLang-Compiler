@@ -12,9 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa3c8dca-6828-4e9d-b712-895d3b817258" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exceptions/SemanticAnalyserException.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exceptions/SemanticAnalyserException.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/DependInfo.cmake" />
@@ -25,7 +24,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/MiniLang_Compiler.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataStructures/Scope.cpp" afterPath="$PROJECT_DIR$/src/DataStructures/Scope.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.cpp" afterPath="$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.h" afterPath="$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.h" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,17 +56,35 @@
       <file leaf-file-name="SemanticAnalyser.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="71" column="91" lean-forward="false" selection-start-line="71" selection-start-column="91" selection-end-line="71" selection-end-column="91" />
+            <state relative-caret-position="424">
+              <caret line="253" column="60" lean-forward="false" selection-start-line="253" selection-start-column="60" selection-end-line="253" selection-end-column="60" />
               <folding>
                 <element signature="e#41#70#0" expanded="true" />
-                <element signature="e#199#273#0" expanded="false" />
-                <element signature="e#275#517#0" expanded="false" />
-                <element signature="e#519#711#0" expanded="false" />
-                <element signature="e#713#1359#0" expanded="false" />
-                <element signature="e#1361#1855#0" expanded="false" />
-                <element signature="e#1857#4101#0" expanded="false" />
+                <element signature="e#555#629#0" expanded="false" />
+                <element signature="e#631#873#0" expanded="false" />
+                <element signature="e#875#1067#0" expanded="false" />
+                <element signature="e#1069#1715#0" expanded="false" />
+                <element signature="e#1717#2211#0" expanded="false" />
+                <element signature="e#2213#4457#0" expanded="false" />
+                <element signature="e#4459#4598#0" expanded="false" />
+                <element signature="e#4600#5058#0" expanded="false" />
+                <element signature="e#5060#5624#0" expanded="false" />
+                <element signature="e#5626#6279#0" expanded="false" />
+                <element signature="e#6281#6369#0" expanded="false" />
+                <element signature="e#6371#6812#0" expanded="false" />
+                <element signature="e#6814#8824#0" expanded="false" />
+                <element signature="e#8826#9874#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLVisitor.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Visitors/XMLVisitor.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="132" column="14" lean-forward="false" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,8 +92,8 @@
       <file leaf-file-name="SemanticAnalyser.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="-1196">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="e#133#149#0" expanded="true" />
               </folding>
@@ -89,6 +107,8 @@
     <findStrings>
       <find>Ty</find>
       <find>_op</find>
+      <find>throw</find>
+      <find>formal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTAssignmentStmtNode.h" />
-        <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTBinaryExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTBlockStmtNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTBooleanLiteralExprNode.h" />
         <option value="$PROJECT_DIR$/src/include/ASTNodes/ASTFormalParamStmtNode.h" />
@@ -146,6 +164,8 @@
         <option value="$PROJECT_DIR$/src/Scope.cpp" />
         <option value="$PROJECT_DIR$/sampleProgram.ml" />
         <option value="$PROJECT_DIR$/src/DataStructures/Scope.cpp" />
+        <option value="$PROJECT_DIR$/src/Exceptions/SemanticAnalyserException.h" />
+        <option value="$PROJECT_DIR$/src/Exceptions/SemanticAnalyserException.cpp" />
         <option value="$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.h" />
         <option value="$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.cpp" />
       </list>
@@ -239,42 +259,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SemanticAnalyser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Compilers" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Compilers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Compilers" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Compilers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,12 +484,12 @@
       <workItem from="1525006608137" duration="4290000" />
       <workItem from="1525190649849" duration="4100000" />
       <workItem from="1525259249336" duration="18916000" />
-      <workItem from="1525859443526" duration="6876000" />
+      <workItem from="1525859443526" duration="10403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118982000" />
+    <option name="totallyTimeSpent" value="122509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -569,22 +553,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ASTNodes/StatementNodes/ASTIfStmtNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -880,30 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Visitors/XMLVisitor.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="61" column="56" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="61" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exceptions/VisitorException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Visitors/XMLVisitor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3032">
-          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructures/Scope.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -944,42 +888,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exceptions/VisitorException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exceptions/SemanticAnalyserException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exceptions/SemanticAnalyserException.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lexer/Lexer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3928">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="167">
+          <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exceptions/VisitorException.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitors/XMLVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="61" column="56" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="61" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitors/XMLVisitor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="132" column="14" lean-forward="false" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="71" column="91" lean-forward="false" selection-start-line="71" selection-start-column="91" selection-end-line="71" selection-end-column="91" />
+        <state relative-caret-position="424">
+          <caret line="253" column="60" lean-forward="false" selection-start-line="253" selection-start-column="60" selection-end-line="253" selection-end-column="60" />
           <folding>
             <element signature="e#41#70#0" expanded="true" />
-            <element signature="e#199#273#0" expanded="false" />
-            <element signature="e#275#517#0" expanded="false" />
-            <element signature="e#519#711#0" expanded="false" />
-            <element signature="e#713#1359#0" expanded="false" />
-            <element signature="e#1361#1855#0" expanded="false" />
-            <element signature="e#1857#4101#0" expanded="false" />
+            <element signature="e#555#629#0" expanded="false" />
+            <element signature="e#631#873#0" expanded="false" />
+            <element signature="e#875#1067#0" expanded="false" />
+            <element signature="e#1069#1715#0" expanded="false" />
+            <element signature="e#1717#2211#0" expanded="false" />
+            <element signature="e#2213#4457#0" expanded="false" />
+            <element signature="e#4459#4598#0" expanded="false" />
+            <element signature="e#4600#5058#0" expanded="false" />
+            <element signature="e#5060#5624#0" expanded="false" />
+            <element signature="e#5626#6279#0" expanded="false" />
+            <element signature="e#6281#6369#0" expanded="false" />
+            <element signature="e#6371#6812#0" expanded="false" />
+            <element signature="e#6814#8824#0" expanded="false" />
+            <element signature="e#8826#9874#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SemanticAnalyser/SemanticAnalyser.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="-1196">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="e#133#149#0" expanded="true" />
           </folding>

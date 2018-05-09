@@ -4,6 +4,12 @@
 
 #include "SemanticAnalyser.h"
 #include "../Exceptions/VisitorException.h"
+#include "../ASTNodes/StatementNodes/ASTAssignmentStmtNode.h"
+#include "../Exceptions/SemanticAnalyserException.h"
+#include "../ASTNodes/ExpressionNodes/ASTBinaryExprNode.h"
+#include "../ASTNodes/StatementNodes/ASTBlockStmtNode.h"
+#include "../ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h"
+#include "../ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h"
 
 SemanticAnalyser::SemanticAnalyser() {}
 
@@ -120,4 +126,154 @@ bool SemanticAnalyser::checkTypes(std::string _operator, std::string lhs, std::s
     }
 
     return false; //should never reach here
+}
+
+void SemanticAnalyser::visit(ASTNode *node) {
+    for (auto const &statement : node->statements) {
+        statement->accept(this);
+    }
+}
+
+void SemanticAnalyser::visit(ASTAssignmentStmtNode *node) {
+    std::string type = returnIdentifierType(node->identifier); //throws exception if identifier is not found
+
+    //get the Type of the expression Node
+    node->expression->accept(this);
+
+    //check types
+    if (lastType != type) {
+        if (!(lastType == "INT" && type == "REAL")) {
+            throw SemanticAnalyserException("Incompatible types, expected '" + type + "'");
+        }
+    }
+}
+
+void SemanticAnalyser::visit(ASTBinaryExprNode *node) {
+    //accept LHS of expression
+    node->LHS->accept(this);
+    std::string LHSType = lastType;
+    //accept RHS of expression
+    node->RHS->accept(this);
+    std::string RHSType = lastType;
+
+    //check operator types
+    if (!checkTypes(node->_operator,LHSType,RHSType)) {
+        //if there is an error
+        throw SemanticAnalyserException("Incompatible Types on operator '" +
+                                                node->_operator + "' (" + LHSType + node->_operator + RHSType +")");
+    }
+}
+
+void SemanticAnalyser::visit(ASTBlockStmtNode *node) {
+    Scope *newScope = new Scope();
+    //push scope on stack
+    pushScope(newScope);
+
+    for (auto &function : functionsReturn) {
+        if (!function->isFunctionDecl) {
+            function->isFunctionDecl = true;
+            for (auto const &param : function->funcDecl->formalParams) {
+                param->accept(this);
+            }
+            break;
+        }
+    }
+
+    //Check all the statements in the block
+    for (auto const &statement : node->statements) {
+        statement->accept(this);
+    }
+
+    //pop the scope from stack
+    popScope();
+    delete newScope; //free memory
+}
+
+void SemanticAnalyser::visit(ASTBooleanLiteralExprNode *node) {
+    lastType = "BOOL";
+}
+
+void SemanticAnalyser::visit(ASTFormalParamStmtNode *node) {
+    Scope * currentScope = topScope();
+    //if identifier already exists, throw error, else add it to the scope
+    if (currentScope->inScope(node->identifier)) {
+        throw SemanticAnalyserException("Duplicate Declaration of variable or function with identifier '"
+                                        + node->identifier + "'");
+    }
+    currentScope->addToScope(node);
+}
+
+void SemanticAnalyser::visit(ASTFuncDeclStmtNode *node) {
+    CheckFunctionDeclReturn * checkFunctionDeclReturn;
+    //get the current scope
+    Scope * currentScope = topScope();
+    //check if function is already declared in scope
+    if (currentScope->inScope(node->identifier)) {
+        throw SemanticAnalyserException("Duplicate Declaration of function with identifier '"
+                                        + node->identifier + "'");
+    }
+
+    //add function information to functionsReturn vector
+    checkFunctionDeclReturn = new CheckFunctionDeclReturn();
+    checkFunctionDeclReturn->currentBlockIndex = 0;
+    checkFunctionDeclReturn->funcDecl = node;
+    checkFunctionDeclReturn->isFunctionDecl = false;
+    checkFunctionDeclReturn->isGlobal = false;
+    checkFunctionDeclReturn->noOfIfsEncountered = 0;
+    checkFunctionDeclReturn->noOfreturnsEncountered = 0;
+    functionsReturn.push_back(checkFunctionDeclReturn);
+
+    //add function to scope
+    currentScope->addToScope(node);
+
+    //visit block
+    try {
+        node->block->accept(this);
+    } catch (SemanticAnalyserException &exception) {
+        currentScope->removeFromScope(node->identifier);
+        throw SemanticAnalyserException(exception.error);
+    }
+
+    //check for return TOKEN
+    checkFunctionDeclReturn = functionsReturn.back();
+    functionsReturn.pop_back();
+    if (!checkFunctionDeclReturn->isGlobal) {
+        if (checkFunctionDeclReturn->noOfIfsEncountered * 2 != checkFunctionDeclReturn->noOfreturnsEncountered) {
+            //returns could exist in if statements
+            currentScope->removeFromScope(node->identifier);
+            throw SemanticAnalyserException("Return expected at end of non-void function.");
+        } else if (checkFunctionDeclReturn->noOfIfsEncountered ==0) {
+            currentScope->removeFromScope(node->identifier);
+            throw SemanticAnalyserException("Return expected at end of non-void function.");
+        }
+    }
+
+    delete checkFunctionDeclReturn; //free memory
+}
+
+void SemanticAnalyser::visit(ASTFunctionCallExprNode *node) {
+    std::vector<ASTFormalParamStmtNode *> *params = returnFunctionParameters(node->identifier);
+
+    if (params == nullptr) {
+        throw SemanticAnalyserException("Error resolving function '" + node->identifier +"'");
+    }
+
+    //check number of parameters
+    if (params->size() != node->actualParams.size()) {
+        throw SemanticAnalyserException("Incorrect number of parameters passes. Expected " + node->actualParams.size());
+    }
+
+    //check type for each parameter
+    for (size_t i=0; i < node->actualParams.size(); i++) {
+        node->actualParams[i]->accept(this);
+
+        if (lastType != (*params)[i]->type) {
+            if (!(lastType == "INT" && (*params)[i]->type == "REAL")) {
+                throw SemanticAnalyserException("Parameter types do not match, expected '"
+                                                + (*params)[i]->type +"' Received: '" + lastType + "'");
+            }
+        }
+    }
+
+    lastType = returnIdentifierType(node->identifier);
 }

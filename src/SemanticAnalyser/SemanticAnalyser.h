@@ -10,6 +10,13 @@
 #include "../Visitors/Visitor.h"
 #include "../DataStructures/Scope.h"
 
+/*
+ * The role of the Semantic Analysis Pass:
+ * 1) To perform type checking
+ * 2) To perform scope checking
+ * 3) To ensure function return types are correct
+ */
+
 class SemanticAnalyser : public Visitor {
 private:
     //Scopes of the program

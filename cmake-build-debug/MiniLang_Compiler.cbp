@@ -246,6 +246,12 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Exceptions/ParserException.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Exceptions/SemanticAnalyserException.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Exceptions/SemanticAnalyserException.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>

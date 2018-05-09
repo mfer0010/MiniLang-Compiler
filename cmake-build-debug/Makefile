@@ -798,6 +798,33 @@ src/Exceptions/ParserException.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/ParserException.cpp.s
 .PHONY : src/Exceptions/ParserException.cpp.s
 
+src/Exceptions/SemanticAnalyserException.o: src/Exceptions/SemanticAnalyserException.cpp.o
+
+.PHONY : src/Exceptions/SemanticAnalyserException.o
+
+# target to build an object file
+src/Exceptions/SemanticAnalyserException.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.o
+.PHONY : src/Exceptions/SemanticAnalyserException.cpp.o
+
+src/Exceptions/SemanticAnalyserException.i: src/Exceptions/SemanticAnalyserException.cpp.i
+
+.PHONY : src/Exceptions/SemanticAnalyserException.i
+
+# target to preprocess a source file
+src/Exceptions/SemanticAnalyserException.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.i
+.PHONY : src/Exceptions/SemanticAnalyserException.cpp.i
+
+src/Exceptions/SemanticAnalyserException.s: src/Exceptions/SemanticAnalyserException.cpp.s
+
+.PHONY : src/Exceptions/SemanticAnalyserException.s
+
+# target to generate assembly for a file
+src/Exceptions/SemanticAnalyserException.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.s
+.PHONY : src/Exceptions/SemanticAnalyserException.cpp.s
+
 src/Exceptions/VisitorException.o: src/Exceptions/VisitorException.cpp.o
 
 .PHONY : src/Exceptions/VisitorException.o
@@ -1044,6 +1071,9 @@ help:
 	@echo "... src/Exceptions/ParserException.o"
 	@echo "... src/Exceptions/ParserException.i"
 	@echo "... src/Exceptions/ParserException.s"
+	@echo "... src/Exceptions/SemanticAnalyserException.o"
+	@echo "... src/Exceptions/SemanticAnalyserException.i"
+	@echo "... src/Exceptions/SemanticAnalyserException.s"
 	@echo "... src/Exceptions/VisitorException.o"
 	@echo "... src/Exceptions/VisitorException.i"
 	@echo "... src/Exceptions/VisitorException.s"

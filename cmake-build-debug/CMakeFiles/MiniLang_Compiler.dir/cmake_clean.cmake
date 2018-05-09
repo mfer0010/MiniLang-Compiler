@@ -30,6 +30,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/VariableDetails.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Scope.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/SemanticAnalyser/SemanticAnalyser.cpp.o"
+  "CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.o"
   "MiniLang_Compiler.pdb"
   "MiniLang_Compiler"
 )
