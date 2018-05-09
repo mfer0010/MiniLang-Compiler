@@ -222,7 +222,7 @@ Token Lexer::determineIDToken(std::string lexeme) {
                                "return","if","else","while","def"};
     Token tokens [] = {Token(TOK_Type,"REAL"),Token(TOK_Type,"INT"),Token(TOK_Type,"BOOL"),Token(TOK_Type,"STRING"),
                        Token(TOK_Bool,"TRUE"), Token(TOK_Bool,"FALSE"), Token(TOK_MultiplicativeOp,"AND"),
-                       Token(TOK_AdditiveOp,"OR"), Token(TOK_Not), Token(TOK_Set), Token(TOK_Var), Token(TOK_Print),
+                       Token(TOK_AdditiveOp,"OR"), Token(TOK_Not, "NOT"), Token(TOK_Set), Token(TOK_Var), Token(TOK_Print),
                        Token(TOK_Return), Token(TOK_If), Token(TOK_Else), Token(TOK_While), Token(TOK_Def)};
 
     //Check if lexeme is a keyword:

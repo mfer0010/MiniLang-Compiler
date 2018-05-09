@@ -262,6 +262,14 @@ ParserException.h
 MiniLangExceptions.h
 /home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
 
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/SemanticAnalyserException.cpp
+SemanticAnalyserException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/SemanticAnalyserException.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/SemanticAnalyserException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+
 /home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.cpp
 VisitorException.h
 /home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.h
@@ -340,6 +348,48 @@ Parser.h
 ../ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
 /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
 
+/home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.cpp
+SemanticAnalyser.h
+/home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.h
+../Exceptions/VisitorException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.h
+../ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+../Exceptions/SemanticAnalyserException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/SemanticAnalyserException.h
+../ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+../ASTNodes/StatementNodes/ASTBlockStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTBlockStmtNode.h
+../ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+../ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+../ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+../ASTNodes/StatementNodes/ASTIfStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTIfStmtNode.h
+../ASTNodes/StatementNodes/ASTPrintStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTPrintStmtNode.h
+../ASTNodes/StatementNodes/ASTReturnStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTReturnStmtNode.h
+../ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+../ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+../ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+../ASTNodes/StatementNodes/ASTWhileStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.h
+stack
+-
+../Visitors/Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
+../DataStructures/Scope.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Scope.h
+
 /home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
 
 /home/marc/Uni 3rd Year/Compilers/src/Visitors/XMLVisitor.cpp
@@ -407,4 +457,6 @@ Exceptions/LexerException.h
 /home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.h
 Visitors/XMLVisitor.h
 /home/marc/Uni 3rd Year/Compilers/src/Visitors/XMLVisitor.h
+SemanticAnalyser/SemanticAnalyser.h
+/home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.h
 

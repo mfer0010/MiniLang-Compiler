@@ -10,6 +10,14 @@
 #include "../ASTNodes/StatementNodes/ASTBlockStmtNode.h"
 #include "../ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h"
 #include "../ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h"
+#include "../ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h"
+#include "../ASTNodes/StatementNodes/ASTIfStmtNode.h"
+#include "../ASTNodes/StatementNodes/ASTPrintStmtNode.h"
+#include "../ASTNodes/StatementNodes/ASTReturnStmtNode.h"
+#include "../ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h"
+#include "../ASTNodes/ExpressionNodes/ASTUnaryExprNode.h"
+#include "../ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h"
+#include "../ASTNodes/StatementNodes/ASTWhileStmtNode.h"
 
 SemanticAnalyser::SemanticAnalyser() {}
 
@@ -276,4 +284,147 @@ void SemanticAnalyser::visit(ASTFunctionCallExprNode *node) {
     }
 
     lastType = returnIdentifierType(node->identifier);
+}
+
+void SemanticAnalyser::visit(ASTIdentifierExprNode *node) {
+    lastType = returnIdentifierType(node->identifier); //throws exception is identifier is not found
+}
+
+void SemanticAnalyser::visit(ASTIfStmtNode *node) {
+    CheckFunctionDeclReturn * checkFunctionDeclReturn;
+
+    //if functionsReturn is not empty update last entry accordingly
+    if (functionsReturn.size() != 0) {
+        checkFunctionDeclReturn = functionsReturn.back();
+        checkFunctionDeclReturn->noOfIfsEncountered++;
+        checkFunctionDeclReturn->currentBlockIndex++;
+    }
+
+    //check expression node, it must be a Bool
+    node->expression->accept(this);
+    if (lastType != "BOOL") {
+        throw SemanticAnalyserException("Expression in if node must be of type BOOL");
+    }
+
+    //check if block
+    node->ifBlock->accept(this);
+
+    //check else block if it exists
+    if (node->elseBlock != nullptr) {
+        node->elseBlock->accept(this);
+    }
+
+    //update functionsReturn accordingly
+    if (functionsReturn.size() != 0) {
+        checkFunctionDeclReturn = functionsReturn.back();
+        checkFunctionDeclReturn->currentBlockIndex--;
+    }
+}
+
+void SemanticAnalyser::visit(ASTIntegerLiteralExprNode *node) {
+    lastType = "INT";
+}
+
+void SemanticAnalyser::visit(ASTNumberExprNode *node) {
+    lastType = node->type;
+}
+
+void SemanticAnalyser::visit(ASTPrintStmtNode *node) {
+    node->expression->accept(this);
+}
+
+void SemanticAnalyser::visit(ASTRealLiteralExprNode *node) {
+    lastType = "REAL";
+}
+
+void SemanticAnalyser::visit(ASTReturnStmtNode *node) {
+    CheckFunctionDeclReturn * checkFunctionDeclReturn;
+
+    //check expression
+    node->expression->accept(this);
+
+    //check if return is in a function scope
+    if (functionsReturn.size() == 0) {
+        throw SemanticAnalyserException("Return called outside function scope");
+    }
+
+    checkFunctionDeclReturn = functionsReturn.back();
+
+    //check that expression returned is of correct type from function
+    if (checkFunctionDeclReturn->funcDecl->type != lastType) {
+        throw SemanticAnalyserException("Expected to return " + checkFunctionDeclReturn->funcDecl->type
+                                        + " but actually returning " + lastType);
+    }
+    //update function scope to return whole function
+    if (checkFunctionDeclReturn->currentBlockIndex == 0) {
+        checkFunctionDeclReturn->isGlobal = true;
+    } else {
+        checkFunctionDeclReturn->noOfreturnsEncountered++;
+    }
+}
+
+void SemanticAnalyser::visit(ASTStringLiteralExprNode *node) {
+    lastType = "STRING";
+}
+
+void SemanticAnalyser::visit(ASTSubExpressionExprNode *node) {
+    //check sub expression:
+    node->expression->accept(this);
+}
+
+void SemanticAnalyser::visit(ASTUnaryExprNode *node) {
+    //Check expression type
+    node->expression->accept(this);
+
+    //Unary expression cannot accept Strings
+    if (lastType == "STRING") {
+        throw SemanticAnalyserException("Unary operator does not accept String Literals");
+    } else if (lastType == "BOOL") {
+        //- can not be applied to boolean, not can
+        if (node->prefix != "NOT") {
+            throw SemanticAnalyserException("Operator " + node->prefix + " does not support BOOL Type");
+        }
+    } else if (lastType == "INT" || lastType == "REAL") {
+        //not cannout be applied to int or real
+        if (node->prefix != "-") {
+            throw SemanticAnalyserException("Operator " + node->prefix + " does not support " + lastType + " Type");
+        }
+    } else {
+        throw SemanticAnalyserException("Type " + lastType + " not supported for "
+                                        + node->prefix + " unary operator");
+    }
+}
+
+void SemanticAnalyser::visit(ASTVariableDeclStmtNode *node) {
+    //get the scope
+    Scope * currentScope = topScope();
+
+    //check if identifier exists
+    if (currentScope->inScope(node->identifier)) {
+        throw SemanticAnalyserException("Variable " + node->identifier + " already exists in scope");
+    }
+
+    //check expression type
+    node->expression->accept(this);
+
+    //if type is real then int can be accepted
+    if (node->type == "REAL" && lastType == "INT") {
+        currentScope->addToScope(node);
+        return;
+    } else if (node->type != lastType) {
+        throw SemanticAnalyserException("Incompatible types, expected: " + node->type);
+    }
+    //add identifier
+    currentScope->addToScope(node);
+}
+
+void SemanticAnalyser::visit(ASTWhileStmtNode *node) {
+    //accept expression
+    node->expression->accept(this);
+
+    if (lastType != "BOOL") {
+        throw SemanticAnalyserException("Non-BOOL statement found in while condition");
+    }
+    //check block
+    node->block->accept(this);
 }
