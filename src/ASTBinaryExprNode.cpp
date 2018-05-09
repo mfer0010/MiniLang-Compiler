@@ -1,7 +1,7 @@
 //
 // Created by marc on 23/04/2018.
 //
-#include "include/ASTNodes/ASTBinaryExprNode.h"
+#include "include/ASTBinaryExprNode.h"
 
 ASTBinaryExprNode::ASTBinaryExprNode(std::string _operator, ASTExpression_Node *LHS, ASTExpression_Node *RHS) {
     this->_operator = _operator;

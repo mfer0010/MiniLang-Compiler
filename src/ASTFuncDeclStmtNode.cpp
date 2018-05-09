@@ -2,7 +2,7 @@
 // Created by marc on 25/04/2018.
 //
 
-#include "include/ASTNodes/ASTFuncDeclStmtNode.h"
+#include "include/ASTFuncDeclStmtNode.h"
 
 ASTFuncDeclStmtNode::ASTFuncDeclStmtNode(std::string identifier, std::vector<ASTFormalParamStmtNode *> formalParams,
                                          std::string type, ASTStatement_Node *block) {

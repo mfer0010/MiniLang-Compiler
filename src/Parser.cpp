@@ -4,13 +4,13 @@
 
 #include "include/Parser.h"
 #include "include/Exceptions/ParserException.h"
-#include "include/ASTNodes/ASTBooleanLiteralExprNode.h"
-#include "include/ASTNodes/ASTIntegerLiteralExprNode.h"
-#include "include/ASTNodes/ASTRealLiteralExprNode.h"
-#include "include/ASTNodes/ASTStringLiteralExprNode.h"
-#include "include/ASTNodes/ASTIdentifierExprNode.h"
-#include "include/ASTNodes/ASTUnaryExprNode.h"
-#include "include/ASTNodes/ASTSubExpressionExprNode.h"
+#include "include/ASTBooleanLiteralExprNode.h"
+#include "include/ASTIntegerLiteralExprNode.h"
+#include "include/ASTRealLiteralExprNode.h"
+#include "include/ASTStringLiteralExprNode.h"
+#include "include/ASTIdentifierExprNode.h"
+#include "include/ASTUnaryExprNode.h"
+#include "include/ASTSubExpressionExprNode.h"
 
 
 Parser::Parser(Lexer * lexer) {

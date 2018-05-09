@@ -2,7 +2,7 @@
 // Created by marc on 25/04/2018.
 //
 
-#include "include/ASTNodes/ASTIdentifierExprNode.h"
+#include "include/ASTIdentifierExprNode.h"
 
 ASTIdentifierExprNode::ASTIdentifierExprNode(std::string identifier) {
     this->identifier = identifier;

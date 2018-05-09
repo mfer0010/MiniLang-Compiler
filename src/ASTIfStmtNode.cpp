@@ -2,7 +2,7 @@
 // Created by marc on 25/04/2018.
 //
 
-#include "include/ASTNodes/ASTIfStmtNode.h"
+#include "include/ASTIfStmtNode.h"
 
 ASTIfStmtNode::ASTIfStmtNode(ASTExpression_Node * expression, ASTStatement_Node * block) {
     this->expression = expression;

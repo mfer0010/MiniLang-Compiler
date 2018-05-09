@@ -2,7 +2,7 @@
 // Created by marc on 25/04/2018.
 //
 
-#include "include/ASTNodes/ASTAssignmentStmtNode.h"
+#include "include/ASTAssignmentStmtNode.h"
 
 ASTAssignmentStmtNode::ASTAssignmentStmtNode(std::string identifier, ASTExpression_Node * expression) {
     this->identifier = identifier;

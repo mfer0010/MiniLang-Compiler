@@ -2,7 +2,7 @@
 // Created by marc on 25/04/2018.
 //
 
-#include "include/ASTNodes/ASTWhileStmtNode.h"
+#include "include/ASTWhileStmtNode.h"
 
 ASTWhileStmtNode::ASTWhileStmtNode(ASTExpression_Node *expression, ASTStatement_Node *block) {
     this->expression = expression;

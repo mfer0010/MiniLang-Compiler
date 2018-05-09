@@ -156,7 +156,13 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/ParserException.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Scope.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Token.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/VariableDetails.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/VisitorException.cpp">
@@ -165,76 +171,73 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/XMLVisitor.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTAssignmentStmtNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTAssignmentStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBinaryExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTBinaryExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBlockStmtNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTBlockStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTBooleanLiteralExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTBooleanLiteralExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTExpression_Node.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTExpression_Node.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFormalParamStmtNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTFormalParamStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFuncDeclStmtNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTFuncDeclStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTFunctionCallExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTFunctionCallExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIdentifierExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTIdentifierExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIfStmtNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTIfStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTIntegerLiteralExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTIntegerLiteralExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTLiteralExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTLiteralExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTNumberExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNumberExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTPrintStmtNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTPrintStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTRealLiteralExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTRealLiteralExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTReturnStmtNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTReturnStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStatement_Node.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTStatement_Node.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTStringLiteralExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTStringLiteralExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTSubExpressionExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTSubExpressionExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTUnaryExprNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTUnaryExprNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTVariableDeclStmtNode.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTVariableDeclStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/ASTWhileStmtNode.h">
-			<Option target="MiniLang_Compiler"/>
-		</Unit>
-		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTNodes/XMLVisitor.h">
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/ASTWhileStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Exceptions/LexerException.h">
@@ -255,7 +258,16 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Parser.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Scope.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/Token.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/VariableDetails.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/include/XMLVisitor.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/main.cpp">

@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MiniLang_Compiler.dir/src/ASTFuncDeclStmtNode.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/XMLVisitor.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/VisitorException.cpp.o"
+  "CMakeFiles/MiniLang_Compiler.dir/src/VariableDetails.cpp.o"
+  "CMakeFiles/MiniLang_Compiler.dir/src/Scope.cpp.o"
   "MiniLang_Compiler.pdb"
   "MiniLang_Compiler"
 )

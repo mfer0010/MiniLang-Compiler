@@ -1,7 +1,7 @@
 //
 // Created by marc on 23/04/2018.
 //
-#include "include/ASTNodes/ASTNode.h"
+#include "include/ASTNode.h"
 
 ASTNode::ASTNode() {};
 

@@ -771,6 +771,33 @@ src/ParserException.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ParserException.cpp.s
 .PHONY : src/ParserException.cpp.s
 
+src/Scope.o: src/Scope.cpp.o
+
+.PHONY : src/Scope.o
+
+# target to build an object file
+src/Scope.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Scope.cpp.o
+.PHONY : src/Scope.cpp.o
+
+src/Scope.i: src/Scope.cpp.i
+
+.PHONY : src/Scope.i
+
+# target to preprocess a source file
+src/Scope.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Scope.cpp.i
+.PHONY : src/Scope.cpp.i
+
+src/Scope.s: src/Scope.cpp.s
+
+.PHONY : src/Scope.s
+
+# target to generate assembly for a file
+src/Scope.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Scope.cpp.s
+.PHONY : src/Scope.cpp.s
+
 src/Token.o: src/Token.cpp.o
 
 .PHONY : src/Token.o
@@ -797,6 +824,33 @@ src/Token.s: src/Token.cpp.s
 src/Token.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Token.cpp.s
 .PHONY : src/Token.cpp.s
+
+src/VariableDetails.o: src/VariableDetails.cpp.o
+
+.PHONY : src/VariableDetails.o
+
+# target to build an object file
+src/VariableDetails.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/VariableDetails.cpp.o
+.PHONY : src/VariableDetails.cpp.o
+
+src/VariableDetails.i: src/VariableDetails.cpp.i
+
+.PHONY : src/VariableDetails.i
+
+# target to preprocess a source file
+src/VariableDetails.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/VariableDetails.cpp.i
+.PHONY : src/VariableDetails.cpp.i
+
+src/VariableDetails.s: src/VariableDetails.cpp.s
+
+.PHONY : src/VariableDetails.s
+
+# target to generate assembly for a file
+src/VariableDetails.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/VariableDetails.cpp.s
+.PHONY : src/VariableDetails.cpp.s
 
 src/VisitorException.o: src/VisitorException.cpp.o
 
@@ -960,9 +1014,15 @@ help:
 	@echo "... src/ParserException.o"
 	@echo "... src/ParserException.i"
 	@echo "... src/ParserException.s"
+	@echo "... src/Scope.o"
+	@echo "... src/Scope.i"
+	@echo "... src/Scope.s"
 	@echo "... src/Token.o"
 	@echo "... src/Token.i"
 	@echo "... src/Token.s"
+	@echo "... src/VariableDetails.o"
+	@echo "... src/VariableDetails.i"
+	@echo "... src/VariableDetails.s"
 	@echo "... src/VisitorException.o"
 	@echo "... src/VisitorException.i"
 	@echo "... src/VisitorException.s"

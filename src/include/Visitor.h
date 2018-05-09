@@ -26,6 +26,7 @@ class ASTSubExpressionExprNode;
 class ASTUnaryExprNode;
 class ASTVariableDeclStmtNode;
 class ASTWhileStmtNode;
+class ASTExpression_Node;
 
 
 class Visitor {

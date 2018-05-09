@@ -1,7 +1,7 @@
 //
 // Created by marc on 01/05/2018.
 //
-/*
+
 #ifndef MINILANG_COMPILER_XMLVISITOR_H
 #define MINILANG_COMPILER_XMLVISITOR_H
 
@@ -17,7 +17,7 @@ private:
 
     std::string getIndentation();
 
-    /*std::string printOperator(std::string _operator);
+    std::string printOperator(std::string _operator);
 
     void printExpression(ASTExpression_Node * node);
 
@@ -68,4 +68,3 @@ public:
 };
 
 #endif //MINILANG_COMPILER_XMLVISITOR_H
-*/
