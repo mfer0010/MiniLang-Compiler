@@ -1,0 +1,123 @@
+<Program>
+	<FuncDecl type="REAL">
+		<Identifier>funcPow</Identifier>
+		<FormalParams>
+			<FormalParam type="REAL">
+				<Identifier>x</Identifier>
+			<Formal Param>
+			<FormalParam type="INT">
+				<Identifier>n</Identifier>
+			<Formal Param>
+		</FormalParams>
+		<Block>
+			<VariableDecl type="REAL">
+				<Identifier>y</Identifier>
+				<Expression>
+					<Real>1</Real>
+				</Expression>
+			</VariableDecl>
+			<IfStmt>
+			<Expression>
+				<BinaryExprNode op="&gt">
+					<Identifier>n</Identifier>
+					<Real>0</Real>
+</BinaryExprNode>
+			</Expression>
+				<Block>
+					<WhileStmt>
+					<Expression>
+						<BinaryExprNode op="&gt">
+							<Identifier>n</Identifier>
+							<Real>0</Real>
+</BinaryExprNode>
+					</Expression>
+						<Block>
+							<Assignment>
+								<Identifier>y</Identifier>
+								<Expression>
+									<BinaryExprNode op="*">
+										<Identifier>y</Identifier>
+										<Identifier>x</Identifier>
+</BinaryExprNode>
+								</Expression>
+							</Assignment>
+							<Assignment>
+								<Identifier>n</Identifier>
+								<Expression>
+									<BinaryExprNode op="-">
+										<Identifier>n</Identifier>
+										<Real>1</Real>
+</BinaryExprNode>
+								</Expression>
+							</Assignment>
+						</Block>
+					</WhileStmt>
+				</Block>
+				<Block>
+					<WhileStmt>
+					<Expression>
+						<BinaryExprNode op="&lt">
+							<Identifier>n</Identifier>
+							<Real>0</Real>
+</BinaryExprNode>
+					</Expression>
+						<Block>
+							<Assignment>
+								<Identifier>y</Identifier>
+								<Expression>
+									<BinaryExprNode op="/">
+										<Identifier>y</Identifier>
+										<Identifier>x</Identifier>
+</BinaryExprNode>
+								</Expression>
+							</Assignment>
+							<Assignment>
+								<Identifier>n</Identifier>
+								<Expression>
+									<BinaryExprNode op="+">
+										<Identifier>n</Identifier>
+										<Real>1</Real>
+</BinaryExprNode>
+								</Expression>
+							</Assignment>
+						</Block>
+					</WhileStmt>
+				</Block>
+			</IfStmt>
+			<ReturnStmt>
+				<Expression>
+					<Identifier>y</Identifier>
+				</Expression>
+			</ReturnStmt>
+		</Block>
+	</FuncDecl>
+	<VariableDecl type="REAL">
+		<Identifier>x</Identifier>
+		<Expression>
+			<Real>2.4</Real>
+		</Expression>
+	</VariableDecl>
+	<VariableDecl type="INT">
+		<Identifier>z</Identifier>
+		<Expression>
+			<Real>3</Real>
+		</Expression>
+	</VariableDecl>
+	<VariableDecl type="REAL">
+		<Identifier>y</Identifier>
+		<Expression>
+			<FunctionCall>
+				<Identifier>funcPow</Identifier>
+				<ActualParams>
+					<Real>2.3</Real>
+					<Real>5</Real>
+				</ActualParams>
+			</FunctionCall>
+		</Expression>
+	</VariableDecl>
+	<PrintStmt>
+		<Expression>
+			<Identifier>y</Identifier>
+		</Expression>
+	</PrintStmt>
+</Program>
