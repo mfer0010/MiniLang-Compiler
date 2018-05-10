@@ -343,7 +343,7 @@ ASTLiteralExprNode * Parser::parseLiteral(){
             value = currentToken.string_value == "TRUE";
             return new ASTBooleanLiteralExprNode(value);
         case TOK_Number:
-            if (currentToken.string_value == "INT") {
+            if (currentToken.string_value == "INTEGER") {
                 return new ASTIntegerLiteralExprNode((int) currentToken.numerical_value);
             } else {
                 return new ASTRealLiteralExprNode(currentToken.numerical_value);

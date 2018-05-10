@@ -137,6 +137,9 @@ bool SemanticAnalyser::checkTypes(std::string _operator, std::string lhs, std::s
 }
 
 void SemanticAnalyser::visit(ASTNode *node) {
+    //push initial global scope
+    Scope * scope = new Scope();
+    pushScope(scope);
     for (auto const &statement : node->statements) {
         statement->accept(this);
     }

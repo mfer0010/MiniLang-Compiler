@@ -20,7 +20,7 @@
 			<Expression>
 				<BinaryExprNode op="&gt;">
 					<Identifier>n</Identifier>
-					<Real>0</Real>
+					<Integer>0</Integer>
 				</BinaryExprNode>
 			</Expression>
 				<Block>
@@ -28,7 +28,7 @@
 					<Expression>
 						<BinaryExprNode op="&gt;">
 							<Identifier>n</Identifier>
-							<Real>0</Real>
+							<Integer>0</Integer>
 						</BinaryExprNode>
 					</Expression>
 						<Block>
@@ -46,7 +46,7 @@
 								<Expression>
 									<BinaryExprNode op="-">
 										<Identifier>n</Identifier>
-										<Real>1</Real>
+										<Integer>1</Integer>
 									</BinaryExprNode>
 								</Expression>
 							</Assignment>
@@ -58,7 +58,7 @@
 					<Expression>
 						<BinaryExprNode op="&lt;">
 							<Identifier>n</Identifier>
-							<Real>0</Real>
+							<Integer>0</Integer>
 						</BinaryExprNode>
 					</Expression>
 						<Block>
@@ -76,7 +76,7 @@
 								<Expression>
 									<BinaryExprNode op="+">
 										<Identifier>n</Identifier>
-										<Real>1</Real>
+										<Integer>1</Integer>
 									</BinaryExprNode>
 								</Expression>
 							</Assignment>
@@ -100,7 +100,7 @@
 	<VariableDecl type="INT">
 		<Identifier>z</Identifier>
 		<Expression>
-			<Real>3</Real>
+			<Integer>3</Integer>
 		</Expression>
 	</VariableDecl>
 	<VariableDecl type="REAL">
@@ -110,14 +110,14 @@
 				<Identifier>funcPow</Identifier>
 				<ActualParams>
 					<Real>2.3</Real>
-					<Real>5</Real>
+					<Integer>5</Integer>
 				</ActualParams>
 			</FunctionCall>
 		</Expression>
 	</VariableDecl>
 	<PrintStmt>
 		<Expression>
-			<Identifier>y</Identifier>
+			<Identifier>x</Identifier>
 		</Expression>
 	</PrintStmt>
 </Program>
