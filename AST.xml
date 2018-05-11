@@ -100,7 +100,7 @@
 	<VariableDecl type="INT">
 		<Identifier>z</Identifier>
 		<Expression>
-			<Real>3.4</Real>
+			<Integer>3</Integer>
 		</Expression>
 	</VariableDecl>
 	<VariableDecl type="REAL">

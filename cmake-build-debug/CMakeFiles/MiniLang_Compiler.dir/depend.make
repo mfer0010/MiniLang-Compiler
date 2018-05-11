@@ -131,6 +131,18 @@ CMakeFiles/MiniLang_Compiler.dir/src/ASTNodes/StatementNodes/ASTWhileStmtNode.cp
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNodes/StatementNodes/ASTWhileStmtNode.cpp.o: ../src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/ASTNodes/StatementNodes/ASTWhileStmtNode.cpp.o: ../src/Visitors/Visitor.h
 
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o: ../src/DataStructures/Evaluation.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o: ../src/DataStructures/Evaluation.h
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: ../src/ASTNodes/ASTNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: ../src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: ../src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: ../src/ASTNodes/StatementNodes/ASTStatement_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: ../src/DataStructures/Evaluation.h
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: ../src/DataStructures/InterpreterScope.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: ../src/DataStructures/InterpreterScope.h
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: ../src/Visitors/Visitor.h
+
 CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Scope.cpp.o: ../src/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Scope.cpp.o: ../src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
 CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Scope.cpp.o: ../src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h

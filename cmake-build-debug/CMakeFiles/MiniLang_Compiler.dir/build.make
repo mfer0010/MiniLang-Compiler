@@ -825,6 +825,54 @@ CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.o.
 CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.o
 
 
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o: ../src/DataStructures/Evaluation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Evaluation.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Evaluation.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Evaluation.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o
+
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: CMakeFiles/MiniLang_Compiler.dir/flags.make
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o: ../src/DataStructures/InterpreterScope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o -c "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/InterpreterScope.cpp"
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/InterpreterScope.cpp" > CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.i
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/InterpreterScope.cpp" -o CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.s
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o.requires:
+
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o.requires
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o.provides: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o.provides.build
+.PHONY : CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o.provides
+
+CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o.provides.build: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o
+
+
 # Object files for target MiniLang_Compiler
 MiniLang_Compiler_OBJECTS = \
 "CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o" \
@@ -858,7 +906,9 @@ MiniLang_Compiler_OBJECTS = \
 "CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/VariableDetails.cpp.o" \
 "CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Scope.cpp.o" \
 "CMakeFiles/MiniLang_Compiler.dir/src/SemanticAnalyser/SemanticAnalyser.cpp.o" \
-"CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.o"
+"CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o" \
+"CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o"
 
 # External object files for target MiniLang_Compiler
 MiniLang_Compiler_EXTERNAL_OBJECTS =
@@ -895,9 +945,11 @@ MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/VariableD
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Scope.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/SemanticAnalyser/SemanticAnalyser.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o
+MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/build.make
 MiniLang_Compiler: CMakeFiles/MiniLang_Compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable MiniLang_Compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable MiniLang_Compiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MiniLang_Compiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -937,6 +989,8 @@ CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/
 CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Scope.cpp.o.requires
 CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/SemanticAnalyser/SemanticAnalyser.cpp.o.requires
 CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/SemanticAnalyserException.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o.requires
+CMakeFiles/MiniLang_Compiler.dir/requires: CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o.requires
 
 .PHONY : CMakeFiles/MiniLang_Compiler.dir/requires
 

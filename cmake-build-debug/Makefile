@@ -663,6 +663,60 @@ src/ASTNodes/StatementNodes/ASTWhileStmtNode.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/ASTNodes/StatementNodes/ASTWhileStmtNode.cpp.s
 .PHONY : src/ASTNodes/StatementNodes/ASTWhileStmtNode.cpp.s
 
+src/DataStructures/Evaluation.o: src/DataStructures/Evaluation.cpp.o
+
+.PHONY : src/DataStructures/Evaluation.o
+
+# target to build an object file
+src/DataStructures/Evaluation.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o
+.PHONY : src/DataStructures/Evaluation.cpp.o
+
+src/DataStructures/Evaluation.i: src/DataStructures/Evaluation.cpp.i
+
+.PHONY : src/DataStructures/Evaluation.i
+
+# target to preprocess a source file
+src/DataStructures/Evaluation.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.i
+.PHONY : src/DataStructures/Evaluation.cpp.i
+
+src/DataStructures/Evaluation.s: src/DataStructures/Evaluation.cpp.s
+
+.PHONY : src/DataStructures/Evaluation.s
+
+# target to generate assembly for a file
+src/DataStructures/Evaluation.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.s
+.PHONY : src/DataStructures/Evaluation.cpp.s
+
+src/DataStructures/InterpreterScope.o: src/DataStructures/InterpreterScope.cpp.o
+
+.PHONY : src/DataStructures/InterpreterScope.o
+
+# target to build an object file
+src/DataStructures/InterpreterScope.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o
+.PHONY : src/DataStructures/InterpreterScope.cpp.o
+
+src/DataStructures/InterpreterScope.i: src/DataStructures/InterpreterScope.cpp.i
+
+.PHONY : src/DataStructures/InterpreterScope.i
+
+# target to preprocess a source file
+src/DataStructures/InterpreterScope.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.i
+.PHONY : src/DataStructures/InterpreterScope.cpp.i
+
+src/DataStructures/InterpreterScope.s: src/DataStructures/InterpreterScope.cpp.s
+
+.PHONY : src/DataStructures/InterpreterScope.s
+
+# target to generate assembly for a file
+src/DataStructures/InterpreterScope.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.s
+.PHONY : src/DataStructures/InterpreterScope.cpp.s
+
 src/DataStructures/Scope.o: src/DataStructures/Scope.cpp.o
 
 .PHONY : src/DataStructures/Scope.o
@@ -1056,6 +1110,12 @@ help:
 	@echo "... src/ASTNodes/StatementNodes/ASTWhileStmtNode.o"
 	@echo "... src/ASTNodes/StatementNodes/ASTWhileStmtNode.i"
 	@echo "... src/ASTNodes/StatementNodes/ASTWhileStmtNode.s"
+	@echo "... src/DataStructures/Evaluation.o"
+	@echo "... src/DataStructures/Evaluation.i"
+	@echo "... src/DataStructures/Evaluation.s"
+	@echo "... src/DataStructures/InterpreterScope.o"
+	@echo "... src/DataStructures/InterpreterScope.i"
+	@echo "... src/DataStructures/InterpreterScope.s"
 	@echo "... src/DataStructures/Scope.o"
 	@echo "... src/DataStructures/Scope.i"
 	@echo "... src/DataStructures/Scope.s"

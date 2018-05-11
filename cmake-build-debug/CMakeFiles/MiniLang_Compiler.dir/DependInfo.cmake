@@ -24,6 +24,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTReturnStmtNode.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTNodes/StatementNodes/ASTReturnStmtNode.cpp.o"
   "/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.cpp.o"
   "/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/ASTNodes/StatementNodes/ASTWhileStmtNode.cpp.o"
+  "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Evaluation.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Evaluation.cpp.o"
+  "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/InterpreterScope.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o"
   "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Scope.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Scope.cpp.o"
   "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/Token.cpp.o"
   "/home/marc/Uni 3rd Year/Compilers/src/DataStructures/VariableDetails.cpp" "/home/marc/Uni 3rd Year/Compilers/cmake-build-debug/CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/VariableDetails.cpp.o"
