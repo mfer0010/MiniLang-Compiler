@@ -798,6 +798,33 @@ src/DataStructures/VariableDetails.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/VariableDetails.cpp.s
 .PHONY : src/DataStructures/VariableDetails.cpp.s
 
+src/Exceptions/InterpreterException.o: src/Exceptions/InterpreterException.cpp.o
+
+.PHONY : src/Exceptions/InterpreterException.o
+
+# target to build an object file
+src/Exceptions/InterpreterException.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/InterpreterException.cpp.o
+.PHONY : src/Exceptions/InterpreterException.cpp.o
+
+src/Exceptions/InterpreterException.i: src/Exceptions/InterpreterException.cpp.i
+
+.PHONY : src/Exceptions/InterpreterException.i
+
+# target to preprocess a source file
+src/Exceptions/InterpreterException.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/InterpreterException.cpp.i
+.PHONY : src/Exceptions/InterpreterException.cpp.i
+
+src/Exceptions/InterpreterException.s: src/Exceptions/InterpreterException.cpp.s
+
+.PHONY : src/Exceptions/InterpreterException.s
+
+# target to generate assembly for a file
+src/Exceptions/InterpreterException.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/InterpreterException.cpp.s
+.PHONY : src/Exceptions/InterpreterException.cpp.s
+
 src/Exceptions/LexerException.o: src/Exceptions/LexerException.cpp.o
 
 .PHONY : src/Exceptions/LexerException.o
@@ -905,6 +932,33 @@ src/Exceptions/VisitorException.s: src/Exceptions/VisitorException.cpp.s
 src/Exceptions/VisitorException.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/VisitorException.cpp.s
 .PHONY : src/Exceptions/VisitorException.cpp.s
+
+src/Interpreter/Interpreter.o: src/Interpreter/Interpreter.cpp.o
+
+.PHONY : src/Interpreter/Interpreter.o
+
+# target to build an object file
+src/Interpreter/Interpreter.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Interpreter/Interpreter.cpp.o
+.PHONY : src/Interpreter/Interpreter.cpp.o
+
+src/Interpreter/Interpreter.i: src/Interpreter/Interpreter.cpp.i
+
+.PHONY : src/Interpreter/Interpreter.i
+
+# target to preprocess a source file
+src/Interpreter/Interpreter.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Interpreter/Interpreter.cpp.i
+.PHONY : src/Interpreter/Interpreter.cpp.i
+
+src/Interpreter/Interpreter.s: src/Interpreter/Interpreter.cpp.s
+
+.PHONY : src/Interpreter/Interpreter.s
+
+# target to generate assembly for a file
+src/Interpreter/Interpreter.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Interpreter/Interpreter.cpp.s
+.PHONY : src/Interpreter/Interpreter.cpp.s
 
 src/Lexer/Lexer.o: src/Lexer/Lexer.cpp.o
 
@@ -1125,6 +1179,9 @@ help:
 	@echo "... src/DataStructures/VariableDetails.o"
 	@echo "... src/DataStructures/VariableDetails.i"
 	@echo "... src/DataStructures/VariableDetails.s"
+	@echo "... src/Exceptions/InterpreterException.o"
+	@echo "... src/Exceptions/InterpreterException.i"
+	@echo "... src/Exceptions/InterpreterException.s"
 	@echo "... src/Exceptions/LexerException.o"
 	@echo "... src/Exceptions/LexerException.i"
 	@echo "... src/Exceptions/LexerException.s"
@@ -1137,6 +1194,9 @@ help:
 	@echo "... src/Exceptions/VisitorException.o"
 	@echo "... src/Exceptions/VisitorException.i"
 	@echo "... src/Exceptions/VisitorException.s"
+	@echo "... src/Interpreter/Interpreter.o"
+	@echo "... src/Interpreter/Interpreter.i"
+	@echo "... src/Interpreter/Interpreter.s"
 	@echo "... src/Lexer/Lexer.o"
 	@echo "... src/Lexer/Lexer.i"
 	@echo "... src/Lexer/Lexer.s"
