@@ -262,6 +262,14 @@ Token.h
 ../ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
 /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
 
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/InterpreterException.cpp
+InterpreterException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/InterpreterException.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/InterpreterException.h
+MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+
 /home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.cpp
 LexerException.h
 /home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.h
@@ -297,6 +305,60 @@ VisitorException.h
 /home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.h
 MiniLangExceptions.h
 /home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.cpp
+iostream
+-
+Interpreter.h
+/home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.h
+../Exceptions/InterpreterException.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/InterpreterException.h
+../ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+../ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+../ASTNodes/StatementNodes/ASTBlockStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTBlockStmtNode.h
+../ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
+../ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+../ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+../ASTNodes/StatementNodes/ASTIfStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTIfStmtNode.h
+../ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h
+../ASTNodes/StatementNodes/ASTPrintStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTPrintStmtNode.h
+../ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h
+../ASTNodes/StatementNodes/ASTReturnStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTReturnStmtNode.h
+../ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h
+../ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+../ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+../ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+../ASTNodes/StatementNodes/ASTWhileStmtNode.h
+/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
+
+/home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.h
+string
+-
+vector
+-
+stack
+-
+../Visitors/Visitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
+../DataStructures/Evaluation.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Evaluation.h
+../DataStructures/InterpreterScope.h
+/home/marc/Uni 3rd Year/Compilers/src/DataStructures/InterpreterScope.h
 
 /home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.cpp
 Lexer.h
@@ -479,4 +541,6 @@ Visitors/XMLVisitor.h
 /home/marc/Uni 3rd Year/Compilers/src/Visitors/XMLVisitor.h
 SemanticAnalyser/SemanticAnalyser.h
 /home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.h
+Interpreter/Interpreter.h
+/home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.h
 

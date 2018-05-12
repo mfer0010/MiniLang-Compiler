@@ -168,6 +168,10 @@ CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/VariableDetails.cpp.o
  /home/marc/Uni 3rd Year/Compilers/src/DataStructures/VariableDetails.cpp
  /home/marc/Uni 3rd Year/Compilers/src/DataStructures/VariableDetails.h
  /home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
+CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/InterpreterException.cpp.o
+ /home/marc/Uni 3rd Year/Compilers/src/Exceptions/InterpreterException.cpp
+ /home/marc/Uni 3rd Year/Compilers/src/Exceptions/InterpreterException.h
+ /home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/LexerException.cpp.o
  /home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.cpp
  /home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.h
@@ -184,6 +188,37 @@ CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/VisitorException.cpp.o
  /home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
  /home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.cpp
  /home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.h
+CMakeFiles/MiniLang_Compiler.dir/src/Interpreter/Interpreter.cpp.o
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ASTNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIdentifierExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTNumberExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/ExpressionNodes/ASTUnaryExprNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTBlockStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTIfStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTPrintStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTReturnStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/DataStructures/Evaluation.h
+ /home/marc/Uni 3rd Year/Compilers/src/DataStructures/InterpreterScope.h
+ /home/marc/Uni 3rd Year/Compilers/src/Exceptions/InterpreterException.h
+ /home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+ /home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.cpp
+ /home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.h
+ /home/marc/Uni 3rd Year/Compilers/src/Visitors/Visitor.h
 CMakeFiles/MiniLang_Compiler.dir/src/Lexer/Lexer.cpp.o
  /home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.h
  /home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.h
@@ -296,11 +331,14 @@ CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o
  /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTStatement_Node.h
  /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
  /home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
+ /home/marc/Uni 3rd Year/Compilers/src/DataStructures/Evaluation.h
+ /home/marc/Uni 3rd Year/Compilers/src/DataStructures/InterpreterScope.h
  /home/marc/Uni 3rd Year/Compilers/src/DataStructures/Scope.h
  /home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.h
  /home/marc/Uni 3rd Year/Compilers/src/DataStructures/VariableDetails.h
  /home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.h
  /home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+ /home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.h
  /home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.h
  /home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.h
  /home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.h

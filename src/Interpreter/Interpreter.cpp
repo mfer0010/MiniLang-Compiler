@@ -15,16 +15,26 @@
 #include "../ASTNodes/ExpressionNodes/ASTIntegerLiteralExprNode.h"
 #include "../ASTNodes/StatementNodes/ASTPrintStmtNode.h"
 #include "../ASTNodes/ExpressionNodes/ASTRealLiteralExprNode.h"
+#include "../ASTNodes/StatementNodes/ASTReturnStmtNode.h"
+#include "../ASTNodes/ExpressionNodes/ASTStringLiteralExprNode.h"
+#include "../ASTNodes/ExpressionNodes/ASTSubExpressionExprNode.h"
+#include "../ASTNodes/ExpressionNodes/ASTUnaryExprNode.h"
+#include "../ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h"
+#include "../ASTNodes/StatementNodes/ASTWhileStmtNode.h"
 
-Interpreter::Interpreter() {}
+Interpreter::Interpreter() {
+}
 
 Interpreter::~Interpreter() {
     if (lastEvaluation != nullptr) {
-        delete lastEvaluation;
+        lastEvaluation = nullptr;
     }
 }
 
 void Interpreter::visit(ASTNode *node) {
+    //push global scope:
+    InterpreterScope * globalScope = new InterpreterScope();
+    pushScope(globalScope);
     for (auto const &statement: node->statements) {
         statement->accept(this);
     }
@@ -258,7 +268,7 @@ ASTFuncDeclStmtNode* Interpreter::returnFunctionDeclarationNode(std::string iden
 
 void Interpreter::visit(ASTBooleanLiteralExprNode *node) {
     if (lastEvaluation != nullptr) {
-        delete lastEvaluation;
+        lastEvaluation = nullptr;
     }
     lastEvaluation = new Evaluation(node->literalValue);
 }
@@ -294,7 +304,7 @@ void Interpreter::visit(ASTFunctionCallExprNode *node) {
 
 void Interpreter::visit(ASTIdentifierExprNode *node) {
     if (lastEvaluation != nullptr) {
-        delete lastEvaluation;
+        lastEvaluation = nullptr;
     }
     Evaluation * evaluation = getVariableEvaluationFromAnyScope(node->identifier);
     if (evaluation->type == "STRING") {
@@ -331,7 +341,7 @@ void Interpreter::visit(ASTIntegerLiteralExprNode *node) {
 
 void Interpreter::visit(ASTNumberExprNode *node) {
     if (lastEvaluation != nullptr) {
-        delete lastEvaluation;
+        lastEvaluation = nullptr;
     }
     lastEvaluation = new Evaluation(node->value);
 }
@@ -353,7 +363,83 @@ void Interpreter::visit(ASTPrintStmtNode *node) {
 
 void Interpreter::visit(ASTRealLiteralExprNode *node) {
     if (lastEvaluation != nullptr) {
-        delete lastEvaluation;
+        lastEvaluation = nullptr;
     }
     lastEvaluation = new Evaluation(node->literalValue);
+}
+
+void Interpreter::visit(ASTReturnStmtNode *node) {
+    node->expression->accept(this); //interpret expression
+    returnFound = true; //set return flag to true to stop visiting function block
+}
+
+void Interpreter::visit(ASTStringLiteralExprNode *node) {
+    if (lastEvaluation != nullptr) {
+        lastEvaluation = nullptr;
+    }
+    lastEvaluation = new Evaluation(node->literalValue);
+}
+
+void Interpreter::visit(ASTSubExpressionExprNode *node) {
+    node->expression->accept(this);
+}
+
+void Interpreter::visit(ASTUnaryExprNode *node) {
+    node->expression->accept(this);
+
+    Evaluation * evaluation = new Evaluation();
+    if(node->prefix == "NOT") {
+        evaluation->setBoolValue(!lastEvaluation->getBoolValue());
+    } else if (node->prefix == "-") {
+        if (lastEvaluation->type == "INT") {
+            evaluation->setIntValue(-(lastEvaluation->getIntValue()));
+        } else if (lastEvaluation->type == "REAL") {
+            evaluation->setRealValue(-(lastEvaluation->getRealValue()));
+        } else {
+            throw InterpreterException("Error in Compiler Code: Type in expression passed badly");
+        }
+    } else {
+        throw InterpreterException("Error in Compiler Code: Type in expression passed badly");
+    }
+
+    if (lastEvaluation != nullptr) {
+        lastEvaluation = nullptr; // should always run
+    }
+    lastEvaluation = evaluation;
+}
+
+void Interpreter::visit(ASTVariableDeclStmtNode *node) {
+    node->expression->accept(this);
+
+    InterpreterScope *currentScope = topScope();
+
+    if (node->type == "REAL" && lastEvaluation->type == "INT") {
+        lastEvaluation->setRealValue(lastEvaluation->getIntValue());
+    }
+
+    currentScope->addToScope(node->identifier, lastEvaluation);
+    lastEvaluation = nullptr;
+}
+
+void Interpreter::visit(ASTWhileStmtNode *node) {
+    node->expression->accept(this);
+
+    while (lastEvaluation->getBoolValue()) {
+        node->block->accept(this);
+        node->expression->accept(this);
+    }
+}
+
+void Interpreter::pushScope(InterpreterScope *scope) {
+    scopes.push(scope);
+}
+
+InterpreterScope* Interpreter::popScope() {
+    InterpreterScope *toReturn = scopes.top();
+    scopes.pop();
+    return toReturn;
+}
+
+InterpreterScope* Interpreter::topScope() {
+    return scopes.top();
 }

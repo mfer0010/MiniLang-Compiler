@@ -94,13 +94,13 @@
 	<VariableDecl type="REAL">
 		<Identifier>x</Identifier>
 		<Expression>
-			<Real>2.4</Real>
+			<Integer>2</Integer>
 		</Expression>
 	</VariableDecl>
 	<VariableDecl type="INT">
 		<Identifier>z</Identifier>
 		<Expression>
-			<Integer>3</Integer>
+			<Integer>100</Integer>
 		</Expression>
 	</VariableDecl>
 	<VariableDecl type="REAL">
@@ -109,15 +109,17 @@
 			<FunctionCall>
 				<Identifier>funcPow</Identifier>
 				<ActualParams>
-					<Real>2.3</Real>
-					<Integer>5</Integer>
+					<Identifier>x</Identifier>
+					<Identifier>z</Identifier>
 				</ActualParams>
 			</FunctionCall>
 		</Expression>
 	</VariableDecl>
 	<PrintStmt>
 		<Expression>
-			<Identifier>x</Identifier>
+			<Unary op="y">
+				<Identifier>y</Identifier>
+			</Unary>
 		</Expression>
 	</PrintStmt>
 </Program>
