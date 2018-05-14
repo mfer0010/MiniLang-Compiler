@@ -213,6 +213,18 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/ASTNodes/StatementNodes/ASTWhileStmtNode.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Evaluation.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Evaluation.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/DataStructures/InterpreterScope.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/DataStructures/InterpreterScope.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/DataStructures/Scope.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
@@ -229,6 +241,12 @@
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/DataStructures/VariableDetails.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Exceptions/InterpreterException.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Exceptions/InterpreterException.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Exceptions/LexerException.cpp">
@@ -256,6 +274,12 @@
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Exceptions/VisitorException.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.cpp">

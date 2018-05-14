@@ -5,6 +5,7 @@
 #include "Exceptions/LexerException.h"
 #include "Visitors/XMLVisitor.h"
 #include "SemanticAnalyser/SemanticAnalyser.h"
+#include "Interpreter/Interpreter.h"
 
 using namespace std;
 
@@ -19,10 +20,12 @@ int main() {
     ASTNode node = ASTNode();
     XMLVisitor * xml = new XMLVisitor();
     SemanticAnalyser * sa = new SemanticAnalyser();
+    Interpreter *interpreter = new Interpreter();
     try {
         node.statements = parser.parse();
         node.accept(xml);
         node.accept(sa);
+        node.accept(interpreter);
     } catch (MiniLangExceptions &e) {
         cout << e.printMessage() << endl;
         return 0;
