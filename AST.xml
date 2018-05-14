@@ -100,26 +100,26 @@
 	<VariableDecl type="INT">
 		<Identifier>z</Identifier>
 		<Expression>
-			<Integer>100</Integer>
+			<Integer>3</Integer>
 		</Expression>
 	</VariableDecl>
 	<VariableDecl type="REAL">
 		<Identifier>y</Identifier>
 		<Expression>
-			<FunctionCall>
-				<Identifier>funcPow</Identifier>
-				<ActualParams>
-					<Identifier>x</Identifier>
-					<Identifier>z</Identifier>
-				</ActualParams>
-			</FunctionCall>
+			<Unary op="-">
+				<FunctionCall>
+					<Identifier>funcPow</Identifier>
+					<ActualParams>
+						<Identifier>x</Identifier>
+						<Identifier>z</Identifier>
+					</ActualParams>
+				</FunctionCall>
+			</Unary>
 		</Expression>
 	</VariableDecl>
 	<PrintStmt>
 		<Expression>
-			<Unary op="y">
-				<Identifier>y</Identifier>
-			</Unary>
+			<Identifier>y</Identifier>
 		</Expression>
 	</PrintStmt>
 </Program>

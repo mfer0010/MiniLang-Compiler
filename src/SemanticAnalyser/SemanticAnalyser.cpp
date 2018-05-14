@@ -388,7 +388,7 @@ void SemanticAnalyser::visit(ASTUnaryExprNode *node) {
             throw SemanticAnalyserException("Operator " + node->prefix + " does not support BOOL Type");
         }
     } else if (lastType == "INT" || lastType == "REAL") {
-        //not cannout be applied to int or real
+        //not cannot be applied to int or real
         if (node->prefix != "-") {
             throw SemanticAnalyserException("Operator " + node->prefix + " does not support " + lastType + " Type");
         }

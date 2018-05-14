@@ -195,7 +195,7 @@ Token Lexer::toToken(std::string lexeme, STATE state) {
         case S1:
             return Token(TOK_EOF);
         case S2:
-            return Token(TOK_Number, std::stod(lexeme), "INTEGER");
+            return Token(TOK_Number, std::stod(lexeme), "INT");
         case S4:
             return Token(TOK_Number,std::stod(lexeme), "REAL");
         case S6:

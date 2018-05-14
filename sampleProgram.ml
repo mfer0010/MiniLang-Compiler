@@ -16,6 +16,6 @@ def funcPow( x : real, n: int) : real {
 }
 
 var x : real = 2;
-var z : int = 100;
-var y : real = funcPow(x,z);
+var z : int = 3;
+var y : real = -funcPow(x,z);
 print y;

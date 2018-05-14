@@ -294,6 +294,7 @@ ASTExpression_Node * Parser::parseFactor() {
      *TOK_Not or TOK_AdditiveOp - to return a Unary
      */
     currentToken = lexer->nextToken();
+    Token tempTok;
 
     //if token is a '(' then it must be a sub expression
     if(currentToken.token_name == TOK_LeftBracket) {
@@ -310,9 +311,10 @@ ASTExpression_Node * Parser::parseFactor() {
     //if token is a '-' or 'not' then it must be a unary
     if(currentToken.token_name == TOK_Not ||
        (currentToken.token_name == TOK_AdditiveOp && currentToken.string_value == "-")) {
+        tempTok = currentToken;
         //<Expression>
         ASTExpression_Node * expressionNode = parseExpression();
-        return new ASTUnaryExprNode(currentToken.string_value ,expressionNode);
+        return new ASTUnaryExprNode(tempTok.string_value ,expressionNode);
     } else if (currentToken.token_name == TOK_AdditiveOp && currentToken.string_value != "-") {
         throw ParserException("Expected Unary Operator", lexer->getErrorLine());
     }
@@ -343,7 +345,7 @@ ASTLiteralExprNode * Parser::parseLiteral(){
             value = currentToken.string_value == "TRUE";
             return new ASTBooleanLiteralExprNode(value);
         case TOK_Number:
-            if (currentToken.string_value == "INTEGER") {
+            if (currentToken.string_value == "INT") {
                 return new ASTIntegerLiteralExprNode((int) currentToken.numerical_value);
             } else {
                 return new ASTRealLiteralExprNode(currentToken.numerical_value);
