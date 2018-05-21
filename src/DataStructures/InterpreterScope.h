@@ -32,6 +32,9 @@ public:
     //return value from scope
     Evaluation * returnVariable(std::string identifier);
     ASTFuncDeclStmtNode * returnFunction(std::string identifier);
+
+    std::map<std::string, Evaluation *> getVariables();
+    std::map<std::string, ASTFuncDeclStmtNode *> getFunctions();
 };
 
 

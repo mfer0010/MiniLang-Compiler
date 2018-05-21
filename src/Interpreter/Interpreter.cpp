@@ -34,6 +34,7 @@ Interpreter::~Interpreter() {
 void Interpreter::visit(ASTNode *node) {
     //push global scope:
     InterpreterScope * globalScope = new InterpreterScope();
+    //globalScope->addToScope("ans", new Evaluation());
     pushScope(globalScope);
     for (auto const &statement: node->statements) {
         statement->accept(this);
@@ -350,7 +351,7 @@ void Interpreter::visit(ASTPrintStmtNode *node) {
     //visit expression
     node->expression->accept(this);
 
-    if (lastEvaluation->type == "String") {
+    if (lastEvaluation->type == "STRING") {
         std::cout << lastEvaluation->getStringVaue() << std::endl;
     } else if (lastEvaluation->type == "REAL") {
         std::cout<< lastEvaluation->getRealValue() << std::endl;
@@ -442,4 +443,30 @@ InterpreterScope* Interpreter::popScope() {
 
 InterpreterScope* Interpreter::topScope() {
     return scopes.top();
+}
+
+void Interpreter::printSymbolTable() {
+    std::stack<InterpreterScope *> tempStack = scopes;
+    InterpreterScope *scope;
+
+    std::cout<<"Variables:"<<std::endl;
+    while (!tempStack.empty()) {
+        scope = tempStack.top();
+        tempStack.pop();
+
+        for (auto elems:scope->getVariables()) {
+            std::cout <<  "\t" <<elems.first << "\t" << elems.second->type << std::endl;
+        }
+    }
+
+    tempStack = scopes;
+    std::cout<<"Functions:"<<std::endl;
+    while (!tempStack.empty()) {
+        scope = tempStack.top();
+        tempStack.pop();
+
+        for (auto elems:scope->getFunctions()) {
+            std::cout <<  "\t" <<elems.first << "\t" << elems.second->type << std::endl;
+        }
+    }
 }

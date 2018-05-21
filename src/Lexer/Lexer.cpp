@@ -30,13 +30,18 @@ void Lexer::scanner(std::string path) {
     }
 
     //testing:
-    std::cout << "Program: " << program <<std::endl;
+    //std::cout << "Program: " << program <<std::endl;
     //close file
     try {
         src.close();
     } catch (std::exception &e) {
         std::cerr << "Error Closing File";
     }
+}
+
+void Lexer::readLine(std::string line) {
+    programPointer = 0;
+    program = line;
 }
 
 Token Lexer::nextToken() {

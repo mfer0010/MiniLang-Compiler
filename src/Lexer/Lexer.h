@@ -64,6 +64,9 @@ public:
      */
     void scanner(std::string);
 
+    //used for MiniLangI
+    void readLine(std::string);
+
     Token nextToken();
 
     Token oneTokenLookahead();

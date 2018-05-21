@@ -27,6 +27,7 @@ std::vector<ASTStatement_Node *> Parser::parse() {
 
 ASTStatement_Node * Parser::parseStatement() {
     currentToken = lexer->oneTokenLookahead();
+    //std::cout<<TOKEN_NAME[currentToken.token_name]<< ", ";
     switch (currentToken.token_name) {
         case TOK_Var:
             currentToken = lexer->nextToken();

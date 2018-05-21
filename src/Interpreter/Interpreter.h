@@ -104,6 +104,9 @@ private:
 public:
     Interpreter();
 
+    //used for #st in repl
+    void printSymbolTable();
+
     virtual ~Interpreter();
 };
 

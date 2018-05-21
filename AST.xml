@@ -94,13 +94,19 @@
 	<VariableDecl type="REAL">
 		<Identifier>x</Identifier>
 		<Expression>
-			<Integer>2</Integer>
+			<Real>2.4</Real>
 		</Expression>
 	</VariableDecl>
-	<VariableDecl type="INT">
+	<VariableDecl type="BOOL">
+		<Identifier>x</Identifier>
+		<Expression>
+			<Boolean>0</Boolean>
+		</Expression>
+	</VariableDecl>
+	<VariableDecl type="STRING">
 		<Identifier>z</Identifier>
 		<Expression>
-			<Integer>3</Integer>
+			<String>The answer is: </String>
 		</Expression>
 	</VariableDecl>
 	<VariableDecl type="REAL">
@@ -111,12 +117,17 @@
 					<Identifier>funcPow</Identifier>
 					<ActualParams>
 						<Identifier>x</Identifier>
-						<Identifier>z</Identifier>
+						<Integer>2</Integer>
 					</ActualParams>
 				</FunctionCall>
 			</Unary>
 		</Expression>
 	</VariableDecl>
+	<PrintStmt>
+		<Expression>
+			<Identifier>z</Identifier>
+		</Expression>
+	</PrintStmt>
 	<PrintStmt>
 		<Expression>
 			<Identifier>y</Identifier>

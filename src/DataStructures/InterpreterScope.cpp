@@ -42,5 +42,11 @@ Evaluation* InterpreterScope::returnVariable(std::string identifier) {
     return iter->second;
 }
 
+std::map<std::string, Evaluation *> InterpreterScope::getVariables() {
+    return variables;
+}
 
+std::map<std::string, ASTFuncDeclStmtNode *> InterpreterScope::getFunctions() {
+    return functions;
+}
 

@@ -28,6 +28,7 @@ public:
     Parser(Lexer *);
 
     std::vector<ASTStatement_Node *> parse();
+
 private:
     Lexer * lexer;
 

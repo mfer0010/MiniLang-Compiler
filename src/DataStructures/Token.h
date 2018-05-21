@@ -37,6 +37,7 @@ enum TOKEN {
     TOK_Error = 27
 };
 
+//used for testing:
 const std::string TOKEN_NAME[] = {
         "TOK_EOF",
         "TOK_Type",

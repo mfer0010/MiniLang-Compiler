@@ -987,6 +987,33 @@ src/Lexer/Lexer.cpp.s:
 	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/Lexer/Lexer.cpp.s
 .PHONY : src/Lexer/Lexer.cpp.s
 
+src/MIniLangI/MiniLangI.o: src/MIniLangI/MiniLangI.cpp.o
+
+.PHONY : src/MIniLangI/MiniLangI.o
+
+# target to build an object file
+src/MIniLangI/MiniLangI.cpp.o:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o
+.PHONY : src/MIniLangI/MiniLangI.cpp.o
+
+src/MIniLangI/MiniLangI.i: src/MIniLangI/MiniLangI.cpp.i
+
+.PHONY : src/MIniLangI/MiniLangI.i
+
+# target to preprocess a source file
+src/MIniLangI/MiniLangI.cpp.i:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.i
+.PHONY : src/MIniLangI/MiniLangI.cpp.i
+
+src/MIniLangI/MiniLangI.s: src/MIniLangI/MiniLangI.cpp.s
+
+.PHONY : src/MIniLangI/MiniLangI.s
+
+# target to generate assembly for a file
+src/MIniLangI/MiniLangI.cpp.s:
+	$(MAKE) -f CMakeFiles/MiniLang_Compiler.dir/build.make CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.s
+.PHONY : src/MIniLangI/MiniLangI.cpp.s
+
 src/Parser/Parser.o: src/Parser/Parser.cpp.o
 
 .PHONY : src/Parser/Parser.o
@@ -1200,6 +1227,9 @@ help:
 	@echo "... src/Lexer/Lexer.o"
 	@echo "... src/Lexer/Lexer.i"
 	@echo "... src/Lexer/Lexer.s"
+	@echo "... src/MIniLangI/MiniLangI.o"
+	@echo "... src/MIniLangI/MiniLangI.i"
+	@echo "... src/MIniLangI/MiniLangI.s"
 	@echo "... src/Parser/Parser.o"
 	@echo "... src/Parser/Parser.i"
 	@echo "... src/Parser/Parser.s"

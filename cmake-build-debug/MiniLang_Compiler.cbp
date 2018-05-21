@@ -288,6 +288,12 @@
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.h">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/MIniLangI/MiniLangI.cpp">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
+		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/MIniLangI/MiniLangI.h">
+			<Option target="MiniLang_Compiler"/>
+		</Unit>
 		<Unit filename="/home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.cpp">
 			<Option target="MiniLang_Compiler"/>
 		</Unit>

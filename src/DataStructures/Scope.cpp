@@ -30,7 +30,7 @@ void Scope::addToScope(ASTFuncDeclStmtNode *function) {
 }
 
 void Scope::addToScope(std::string identifier) {
-    identifiers.insert(std::pair<std::string, VariableDetails *>(identifier, nullptr));
+    identifiers.insert(std::pair<std::string, VariableDetails *>(identifier, new VariableDetails("REAL")));
 }
 
 void Scope::removeFromScope(std::string identifier) {

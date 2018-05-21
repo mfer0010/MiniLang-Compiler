@@ -378,6 +378,26 @@ stack
 ../DataStructures/Token.h
 /home/marc/Uni 3rd Year/Compilers/src/DataStructures/Token.h
 
+/home/marc/Uni 3rd Year/Compilers/src/MIniLangI/MiniLangI.cpp
+iostream
+-
+MiniLangI.h
+/home/marc/Uni 3rd Year/Compilers/src/MIniLangI/MiniLangI.h
+../Exceptions/MiniLangExceptions.h
+/home/marc/Uni 3rd Year/Compilers/src/Exceptions/MiniLangExceptions.h
+
+/home/marc/Uni 3rd Year/Compilers/src/MIniLangI/MiniLangI.h
+../Lexer/Lexer.h
+/home/marc/Uni 3rd Year/Compilers/src/Lexer/Lexer.h
+../Parser/Parser.h
+/home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.h
+../Visitors/XMLVisitor.h
+/home/marc/Uni 3rd Year/Compilers/src/Visitors/XMLVisitor.h
+../SemanticAnalyser/SemanticAnalyser.h
+/home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.h
+../Interpreter/Interpreter.h
+/home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.h
+
 /home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.cpp
 Parser.h
 /home/marc/Uni 3rd Year/Compilers/src/Parser/Parser.h
@@ -543,4 +563,6 @@ SemanticAnalyser/SemanticAnalyser.h
 /home/marc/Uni 3rd Year/Compilers/src/SemanticAnalyser/SemanticAnalyser.h
 Interpreter/Interpreter.h
 /home/marc/Uni 3rd Year/Compilers/src/Interpreter/Interpreter.h
+MIniLangI/MiniLangI.h
+/home/marc/Uni 3rd Year/Compilers/src/MIniLangI/MiniLangI.h
 

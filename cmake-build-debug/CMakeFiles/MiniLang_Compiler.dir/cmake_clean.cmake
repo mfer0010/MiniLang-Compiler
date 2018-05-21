@@ -35,6 +35,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MiniLang_Compiler.dir/src/DataStructures/InterpreterScope.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/Interpreter/Interpreter.cpp.o"
   "CMakeFiles/MiniLang_Compiler.dir/src/Exceptions/InterpreterException.cpp.o"
+  "CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o"
   "MiniLang_Compiler.pdb"
   "MiniLang_Compiler"
 )

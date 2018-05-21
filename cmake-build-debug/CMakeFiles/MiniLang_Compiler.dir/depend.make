@@ -225,6 +225,37 @@ CMakeFiles/MiniLang_Compiler.dir/src/Lexer/Lexer.cpp.o: ../src/Exceptions/MiniLa
 CMakeFiles/MiniLang_Compiler.dir/src/Lexer/Lexer.cpp.o: ../src/Lexer/Lexer.cpp
 CMakeFiles/MiniLang_Compiler.dir/src/Lexer/Lexer.cpp.o: ../src/Lexer/Lexer.h
 
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/ASTNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/ExpressionNodes/ASTExpression_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/ExpressionNodes/ASTFunctionCallExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/ExpressionNodes/ASTLiteralExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/ExpressionNodes/ASTNumberExprNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTAssignmentStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTBlockStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTFormalParamStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTFuncDeclStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTIfStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTPrintStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTReturnStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTStatement_Node.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTVariableDeclStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/ASTNodes/StatementNodes/ASTWhileStmtNode.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/DataStructures/Evaluation.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/DataStructures/InterpreterScope.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/DataStructures/Scope.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/DataStructures/Token.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/DataStructures/VariableDetails.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/Exceptions/MiniLangExceptions.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/Interpreter/Interpreter.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/Lexer/Lexer.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/MIniLangI/MiniLangI.cpp
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/MIniLangI/MiniLangI.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/Parser/Parser.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/SemanticAnalyser/SemanticAnalyser.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/Visitors/Visitor.h
+CMakeFiles/MiniLang_Compiler.dir/src/MIniLangI/MiniLangI.cpp.o: ../src/Visitors/XMLVisitor.h
+
 CMakeFiles/MiniLang_Compiler.dir/src/Parser/Parser.cpp.o: ../src/ASTNodes/ASTNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser/Parser.cpp.o: ../src/ASTNodes/ExpressionNodes/ASTBinaryExprNode.h
 CMakeFiles/MiniLang_Compiler.dir/src/Parser/Parser.cpp.o: ../src/ASTNodes/ExpressionNodes/ASTBooleanLiteralExprNode.h
@@ -339,6 +370,7 @@ CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/Exceptions/LexerExceptio
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/Exceptions/MiniLangExceptions.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/Interpreter/Interpreter.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/Lexer/Lexer.h
+CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/MIniLangI/MiniLangI.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/Parser/Parser.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/SemanticAnalyser/SemanticAnalyser.h
 CMakeFiles/MiniLang_Compiler.dir/src/main.cpp.o: ../src/Visitors/Visitor.h
